@@ -32,7 +32,8 @@ namespace WFInicioFacturación
         private void button2_Click(object sender, EventArgs e)
         {
             label2.Text = "Si se guardó we";
-
+            unForm jaja = new unForm();
+            jaja.Show();
         }
     }
 }
