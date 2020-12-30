@@ -29,17 +29,26 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(114, 187);
+            this.label1.Location = new System.Drawing.Point(34, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(498, 73);
             this.label1.TabIndex = 0;
             this.label1.Text = "QUE GUAPO! :*";
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "ReportViewer";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(396, 246);
+            this.reportViewer1.TabIndex = 0;
             // 
             // unForm
             // 
@@ -57,5 +66,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }
