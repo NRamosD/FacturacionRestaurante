@@ -16,5 +16,10 @@ namespace WFInicioFacturación
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "No me clickees";
+        }
     }
 }
