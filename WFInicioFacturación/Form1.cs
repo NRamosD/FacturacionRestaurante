@@ -24,6 +24,15 @@ namespace WFInicioFacturación
 
             label1.Text = "que friegas";
             label1.BackColor = Color.AntiqueWhite;
+            button2.Text = "Escribe bien\npendejo";
+            button2.TextAlign = ContentAlignment.MiddleCenter;
+            label2.Text = "NO SE GUARDA MRDA";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label2.Text = "Si se guardó we";
+
         }
     }
 }
