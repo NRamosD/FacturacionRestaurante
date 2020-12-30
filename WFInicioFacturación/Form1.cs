@@ -12,6 +12,7 @@ namespace WFInicioFacturación
 {
     public partial class Form1 : Form
     {
+        string unavariable;
         public Form1()
         {
             InitializeComponent();
@@ -20,6 +21,9 @@ namespace WFInicioFacturación
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Text = "No me clickees";
+
+            label1.Text = "que friegas";
+            label1.BackColor = Color.AntiqueWhite;
         }
     }
 }
