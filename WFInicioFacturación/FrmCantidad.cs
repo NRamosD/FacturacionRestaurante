@@ -10,18 +10,21 @@ using System.Windows.Forms;
 
 namespace WFInicioFacturación
 {
-    public partial class Form1 : Form
+    public partial class FrmCantidad : Form
     {
-
-        public Form1()
+        public FrmCantidad()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void FrmCantidad_Load(object sender, EventArgs e)
         {
-            FrmSelec sas = new FrmSelec();
-            sas.Show();
+            
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
