@@ -25,4 +25,3 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFact
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Form1.resources
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmSelec.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmCantidad.resources
