@@ -57,3 +57,23 @@ C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debu
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll.config
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dylib
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\x86\libSkiaSharp.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\x64\libSkiaSharp.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.Views.Forms.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Stormlion.ShapeControl.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.xml
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLoading.resources
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLogin.resources
