@@ -1,0 +1,6 @@
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\bin\Debug\BD.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\bin\Debug\BD.pdb
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.csprojAssemblyReference.cache
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.csproj.CoreCompileInputs.cache
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.pdb
