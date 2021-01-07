@@ -23,5 +23,11 @@ namespace WFInicioFacturación
             FrmSelec sas = new FrmSelec();
             sas.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cliente obj = new Cliente();
+            obj.Show();
+        }
     }
 }

@@ -54,9 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
->>>>>>> HEAD
     <Compile Include="factura.cs"/>
-=======
     <Compile Include="AddCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,14 +74,10 @@
       <DependentUpon>Cliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
->>>>>>> crud_cliente
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="factura.Designer.cs">
       <DependentUpon>factura.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -102,11 +96,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
- >>>>>>> HEAD
   <EmbeddedResource Include="factura.resx">
       <DependentUpon>factura.cs</DependentUpon>
   </EmbeddedResource>
-=======
     <Compile Include="Visualizar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,7 +114,6 @@
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
     </EmbeddedResource>
->>>>>>> crud_cliente
     
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

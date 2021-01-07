@@ -1,12 +1,7 @@
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe.config
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.pdb
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csprojAssemblyReference.cache
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Properties.Resources.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.GenerateResource.cache
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CoreCompileInputs.cache
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.WinForms.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
@@ -21,38 +16,17 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFact
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.factura.resources
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.AddCliente.resources
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Buscar_Visualizar.resources
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Cliente.resources
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Form1.resources
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmSelec.resources
-<<<<<<< HEAD
-=======
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmCantidad.resources
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe.config
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.pdb
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\FontAwesome.Sharp.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\Microsoft.SqlServer.Types.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csprojAssemblyReference.cache
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Cliente.resources
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Form1.resources
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmCantidad.resources
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmSelec.resources
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Properties.Resources.resources
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.GenerateResource.cache
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CoreCompileInputs.cache
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
-D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\factura restaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
->>>>>>> crud_cliente
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.ModifyCliente.resources
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Properties.Resources.resources
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Visualizar.resources
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.GenerateResource.cache
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CoreCompileInputs.cache
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
