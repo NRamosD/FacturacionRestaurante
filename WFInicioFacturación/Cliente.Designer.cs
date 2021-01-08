@@ -72,6 +72,7 @@
             this.btnBorrar.Text = "Eliminar";
             this.btnBorrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // btnModificar
             // 
@@ -91,6 +92,7 @@
             this.btnModificar.Text = "Modificar";
             this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnLeer
             // 
@@ -110,6 +112,7 @@
             this.btnLeer.Text = "Buscar";
             this.btnLeer.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLeer.UseVisualStyleBackColor = true;
+            this.btnLeer.Click += new System.EventHandler(this.btnLeer_Click);
             // 
             // btnAgregar
             // 
@@ -129,6 +132,7 @@
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // pClose
             // 

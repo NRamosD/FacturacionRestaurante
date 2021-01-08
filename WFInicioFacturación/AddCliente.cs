@@ -17,5 +17,10 @@ namespace WFInicioFacturación
             InitializeComponent();
         }
 
+        private void AddCliente_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
