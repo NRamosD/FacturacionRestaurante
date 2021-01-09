@@ -133,7 +133,7 @@
             this.btnAceptar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(214)))), ((int)(((byte)(177)))));
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceptar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.IconChar = FontAwesome.Sharp.IconChar.UserCheck;
+            this.btnAceptar.IconChar = FontAwesome.Sharp.IconChar.Check;
             this.btnAceptar.IconColor = System.Drawing.Color.Black;
             this.btnAceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAceptar.IconSize = 30;
