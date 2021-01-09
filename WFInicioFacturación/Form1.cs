@@ -18,6 +18,11 @@ namespace WFInicioFacturación
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            PanelOptions.Visible = false;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             FrmSelec sas = new FrmSelec();
@@ -28,6 +33,31 @@ namespace WFInicioFacturación
         {
             Cliente obj = new Cliente();
             obj.Show();
+        }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Cliente cl = new Cliente();
+            cl.Show();
+        }
+
+        private void pbNuevaOrden_Click(object sender, EventArgs e)
+        {
+            FrmSelec obj = new FrmSelec();
+            obj.Show();
+        }
+
+        private void pbOptions_Click(object sender, EventArgs e)
+        {
+            if (PanelOptions.Visible == false)
+            {
+                PanelOptions.Visible = true;
+            }
+            else
+            {
+                PanelOptions.Visible = false;
+            }
         }
     }
 }
