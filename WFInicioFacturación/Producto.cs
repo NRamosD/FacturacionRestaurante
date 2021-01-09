@@ -55,11 +55,6 @@ namespace WFInicioFacturación
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
             if (this.pForms.Controls.Count > 0)
                 this.pForms.Controls.RemoveAt(0);
             DeleteProducto frAbrir = new DeleteProducto();
