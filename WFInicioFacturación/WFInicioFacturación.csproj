@@ -76,9 +76,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <Compile Include="factura.cs" />
-=======
+
     <Compile Include="AddProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,7 +94,8 @@
     <Compile Include="factura.cs">
       <SubType>Form</SubType>
     </Compile>
->>>>>>> 7b649966c3a2ad3d92bbda02f1c12b8c74756c2e
+
+
     <Compile Include="AddCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,8 +164,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-=======
+
     <Compile Include="Visualizar_Prod.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,7 +177,7 @@
     <EmbeddedResource Include="Buscar_Prod.resx">
       <DependentUpon>Buscar_Prod.cs</DependentUpon>
     </EmbeddedResource>
->>>>>>> 7b649966c3a2ad3d92bbda02f1c12b8c74756c2e
+
     <EmbeddedResource Include="factura.resx">
       <DependentUpon>factura.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,7 +255,7 @@
     <None Include="Resources\Recurso 2%404x.png" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <None Include="Resources\018-potato.png" />
   </ItemGroup>
   <ItemGroup>
@@ -293,12 +293,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bowl %281%29.png" />
-=======
+
     <ProjectReference Include="..\Logica\Logica.csproj">
       <Project>{c43e96e8-0ee9-4455-b014-f3094c0d69aa}</Project>
       <Name>Logica</Name>
     </ProjectReference>
->>>>>>> 7b649966c3a2ad3d92bbda02f1c12b8c74756c2e
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SkiaSharp.1.59.3\build\net45\SkiaSharp.targets" Condition="Exists('..\packages\SkiaSharp.1.59.3\build\net45\SkiaSharp.targets')" />

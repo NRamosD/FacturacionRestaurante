@@ -51,6 +51,7 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFact
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll.config
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dll
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dylib
@@ -92,6 +93,10 @@ C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debu
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
 C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
+=======
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
+>>>>>>> 7b649966c3a2ad3d92bbda02f1c12b8c74756c2e
 =======
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
