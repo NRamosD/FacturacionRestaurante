@@ -26,6 +26,13 @@ namespace WFInicioFacturación
             totalPorAlimento = precioAlimento * double.Parse(cBoxCantidad.SelectedItem.ToString());
         }
 
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            factura o = new factura();
+            o.Show();
+        }
+
         private void FrmSelec_Load(object sender, EventArgs e)
         {
             cBoxCantidad.SelectedIndex = 0;
@@ -134,6 +141,8 @@ namespace WFInicioFacturación
         private void iconButton1_Click(object sender, EventArgs e)
         {
             this.Close();
+            Form1 o = new Form1();
+            o.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

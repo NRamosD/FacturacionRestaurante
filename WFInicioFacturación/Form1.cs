@@ -44,6 +44,7 @@ namespace WFInicioFacturación
 
         private void pbNuevaOrden_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FrmSelec obj = new FrmSelec();
             obj.Show();
         }
