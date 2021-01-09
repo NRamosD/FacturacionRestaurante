@@ -50,3 +50,5 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFact
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb

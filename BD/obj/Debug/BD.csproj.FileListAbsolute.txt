@@ -4,3 +4,5 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.csproj.CoreCompileInputs.cache
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.pdb
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\bin\Debug\MySql.Data.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.csproj.CopyComplete

@@ -17,7 +17,9 @@ namespace WFInicioFacturación
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            Form1 obj = new Form1();
+            obj.Show();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
