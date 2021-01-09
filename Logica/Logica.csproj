@@ -44,5 +44,11 @@
     <Compile Include="OperacionesLogicas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BD\BD.csproj">
+      <Project>{6426311b-41c6-4157-9229-87f83c08b538}</Project>
+      <Name>BD</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
