@@ -22,5 +22,10 @@ namespace WFInicioFacturación
             Visualizar frAbrir = new Visualizar();
             frAbrir.Show();
         }
+
+        private void Buscar_Visualizar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

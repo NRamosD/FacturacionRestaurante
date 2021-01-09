@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace WFInicioFacturación
 {
-    public partial class Visualizar_Prod : Form
+    public partial class DeleteCliente : Form
     {
-        public Visualizar_Prod()
+        public DeleteCliente()
         {
             InitializeComponent();
-        }
-
-        private void btnAceptar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void txbPrecio_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

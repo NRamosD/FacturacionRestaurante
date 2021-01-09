@@ -46,7 +46,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(97, 257);
+            this.label6.Location = new System.Drawing.Point(60, 268);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 19);
@@ -65,10 +65,10 @@
             this.btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCancelar.IconSize = 30;
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(361, 369);
+            this.btnCancelar.Location = new System.Drawing.Point(282, 339);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(113, 24);
+            this.btnCancelar.Size = new System.Drawing.Size(113, 26);
             this.btnCancelar.TabIndex = 50;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -87,10 +87,10 @@
             this.btnAceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAceptar.IconSize = 30;
             this.btnAceptar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAceptar.Location = new System.Drawing.Point(251, 369);
+            this.btnAceptar.Location = new System.Drawing.Point(175, 339);
             this.btnAceptar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(103, 24);
+            this.btnAceptar.Size = new System.Drawing.Size(103, 26);
             this.btnAceptar.TabIndex = 49;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -102,7 +102,7 @@
             this.txbPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbPrecio.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbPrecio.Location = new System.Drawing.Point(269, 193);
+            this.txbPrecio.Location = new System.Drawing.Point(232, 204);
             this.txbPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.txbPrecio.Name = "txbPrecio";
             this.txbPrecio.Size = new System.Drawing.Size(135, 19);
@@ -113,7 +113,7 @@
             this.txbNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNombre.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbNombre.Location = new System.Drawing.Point(269, 125);
+            this.txbNombre.Location = new System.Drawing.Point(232, 136);
             this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(135, 19);
@@ -124,7 +124,7 @@
             this.txbCod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbCod.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbCod.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCod.Location = new System.Drawing.Point(269, 57);
+            this.txbCod.Location = new System.Drawing.Point(232, 68);
             this.txbCod.Margin = new System.Windows.Forms.Padding(2);
             this.txbCod.Name = "txbCod";
             this.txbCod.Size = new System.Drawing.Size(135, 19);
@@ -135,7 +135,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(97, 193);
+            this.label3.Location = new System.Drawing.Point(60, 204);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 19);
@@ -147,7 +147,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(97, 126);
+            this.label2.Location = new System.Drawing.Point(60, 137);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 19);
@@ -159,7 +159,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(97, 59);
+            this.label1.Location = new System.Drawing.Point(60, 70);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 19);
@@ -172,7 +172,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(179, 20);
+            this.label7.Location = new System.Drawing.Point(133, 20);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(172, 19);
@@ -183,7 +183,7 @@
             // 
             this.cbCateogria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.cbCateogria.FormattingEnabled = true;
-            this.cbCateogria.Location = new System.Drawing.Point(269, 255);
+            this.cbCateogria.Location = new System.Drawing.Point(232, 266);
             this.cbCateogria.Name = "cbCateogria";
             this.cbCateogria.Size = new System.Drawing.Size(135, 21);
             this.cbCateogria.TabIndex = 66;
@@ -193,7 +193,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
-            this.ClientSize = new System.Drawing.Size(478, 404);
+            this.ClientSize = new System.Drawing.Size(409, 375);
             this.Controls.Add(this.cbCateogria);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnCancelar);
