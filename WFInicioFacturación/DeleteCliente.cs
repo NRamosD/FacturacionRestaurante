@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WFInicioFacturación
 {
-    public partial class Modify_Producto : Form
+    public partial class DeleteCliente : Form
     {
-        public Modify_Producto()
+        public DeleteCliente()
         {
             InitializeComponent();
-        }
-
-        private void Modify_Producto_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

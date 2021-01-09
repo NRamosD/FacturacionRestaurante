@@ -31,25 +31,25 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txbCod = new System.Windows.Forms.TextBox();
-            this.btnAceptar = new FontAwesome.Sharp.IconButton();
+            this.btnConfirmar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(185, 106);
+            this.label2.Location = new System.Drawing.Point(135, 79);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 19);
+            this.label2.Size = new System.Drawing.Size(155, 19);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Buscar Cliente";
+            this.label2.Text = "BUSCAR CLIENTE";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(159, 180);
+            this.label1.Location = new System.Drawing.Point(111, 173);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 19);
@@ -61,41 +61,31 @@
             this.txbCod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbCod.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbCod.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCod.Location = new System.Drawing.Point(203, 180);
+            this.txbCod.Location = new System.Drawing.Point(155, 173);
             this.txbCod.Margin = new System.Windows.Forms.Padding(2);
             this.txbCod.Name = "txbCod";
             this.txbCod.Size = new System.Drawing.Size(135, 19);
             this.txbCod.TabIndex = 30;
             // 
-            // btnAceptar
+            // btnConfirmar
             // 
-            this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(89)))), ((int)(((byte)(18)))));
-            this.btnAceptar.FlatAppearance.BorderSize = 0;
-            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.btnAceptar.IconChar = FontAwesome.Sharp.IconChar.ClipboardCheck;
-            this.btnAceptar.IconColor = System.Drawing.Color.Black;
-            this.btnAceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAceptar.IconSize = 26;
-            this.btnAceptar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAceptar.Location = new System.Drawing.Point(198, 253);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(104, 29);
-            this.btnAceptar.TabIndex = 31;
-            this.btnAceptar.Text = "Buscar";
-            this.btnAceptar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAceptar.UseVisualStyleBackColor = false;
-            this.btnAceptar.Visible = false;
-            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            this.btnConfirmar.BackColor = System.Drawing.Color.White;
+            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmar.Location = new System.Drawing.Point(168, 248);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
+            this.btnConfirmar.TabIndex = 65;
+            this.btnConfirmar.Text = "Buscar";
+            this.btnConfirmar.UseVisualStyleBackColor = false;
             // 
             // Buscar_Visualizar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(193)))), ((int)(((byte)(139)))));
-            this.ClientSize = new System.Drawing.Size(478, 404);
-            this.Controls.Add(this.btnAceptar);
+            this.ClientSize = new System.Drawing.Size(409, 375);
+            this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.txbCod);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -103,6 +93,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Buscar_Visualizar";
             this.Text = "Buscar_Visualizar";
+            this.Load += new System.EventHandler(this.Buscar_Visualizar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -113,6 +104,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txbCod;
-        private FontAwesome.Sharp.IconButton btnAceptar;
+        private System.Windows.Forms.Button btnConfirmar;
     }
 }

@@ -33,6 +33,14 @@ namespace WFInicioFacturación
             o.Show();
         }
 
+        private void cBoxCantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+        }
+
         private void FrmSelec_Load(object sender, EventArgs e)
         {
             cBoxCantidad.SelectedIndex = 0;

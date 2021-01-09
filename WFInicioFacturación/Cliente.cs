@@ -17,7 +17,7 @@ namespace WFInicioFacturación
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             Form1 obj = new Form1();
             obj.Show();
         }
@@ -60,7 +60,14 @@ namespace WFInicioFacturación
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            //hacer uno como el de modificar...
+            if (this.pForms.Controls.Count > 0)
+                this.pForms.Controls.RemoveAt(0);
+            DeleteCliente frAbrir = new DeleteCliente();
+            frAbrir.TopLevel = false;
+            frAbrir.FormBorderStyle = FormBorderStyle.None;
+            frAbrir.Dock = DockStyle.Fill;
+            this.pForms.Controls.Add(frAbrir);
+            frAbrir.Show();
         }
     }
 }

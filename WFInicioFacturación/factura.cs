@@ -65,5 +65,12 @@ namespace WFInicioFacturación
             Form1 o = new Form1();
             o.Show();
         }
+
+        private void btnTerminar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form1 o = new Form1();
+            o.Show();
+        }
     }
 }

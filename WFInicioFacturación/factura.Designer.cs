@@ -42,11 +42,12 @@ namespace WFInicioFacturación
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tbcvv = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.tbNumTarjeta = new System.Windows.Forms.TextBox();
             this.rbEfectivo = new System.Windows.Forms.RadioButton();
             this.rbTarjeta = new System.Windows.Forms.RadioButton();
-            this.tbcvv = new System.Windows.Forms.TextBox();
+            this.tbNumTarjeta = new System.Windows.Forms.TextBox();
+            this.btnTerminar = new System.Windows.Forms.Button();
             this.gbFactura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFactura)).BeginInit();
             this.gbDatosCliente.SuspendLayout();
@@ -60,9 +61,9 @@ namespace WFInicioFacturación
             this.gbFactura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(139)))));
             this.gbFactura.Controls.Add(this.dgvFactura);
             this.gbFactura.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbFactura.Location = new System.Drawing.Point(0, 211);
+            this.gbFactura.Location = new System.Drawing.Point(0, 272);
             this.gbFactura.Name = "gbFactura";
-            this.gbFactura.Size = new System.Drawing.Size(768, 264);
+            this.gbFactura.Size = new System.Drawing.Size(768, 203);
             this.gbFactura.TabIndex = 5;
             this.gbFactura.TabStop = false;
             this.gbFactura.Text = "Factura";
@@ -74,7 +75,7 @@ namespace WFInicioFacturación
             this.dgvFactura.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvFactura.Location = new System.Drawing.Point(3, 26);
             this.dgvFactura.Name = "dgvFactura";
-            this.dgvFactura.Size = new System.Drawing.Size(762, 235);
+            this.dgvFactura.Size = new System.Drawing.Size(762, 174);
             this.dgvFactura.TabIndex = 0;
             // 
             // gbDatosCliente
@@ -205,6 +206,15 @@ namespace WFInicioFacturación
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos de Pago";
             // 
+            // tbcvv
+            // 
+            this.tbcvv.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbcvv.Location = new System.Drawing.Point(15, 140);
+            this.tbcvv.Name = "tbcvv";
+            this.tbcvv.Size = new System.Drawing.Size(138, 25);
+            this.tbcvv.TabIndex = 8;
+            this.tbcvv.Text = "CVV";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.rbEfectivo);
@@ -216,15 +226,6 @@ namespace WFInicioFacturación
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Método de Pago";
-            // 
-            // tbNumTarjeta
-            // 
-            this.tbNumTarjeta.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNumTarjeta.Location = new System.Drawing.Point(15, 109);
-            this.tbNumTarjeta.Name = "tbNumTarjeta";
-            this.tbNumTarjeta.Size = new System.Drawing.Size(138, 25);
-            this.tbNumTarjeta.TabIndex = 4;
-            this.tbNumTarjeta.Text = "Número de tarjeta";
             // 
             // rbEfectivo
             // 
@@ -253,14 +254,26 @@ namespace WFInicioFacturación
             this.rbTarjeta.UseVisualStyleBackColor = true;
             this.rbTarjeta.CheckedChanged += new System.EventHandler(this.rbTarjeta_CheckedChanged);
             // 
-            // tbcvv
+            // tbNumTarjeta
             // 
-            this.tbcvv.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbcvv.Location = new System.Drawing.Point(15, 140);
-            this.tbcvv.Name = "tbcvv";
-            this.tbcvv.Size = new System.Drawing.Size(138, 25);
-            this.tbcvv.TabIndex = 8;
-            this.tbcvv.Text = "CVV";
+            this.tbNumTarjeta.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbNumTarjeta.Location = new System.Drawing.Point(15, 109);
+            this.tbNumTarjeta.Name = "tbNumTarjeta";
+            this.tbNumTarjeta.Size = new System.Drawing.Size(138, 25);
+            this.tbNumTarjeta.TabIndex = 4;
+            this.tbNumTarjeta.Text = "Número de tarjeta";
+            // 
+            // btnTerminar
+            // 
+            this.btnTerminar.BackColor = System.Drawing.Color.White;
+            this.btnTerminar.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTerminar.Location = new System.Drawing.Point(314, 229);
+            this.btnTerminar.Name = "btnTerminar";
+            this.btnTerminar.Size = new System.Drawing.Size(132, 37);
+            this.btnTerminar.TabIndex = 6;
+            this.btnTerminar.Text = "Terminar";
+            this.btnTerminar.UseVisualStyleBackColor = false;
+            this.btnTerminar.Click += new System.EventHandler(this.btnTerminar_Click);
             // 
             // factura
             // 
@@ -268,6 +281,7 @@ namespace WFInicioFacturación
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(139)))));
             this.ClientSize = new System.Drawing.Size(768, 475);
+            this.Controls.Add(this.btnTerminar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbFactura);
             this.Controls.Add(this.gbDatosCliente);
@@ -311,5 +325,6 @@ namespace WFInicioFacturación
         private System.Windows.Forms.RadioButton rbEfectivo;
         private System.Windows.Forms.RadioButton rbTarjeta;
         private System.Windows.Forms.TextBox tbcvv;
+        private System.Windows.Forms.Button btnTerminar;
     }
 }

@@ -45,7 +45,7 @@ namespace WFInicioFacturación
         {
             if (this.pForms.Controls.Count > 0)
                 this.pForms.Controls.RemoveAt(0);
-            ModifyCliente frAbrir = new ModifyCliente();
+            Modify_Producto frAbrir = new Modify_Producto();
             frAbrir.TopLevel = false;
             frAbrir.FormBorderStyle = FormBorderStyle.None;
             frAbrir.Dock = DockStyle.Fill;
@@ -55,7 +55,21 @@ namespace WFInicioFacturación
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            
+            if (this.pForms.Controls.Count > 0)
+                this.pForms.Controls.RemoveAt(0);
+            DeleteProducto frAbrir = new DeleteProducto();
+            frAbrir.TopLevel = false;
+            frAbrir.FormBorderStyle = FormBorderStyle.None;
+            frAbrir.Dock = DockStyle.Fill;
+            this.pForms.Controls.Add(frAbrir);
+            frAbrir.Show();
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form1 o = new Form1();
+            o.Show();
         }
     }
 }

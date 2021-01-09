@@ -60,5 +60,17 @@ namespace WFInicioFacturación
                 PanelOptions.Visible = false;
             }
         }
+
+        private void btnAlimentos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Producto O = new Producto();
+            O.Show();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

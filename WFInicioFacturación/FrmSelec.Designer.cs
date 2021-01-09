@@ -125,6 +125,7 @@
             this.cBoxCantidad.TabIndex = 7;
             this.cBoxCantidad.Text = "1";
             this.cBoxCantidad.SelectedIndexChanged += new System.EventHandler(this.cBoxCantidad_SelectedIndexChanged);
+            this.cBoxCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cBoxCantidad_KeyPress);
             // 
             // lbNombreAlimento
             // 

@@ -76,6 +76,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeleteCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteCliente.Designer.cs">
+      <DependentUpon>DeleteCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteProducto.Designer.cs">
+      <DependentUpon>DeleteProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AddProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,9 +102,6 @@
     </Compile>
     <Compile Include="Buscar_Prod.Designer.cs">
       <DependentUpon>Buscar_Prod.cs</DependentUpon>
-    </Compile>
-    <Compile Include="factura.cs">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddCliente.cs">
       <SubType>Form</SubType>
@@ -120,6 +132,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecuContra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecuContra.Designer.cs">
+      <DependentUpon>FrmRecuContra.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSelec.cs">
       <SubType>Form</SubType>
@@ -171,6 +189,12 @@
     <EmbeddedResource Include="Buscar_Prod.resx">
       <DependentUpon>Buscar_Prod.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeleteCliente.resx">
+      <DependentUpon>DeleteCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteProducto.resx">
+      <DependentUpon>DeleteProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="factura.resx">
       <DependentUpon>factura.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecuContra.resx">
+      <DependentUpon>FrmRecuContra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSelec.resx">
       <DependentUpon>FrmSelec.cs</DependentUpon>
@@ -248,6 +275,43 @@
     <None Include="Resources\Recurso 2%404x.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\018-potato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\020-brussel sprouts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007-carrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006-turnip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-radish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\021-peas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-cucumber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011-corn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\022-eggplant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\017-onion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\030-celery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\033-tomato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowl %281%29.png" />
     <ProjectReference Include="..\Logica\Logica.csproj">
       <Project>{c43e96e8-0ee9-4455-b014-f3094c0d69aa}</Project>
       <Name>Logica</Name>
