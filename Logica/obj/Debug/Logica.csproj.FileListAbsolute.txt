@@ -7,3 +7,12 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\D
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.pdb
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\bin\Debug\Logica.dll
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\bin\Debug\Logica.pdb
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\bin\Debug\BD.dll
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\bin\Debug\BD.pdb
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.dll
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.pdb
