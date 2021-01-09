@@ -58,7 +58,7 @@ namespace WFInicioFacturación
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-
+            //hacer uno como el de modificar...
         }
     }
 }
