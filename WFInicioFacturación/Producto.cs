@@ -55,7 +55,14 @@ namespace WFInicioFacturación
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            
+            if (this.pForms.Controls.Count > 0)
+                this.pForms.Controls.RemoveAt(0);
+            DeleteProducto frAbrir = new DeleteProducto();
+            frAbrir.TopLevel = false;
+            frAbrir.FormBorderStyle = FormBorderStyle.None;
+            frAbrir.Dock = DockStyle.Fill;
+            this.pForms.Controls.Add(frAbrir);
+            frAbrir.Show();
         }
     }
 }

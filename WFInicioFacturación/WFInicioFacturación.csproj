@@ -76,6 +76,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="DeleteCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteCliente.Designer.cs">
+      <DependentUpon>DeleteCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteProducto.Designer.cs">
+      <DependentUpon>DeleteProducto.cs</DependentUpon>
+    </Compile>
+
     <Compile Include="factura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +194,14 @@
     <EmbeddedResource Include="Buscar_Prod.resx">
       <DependentUpon>Buscar_Prod.cs</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="DeleteCliente.resx">
+      <DependentUpon>DeleteCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteProducto.resx">
+      <DependentUpon>DeleteProducto.cs</DependentUpon>
+    </EmbeddedResource>
+
     <EmbeddedResource Include="factura.resx">
       <DependentUpon>factura.cs</DependentUpon>
     </EmbeddedResource>

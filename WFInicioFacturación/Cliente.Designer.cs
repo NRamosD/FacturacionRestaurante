@@ -36,11 +36,11 @@
             this.pClose = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.pForms = new System.Windows.Forms.Panel();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pBotones.SuspendLayout();
             this.pClose.SuspendLayout();
             this.pForms.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pBotones
@@ -166,7 +166,7 @@
             // 
             // pForms
             // 
-            this.pForms.Controls.Add(this.iconPictureBox1);
+            this.pForms.Controls.Add(this.pictureBox1);
             this.pForms.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pForms.Location = new System.Drawing.Point(178, 33);
             this.pForms.Margin = new System.Windows.Forms.Padding(2);
@@ -174,21 +174,15 @@
             this.pForms.Size = new System.Drawing.Size(478, 404);
             this.pForms.TabIndex = 6;
             // 
-            // iconPictureBox1
+            // pictureBox1
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
-            this.iconPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.iconPictureBox1.Enabled = false;
-            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.UsersCog;
-            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 226;
-            this.iconPictureBox1.Location = new System.Drawing.Point(108, 83);
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(287, 226);
-            this.iconPictureBox1.TabIndex = 0;
-            this.iconPictureBox1.TabStop = false;
+            this.pictureBox1.Image = global::WFInicioFacturación.Properties.Resources.Recurso_2_4x;
+            this.pictureBox1.Location = new System.Drawing.Point(104, 81);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(281, 243);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Cliente
             // 
@@ -208,7 +202,7 @@
             this.pBotones.ResumeLayout(false);
             this.pClose.ResumeLayout(false);
             this.pForms.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -223,6 +217,6 @@
         private System.Windows.Forms.Panel pClose;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Panel pForms;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

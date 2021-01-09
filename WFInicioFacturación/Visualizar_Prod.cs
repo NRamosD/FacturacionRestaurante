@@ -21,5 +21,15 @@ namespace WFInicioFacturación
         {
             this.Close();
         }
+
+        private void txbPrecio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Visualizar_Prod_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
