@@ -118,13 +118,52 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="033-tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\033-tomato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="017-onion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\017-onion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="020-brussel sprouts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\020-brussel sprouts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="018-potato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\018-potato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="008-radish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\008-radish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="005-cucumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\005-cucumber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="platodeprueba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\platodeprueba.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="011-corn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\011-corn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="022-eggplant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\022-eggplant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="007-carrot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\007-carrot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="021-peas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\021-peas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="006-turnip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\006-turnip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Recurso 2@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recurso 2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="030-celery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\030-celery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Restaurant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Restaurant.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Recurso 2@4x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recurso 2@4x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bowl (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bowl (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

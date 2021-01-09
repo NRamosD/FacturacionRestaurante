@@ -75,7 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="factura.cs"/>
+    <Compile Include="factura.cs" />
     <Compile Include="AddCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,9 +132,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  <EmbeddedResource Include="factura.resx">
+    <EmbeddedResource Include="factura.resx">
       <DependentUpon>factura.cs</DependentUpon>
-  </EmbeddedResource>
+    </EmbeddedResource>
     <Compile Include="Visualizar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,7 +150,6 @@
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
     </EmbeddedResource>
-    
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +198,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Recurso 2%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\018-potato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\020-brussel sprouts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007-carrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006-turnip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-radish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\021-peas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-cucumber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011-corn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\022-eggplant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\017-onion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\030-celery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\033-tomato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowl %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SkiaSharp.1.59.3\build\net45\SkiaSharp.targets" Condition="Exists('..\packages\SkiaSharp.1.59.3\build\net45\SkiaSharp.targets')" />
