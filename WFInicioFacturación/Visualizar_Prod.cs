@@ -26,5 +26,10 @@ namespace WFInicioFacturación
         {
 
         }
+
+        private void Visualizar_Prod_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
