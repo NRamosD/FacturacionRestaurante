@@ -6,3 +6,10 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.pdb
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\bin\Debug\MySql.Data.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\BD\obj\Debug\BD.csproj.CopyComplete
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\BD\bin\Debug\BD.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\BD\bin\Debug\BD.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\BD\obj\Debug\BD.csprojAssemblyReference.cache
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\BD\obj\Debug\BD.csproj.CoreCompileInputs.cache
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\BD\obj\Debug\BD.csproj.CopyComplete
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\BD\obj\Debug\BD.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\BD\obj\Debug\BD.pdb
