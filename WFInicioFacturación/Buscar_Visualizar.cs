@@ -16,5 +16,11 @@ namespace WFInicioFacturación
         {
             InitializeComponent();
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            Visualizar frAbrir = new Visualizar();
+            frAbrir.Show();
+        }
     }
 }
