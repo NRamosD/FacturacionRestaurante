@@ -66,10 +66,10 @@
             this.btnBorrar.IconColor = System.Drawing.Color.Black;
             this.btnBorrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBorrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnBorrar.Location = new System.Drawing.Point(0, 309);
+            this.btnBorrar.Location = new System.Drawing.Point(2, 309);
             this.btnBorrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Size = new System.Drawing.Size(153, 48);
+            this.btnBorrar.Size = new System.Drawing.Size(149, 48);
             this.btnBorrar.TabIndex = 9;
             this.btnBorrar.Text = "Eliminar";
             this.btnBorrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -86,10 +86,10 @@
             this.btnModificar.IconColor = System.Drawing.Color.Black;
             this.btnModificar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnModificar.Location = new System.Drawing.Point(-1, 218);
+            this.btnModificar.Location = new System.Drawing.Point(2, 218);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(2);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(154, 47);
+            this.btnModificar.Size = new System.Drawing.Size(149, 47);
             this.btnModificar.TabIndex = 8;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -106,10 +106,10 @@
             this.btnLeer.IconColor = System.Drawing.Color.Black;
             this.btnLeer.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLeer.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnLeer.Location = new System.Drawing.Point(-4, 132);
+            this.btnLeer.Location = new System.Drawing.Point(2, 132);
             this.btnLeer.Margin = new System.Windows.Forms.Padding(2);
             this.btnLeer.Name = "btnLeer";
-            this.btnLeer.Size = new System.Drawing.Size(157, 48);
+            this.btnLeer.Size = new System.Drawing.Size(149, 48);
             this.btnLeer.TabIndex = 7;
             this.btnLeer.Text = "Buscar";
             this.btnLeer.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -129,7 +129,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(2, 47);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(151, 47);
+            this.btnAgregar.Size = new System.Drawing.Size(149, 47);
             this.btnAgregar.TabIndex = 6;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

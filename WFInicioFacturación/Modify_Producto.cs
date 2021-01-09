@@ -17,7 +17,11 @@ namespace WFInicioFacturación
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void Modify_Producto_Load(object sender, EventArgs e)
+=======
+        private void btnAceptar_Click(object sender, EventArgs e)
+>>>>>>> c885fabec76812ddc3f73c108c475e1084c1d55a
         {
 
         }
