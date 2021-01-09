@@ -36,8 +36,11 @@
             this.btnModificar = new FontAwesome.Sharp.IconButton();
             this.btnLeer = new FontAwesome.Sharp.IconButton();
             this.btnAgregar = new FontAwesome.Sharp.IconButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pbotones.SuspendLayout();
             this.pCerrar.SuspendLayout();
+            this.pForms.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pbotones
@@ -66,6 +69,7 @@
             // pForms
             // 
             this.pForms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
+            this.pForms.Controls.Add(this.pictureBox1);
             this.pForms.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pForms.Location = new System.Drawing.Point(178, 33);
             this.pForms.Name = "pForms";
@@ -94,7 +98,7 @@
             this.btnBorrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBorrar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBorrar.IconChar = FontAwesome.Sharp.IconChar.UserMinus;
+            this.btnBorrar.IconChar = FontAwesome.Sharp.IconChar.Eraser;
             this.btnBorrar.IconColor = System.Drawing.Color.Black;
             this.btnBorrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBorrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -114,7 +118,7 @@
             this.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.IconChar = FontAwesome.Sharp.IconChar.UserEdit;
+            this.btnModificar.IconChar = FontAwesome.Sharp.IconChar.Edit;
             this.btnModificar.IconColor = System.Drawing.Color.Black;
             this.btnModificar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -134,7 +138,7 @@
             this.btnLeer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnLeer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLeer.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLeer.IconChar = FontAwesome.Sharp.IconChar.IdBadge;
+            this.btnLeer.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
             this.btnLeer.IconColor = System.Drawing.Color.Black;
             this.btnLeer.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLeer.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -154,7 +158,7 @@
             this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
+            this.btnAgregar.IconChar = FontAwesome.Sharp.IconChar.DigitalTachograph;
             this.btnAgregar.IconColor = System.Drawing.Color.Black;
             this.btnAgregar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -167,6 +171,16 @@
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WFInicioFacturación.Properties.Resources.Recurso_2_4x;
+            this.pictureBox1.Location = new System.Drawing.Point(109, 80);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(281, 243);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Producto
             // 
@@ -181,6 +195,8 @@
             this.Text = "Producto";
             this.pbotones.ResumeLayout(false);
             this.pCerrar.ResumeLayout(false);
+            this.pForms.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,5 +211,6 @@
         private FontAwesome.Sharp.IconButton btnModificar;
         private FontAwesome.Sharp.IconButton btnLeer;
         private FontAwesome.Sharp.IconButton btnAgregar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
