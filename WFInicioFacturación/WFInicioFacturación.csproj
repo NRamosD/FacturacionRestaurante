@@ -54,6 +54,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -75,7 +76,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="factura.cs" />
+    <Compile Include="AddProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProducto.Designer.cs">
+      <DependentUpon>AddProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Prod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Prod.Designer.cs">
+      <DependentUpon>Buscar_Prod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AddCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,8 +145,32 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modify_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify_Producto.Designer.cs">
+      <DependentUpon>Modify_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto.Designer.cs">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visualizar_Prod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar_Prod.Designer.cs">
+      <DependentUpon>Visualizar_Prod.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddProducto.resx">
+      <DependentUpon>AddProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Prod.resx">
+      <DependentUpon>Buscar_Prod.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="factura.resx">
       <DependentUpon>factura.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +204,12 @@
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modify_Producto.resx">
+      <DependentUpon>Modify_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producto.resx">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -177,6 +222,9 @@
     </Compile>
     <EmbeddedResource Include="Visualizar.resx">
       <DependentUpon>Visualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizar_Prod.resx">
+      <DependentUpon>Visualizar_Prod.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
