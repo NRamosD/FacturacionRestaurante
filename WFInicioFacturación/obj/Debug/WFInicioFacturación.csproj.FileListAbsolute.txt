@@ -96,6 +96,16 @@ C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debu
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
 >>>>>>> 7b649966c3a2ad3d92bbda02f1c12b8c74756c2e
+<<<<<<< HEAD
+C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.dll
+C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
+C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.AddProducto.resources
+C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Buscar_Prod.resources
+C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Modify_Producto.resources
+C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Producto.resources
+C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Visualizar_Prod.resources
+C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmRecuContra.resources
+=======
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll.config
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dylib
@@ -155,3 +165,4 @@ D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
+>>>>>>> bebd3dce6ce8d432be72a46128a987a337668eb0

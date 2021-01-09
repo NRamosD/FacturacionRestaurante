@@ -7,6 +7,17 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\D
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.pdb
+<<<<<<< HEAD
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\bin\Debug\Logica.dll
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\bin\Debug\Logica.pdb
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\bin\Debug\BD.dll
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\bin\Debug\BD.pdb
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.dll
+C:\Users\Jhony\source\repos\FacturacionRestaurante\Logica\obj\Debug\Logica.pdb
+=======
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\Logica\bin\Debug\Logica.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\Logica\bin\Debug\Logica.pdb
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\Logica\bin\Debug\BD.dll
@@ -16,3 +27,4 @@ D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CopyComplete
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\Logica\obj\Debug\Logica.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\Logica\obj\Debug\Logica.pdb
+>>>>>>> bebd3dce6ce8d432be72a46128a987a337668eb0
