@@ -30,8 +30,8 @@
         {
             this.pbotones = new System.Windows.Forms.Panel();
             this.pCerrar = new System.Windows.Forms.Panel();
+            this.pForms = new System.Windows.Forms.Panel();
             this.btnCerrar = new FontAwesome.Sharp.IconButton();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btnBorrar = new FontAwesome.Sharp.IconButton();
             this.btnModificar = new FontAwesome.Sharp.IconButton();
             this.btnLeer = new FontAwesome.Sharp.IconButton();
@@ -63,6 +63,15 @@
             this.pCerrar.Size = new System.Drawing.Size(478, 33);
             this.pCerrar.TabIndex = 1;
             // 
+            // pForms
+            // 
+            this.pForms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
+            this.pForms.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pForms.Location = new System.Drawing.Point(178, 33);
+            this.pForms.Name = "pForms";
+            this.pForms.Size = new System.Drawing.Size(478, 404);
+            this.pForms.TabIndex = 2;
+            // 
             // btnCerrar
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
@@ -78,15 +87,6 @@
             this.btnCerrar.Size = new System.Drawing.Size(31, 31);
             this.btnCerrar.TabIndex = 9;
             this.btnCerrar.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(178, 33);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(478, 404);
-            this.panel1.TabIndex = 2;
             // 
             // btnBorrar
             // 
@@ -106,6 +106,7 @@
             this.btnBorrar.Text = "Eliminar";
             this.btnBorrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // btnModificar
             // 
@@ -125,6 +126,7 @@
             this.btnModificar.Text = "Modificar";
             this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnLeer
             // 
@@ -144,6 +146,7 @@
             this.btnLeer.Text = "Buscar";
             this.btnLeer.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLeer.UseVisualStyleBackColor = true;
+            this.btnLeer.Click += new System.EventHandler(this.btnLeer_Click);
             // 
             // btnAgregar
             // 
@@ -163,13 +166,14 @@
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // Producto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(656, 437);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pForms);
             this.Controls.Add(this.pCerrar);
             this.Controls.Add(this.pbotones);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -186,7 +190,7 @@
         private System.Windows.Forms.Panel pbotones;
         private System.Windows.Forms.Panel pCerrar;
         private FontAwesome.Sharp.IconButton btnCerrar;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pForms;
         private FontAwesome.Sharp.IconButton btnBorrar;
         private FontAwesome.Sharp.IconButton btnModificar;
         private FontAwesome.Sharp.IconButton btnLeer;
