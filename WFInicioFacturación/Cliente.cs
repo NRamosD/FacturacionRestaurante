@@ -26,7 +26,7 @@ namespace WFInicioFacturación
         {
             if (this.pForms.Controls.Count > 0)
                 this.pForms.Controls.RemoveAt(0);
-            Cliente frAbrir = new Cliente();
+            AddCliente frAbrir = new AddCliente();
             frAbrir.TopLevel = false;
             frAbrir.FormBorderStyle = FormBorderStyle.None;
             frAbrir.Dock = DockStyle.Fill;
