@@ -35,25 +35,28 @@ namespace BD
 
         public int CrearNuevoIdCliente()
         {
-            objConnection.abrir();
-            SqlCommand command = new SqlCommand("NewIdCustomer", objConnection.conectar);
-            comando.CommandType = CommandType.StoredProcedure;
-            DataTable id = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(command);
-            da.Fill(id);
-            objConnection.cerrar();
-            return Convert.ToInt16(id.Rows[0][0]);
+            try
+            {
+                objConnection.abrir();
+                SqlCommand command = new SqlCommand("NewIdCustomer", objConnection.conectar);
+                comando.CommandType = CommandType.StoredProcedure;
+                DataTable id = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(command);
+                da.Fill(id);
+                objConnection.cerrar();
+                return Convert.ToInt16(id.Rows[0][0]);
+            }
+            catch (Exception)
+            {
+                return 0;
+            }
         }
-
-<<<<<<< HEAD
-        public void InsertarCliente(int _id, char _ci, string _fn, string _ln, char [] _cp, string _ed, string _dir, char _sexo)
-=======
         public void InsertarCliente(int _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
->>>>>>> 83b2f563d682904e8e9a7e2d9004453f7874e505
+
         {
             try
             {
-                    objConnection.abrir();
+                objConnection.abrir();
                 SqlCommand command = new SqlCommand(
                     "INSERT INTO [dbo].[Customers] (intId_Customer, txtId_Card, txtFirst_Name, txtLast_Name, txtCell_Phone, txtEmail_Direction, txtDirection, txtSex)" +
                     "VALUES(@id, @ci, @fn, @ln, @cp, @ed, @dir, @sexo) GO", objConnection.conectar);
@@ -102,7 +105,7 @@ namespace BD
                 string cadena = "ALTER TABLE Customers NOCHECK CONSTRAINT FK_Orders_Customers GO";
                 SqlCommand comando = new SqlCommand(cadena, objConnection.conectar);
 
-                cadena = "DELETE FROM Customers where intId_Customer=" + _id;
+                cadena = "DELETE FROM Customers WHERE intId_Customer = '" + _id;
                 comando = new SqlCommand(cadena, objConnection.conectar);
 
                 cadena = "ALTER TABLE Customers CHECK CONSTRAINT FK_Orders_Customers GO";
@@ -219,7 +222,7 @@ namespace BD
                 string cadena = "ALTER TABLE Products NOCHECK CONSTRAINT FK_Orders_Producs GO";
                 SqlCommand comando = new SqlCommand(cadena, objConnection.conectar);
 
-                cadena = "DELETE FROM Products where intId_Customer=" + _id;
+                cadena = "DELETE FROM Products where intId_Products=" + _id;
                 comando = new SqlCommand(cadena, objConnection.conectar);
 
                 cadena = "ALTER TABLE Products CHECK CONSTRAINT intId_Product GO";

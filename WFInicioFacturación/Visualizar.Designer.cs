@@ -36,7 +36,7 @@
             this.txbTelef = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbSexo = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txbDireecion = new System.Windows.Forms.TextBox();
             this.txbApellido = new System.Windows.Forms.TextBox();
@@ -45,6 +45,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txbFecha = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAceptar
@@ -59,7 +61,7 @@
             this.btnAceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAceptar.IconSize = 30;
             this.btnAceptar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAceptar.Location = new System.Drawing.Point(148, 330);
+            this.btnAceptar.Location = new System.Drawing.Point(153, 330);
             this.btnAceptar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(107, 24);
@@ -75,7 +77,7 @@
             this.txbID.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbID.Enabled = false;
             this.txbID.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbID.Location = new System.Drawing.Point(233, 82);
+            this.txbID.Location = new System.Drawing.Point(231, 55);
             this.txbID.Margin = new System.Windows.Forms.Padding(2);
             this.txbID.Name = "txbID";
             this.txbID.Size = new System.Drawing.Size(135, 19);
@@ -86,19 +88,20 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(61, 82);
+            this.label9.Location = new System.Drawing.Point(59, 55);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(28, 19);
+            this.label9.Size = new System.Drawing.Size(66, 19);
             this.label9.TabIndex = 111;
-            this.label9.Text = "ID";
+            this.label9.Text = "Cédula";
             // 
             // tbCorreo
             // 
             this.tbCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.tbCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbCorreo.Enabled = false;
             this.tbCorreo.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.tbCorreo.Location = new System.Drawing.Point(233, 215);
+            this.tbCorreo.Location = new System.Drawing.Point(231, 188);
             this.tbCorreo.Margin = new System.Windows.Forms.Padding(2);
             this.tbCorreo.Name = "tbCorreo";
             this.tbCorreo.Size = new System.Drawing.Size(135, 19);
@@ -109,7 +112,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(59, 217);
+            this.label4.Location = new System.Drawing.Point(57, 190);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 19);
@@ -120,8 +123,9 @@
             // 
             this.txbTelef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txbTelef.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbTelef.Enabled = false;
             this.txbTelef.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbTelef.Location = new System.Drawing.Point(233, 182);
+            this.txbTelef.Location = new System.Drawing.Point(231, 155);
             this.txbTelef.Margin = new System.Windows.Forms.Padding(2);
             this.txbTelef.Name = "txbTelef";
             this.txbTelef.Size = new System.Drawing.Size(135, 19);
@@ -132,7 +136,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(61, 183);
+            this.label6.Location = new System.Drawing.Point(59, 156);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 19);
@@ -144,30 +148,31 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(61, 282);
+            this.label8.Location = new System.Drawing.Point(59, 255);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(45, 19);
             this.label8.TabIndex = 97;
             this.label8.Text = "Sexo";
             // 
-            // textBox1
+            // txbSexo
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.textBox1.Location = new System.Drawing.Point(233, 282);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(135, 19);
-            this.textBox1.TabIndex = 109;
+            this.txbSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txbSexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSexo.Enabled = false;
+            this.txbSexo.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.txbSexo.Location = new System.Drawing.Point(231, 255);
+            this.txbSexo.Margin = new System.Windows.Forms.Padding(2);
+            this.txbSexo.Name = "txbSexo";
+            this.txbSexo.Size = new System.Drawing.Size(135, 19);
+            this.txbSexo.TabIndex = 109;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(61, 248);
+            this.label5.Location = new System.Drawing.Point(59, 221);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 19);
@@ -178,8 +183,9 @@
             // 
             this.txbDireecion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txbDireecion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbDireecion.Enabled = false;
             this.txbDireecion.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbDireecion.Location = new System.Drawing.Point(233, 247);
+            this.txbDireecion.Location = new System.Drawing.Point(231, 220);
             this.txbDireecion.Margin = new System.Windows.Forms.Padding(2);
             this.txbDireecion.Name = "txbDireecion";
             this.txbDireecion.Size = new System.Drawing.Size(135, 19);
@@ -189,8 +195,9 @@
             // 
             this.txbApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txbApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbApellido.Enabled = false;
             this.txbApellido.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbApellido.Location = new System.Drawing.Point(233, 148);
+            this.txbApellido.Location = new System.Drawing.Point(231, 121);
             this.txbApellido.Margin = new System.Windows.Forms.Padding(2);
             this.txbApellido.Name = "txbApellido";
             this.txbApellido.Size = new System.Drawing.Size(135, 19);
@@ -200,8 +207,9 @@
             // 
             this.txbNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txbNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbNombre.Enabled = false;
             this.txbNombre.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbNombre.Location = new System.Drawing.Point(233, 115);
+            this.txbNombre.Location = new System.Drawing.Point(231, 88);
             this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(135, 19);
@@ -211,8 +219,9 @@
             // 
             this.txbCod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txbCod.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbCod.Enabled = false;
             this.txbCod.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCod.Location = new System.Drawing.Point(233, 50);
+            this.txbCod.Location = new System.Drawing.Point(231, 23);
             this.txbCod.Margin = new System.Windows.Forms.Padding(2);
             this.txbCod.Name = "txbCod";
             this.txbCod.Size = new System.Drawing.Size(135, 19);
@@ -223,7 +232,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(61, 148);
+            this.label3.Location = new System.Drawing.Point(59, 121);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 19);
@@ -235,7 +244,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(61, 116);
+            this.label2.Location = new System.Drawing.Point(59, 89);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 19);
@@ -247,12 +256,36 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(61, 52);
+            this.label1.Location = new System.Drawing.Point(59, 25);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 19);
             this.label1.TabIndex = 101;
             this.label1.Text = "Código ";
+            // 
+            // txbFecha
+            // 
+            this.txbFecha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txbFecha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbFecha.Enabled = false;
+            this.txbFecha.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.txbFecha.Location = new System.Drawing.Point(231, 292);
+            this.txbFecha.Margin = new System.Windows.Forms.Padding(2);
+            this.txbFecha.Name = "txbFecha";
+            this.txbFecha.Size = new System.Drawing.Size(135, 19);
+            this.txbFecha.TabIndex = 109;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(59, 292);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(155, 19);
+            this.label7.TabIndex = 97;
+            this.label7.Text = "Fecha de Creación";
             // 
             // Visualizar
             // 
@@ -266,8 +299,10 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txbTelef);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txbFecha);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbSexo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txbDireecion);
             this.Controls.Add(this.txbApellido);
@@ -280,6 +315,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Visualizar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Visualizar";
             this.Load += new System.EventHandler(this.Visualizar_Load);
             this.ResumeLayout(false);
@@ -289,21 +325,23 @@
 
         #endregion
         private FontAwesome.Sharp.IconButton btnAceptar;
-        private System.Windows.Forms.TextBox txbID;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox tbCorreo;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txbTelef;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txbDireecion;
-        private System.Windows.Forms.TextBox txbApellido;
-        private System.Windows.Forms.TextBox txbNombre;
-        private System.Windows.Forms.TextBox txbCod;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.TextBox txbID;
+        public System.Windows.Forms.TextBox tbCorreo;
+        public System.Windows.Forms.TextBox txbTelef;
+        public System.Windows.Forms.TextBox txbSexo;
+        public System.Windows.Forms.TextBox txbDireecion;
+        public System.Windows.Forms.TextBox txbApellido;
+        public System.Windows.Forms.TextBox txbNombre;
+        public System.Windows.Forms.TextBox txbCod;
+        public System.Windows.Forms.TextBox txbFecha;
+        private System.Windows.Forms.Label label7;
     }
 }

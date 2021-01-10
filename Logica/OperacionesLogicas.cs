@@ -13,39 +13,58 @@ namespace Logica
     {
         
         private operaciones objOpe = new operaciones();
+        DataTable tabla = new DataTable();
         public int ObtenerCodCliente()
         {
             return objOpe.CrearNuevoIdCliente();
         }
         public DataTable MostrarDatosCliente(string _ci)
         {
-            DataTable tabla = new DataTable();
-            tabla = objOpe.MostrarCliente( _ci);
-            return tabla;
+            try
+            {
+                tabla = objOpe.MostrarCliente(_ci);
+                return tabla;
+            }
+            catch(Exception)
+            {
+                return tabla;
+            }
         }
         public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
         {
-<<<<<<< HEAD
+
             try
             {
-                objOpe.InsertarCliente(Convert.ToInt16(_id), Convert.ToChar(_ci), _fn, _ln, _cp.ToCharArray(), _ed, _dir, _sexo);
+                objOpe.InsertarCliente(Convert.ToInt16 (_id), _ci, _fn, _ln, _cp, _ed, _dir, _sexo);
             }catch(Exception exc)
             {
                 Console.WriteLine("Error al ingresar: " + exc);
             }
             
-=======
-            objOpe.InsertarCliente(Convert.ToInt16(_id), _ci, _fn, _ln, _cp, _ed, _dir, _sexo);
->>>>>>> 83b2f563d682904e8e9a7e2d9004453f7874e505
         }
        
         public void EditarCliente(string _id, string _cp, string _ed, string _dir)
         {
-            objOpe.EditarCliente(Convert.ToInt16(_id), _cp, _ed, _dir);
+            try
+            {
+                objOpe.EditarCliente(Convert.ToInt16(_id), _cp, _ed, _dir);
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine("Error al editar: " + exc);
+            }
         }
         public void EliminarCliente(string _id)
         {
-            objOpe.EliminarCliente(Convert.ToInt16(_id));
+            try
+            {
+                objOpe.EliminarCliente(Convert.ToInt16(_id));
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine("Error al eliminar: " + exc);
+            }
+
         }
 
         //-------------------------------------------------------------------------------------------

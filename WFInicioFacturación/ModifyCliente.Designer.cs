@@ -73,6 +73,7 @@
             this.btnConfirmar.TabIndex = 63;
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = false;
+            this.btnConfirmar.Visible = false;
             this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // txbID
@@ -103,6 +104,7 @@
             // 
             this.tbCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.tbCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbCorreo.Enabled = false;
             this.tbCorreo.Font = new System.Drawing.Font("Rockwell", 12F);
             this.tbCorreo.Location = new System.Drawing.Point(220, 223);
             this.tbCorreo.Margin = new System.Windows.Forms.Padding(2);
@@ -126,6 +128,7 @@
             // 
             this.txbTelef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbTelef.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbTelef.Enabled = false;
             this.txbTelef.Font = new System.Drawing.Font("Rockwell", 12F);
             this.txbTelef.Location = new System.Drawing.Point(220, 190);
             this.txbTelef.Margin = new System.Windows.Forms.Padding(2);
@@ -161,6 +164,7 @@
             // 
             this.txbSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbSexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSexo.Enabled = false;
             this.txbSexo.Font = new System.Drawing.Font("Rockwell", 12F);
             this.txbSexo.Location = new System.Drawing.Point(220, 289);
             this.txbSexo.Margin = new System.Windows.Forms.Padding(2);
@@ -184,6 +188,7 @@
             // 
             this.txbDireecion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbDireecion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbDireecion.Enabled = false;
             this.txbDireecion.Font = new System.Drawing.Font("Rockwell", 12F);
             this.txbDireecion.Location = new System.Drawing.Point(220, 255);
             this.txbDireecion.Margin = new System.Windows.Forms.Padding(2);
@@ -195,6 +200,7 @@
             // 
             this.txbApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbApellido.Enabled = false;
             this.txbApellido.Font = new System.Drawing.Font("Rockwell", 12F);
             this.txbApellido.Location = new System.Drawing.Point(220, 156);
             this.txbApellido.Margin = new System.Windows.Forms.Padding(2);
@@ -206,6 +212,7 @@
             // 
             this.txbNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbNombre.Enabled = false;
             this.txbNombre.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbNombre.Location = new System.Drawing.Point(220, 123);
             this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
@@ -217,6 +224,7 @@
             // 
             this.txbCod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbCod.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbCod.Enabled = false;
             this.txbCod.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCod.Location = new System.Drawing.Point(220, 58);
             this.txbCod.Margin = new System.Windows.Forms.Padding(2);
