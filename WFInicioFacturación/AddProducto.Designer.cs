@@ -36,10 +36,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnCancelar = new FontAwesome.Sharp.IconButton();
-            this.btnAceptar = new FontAwesome.Sharp.IconButton();
             this.cbCateogria = new System.Windows.Forms.ComboBox();
             this.pbxProd = new System.Windows.Forms.PictureBox();
+            this.btnConfirmar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxProd)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,7 +64,7 @@
             this.txbPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.txbPrecio.Name = "txbPrecio";
             this.txbPrecio.Size = new System.Drawing.Size(135, 19);
-            this.txbPrecio.TabIndex = 58;
+            this.txbPrecio.TabIndex = 3;
             // 
             // txbNombre
             // 
@@ -75,7 +75,7 @@
             this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(135, 19);
-            this.txbNombre.TabIndex = 59;
+            this.txbNombre.TabIndex = 2;
             // 
             // txbCod
             // 
@@ -86,7 +86,7 @@
             this.txbCod.Margin = new System.Windows.Forms.Padding(2);
             this.txbCod.Name = "txbCod";
             this.txbCod.Size = new System.Drawing.Size(135, 19);
-            this.txbCod.TabIndex = 60;
+            this.txbCod.TabIndex = 1;
             // 
             // label3
             // 
@@ -130,62 +130,19 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(133, 20);
+            this.label7.Location = new System.Drawing.Point(123, 20);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(172, 19);
             this.label7.TabIndex = 48;
             this.label7.Text = "NUEVO PRODUCTO";
             // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(136)))));
-            this.btnCancelar.FlatAppearance.BorderSize = 0;
-            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(172)))), ((int)(((byte)(100)))));
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancelar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Times;
-            this.btnCancelar.IconColor = System.Drawing.Color.Black;
-            this.btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCancelar.IconSize = 30;
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(282, 339);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(113, 26);
-            this.btnCancelar.TabIndex = 50;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Visible = false;
-            // 
-            // btnAceptar
-            // 
-            this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(136)))));
-            this.btnAceptar.FlatAppearance.BorderSize = 0;
-            this.btnAceptar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(172)))), ((int)(((byte)(100)))));
-            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.btnAceptar.IconColor = System.Drawing.Color.Black;
-            this.btnAceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAceptar.IconSize = 30;
-            this.btnAceptar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAceptar.Location = new System.Drawing.Point(175, 339);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(103, 26);
-            this.btnAceptar.TabIndex = 49;
-            this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAceptar.UseVisualStyleBackColor = false;
-            this.btnAceptar.Visible = false;
-            // 
             // cbCateogria
             // 
             this.cbCateogria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.cbCateogria.Enabled = false;
             this.cbCateogria.FormattingEnabled = true;
+            this.cbCateogria.ItemHeight = 13;
             this.cbCateogria.Items.AddRange(new object[] {
             "Platillo",
             "Bebida"});
@@ -198,9 +155,33 @@
             // 
             this.pbxProd.Location = new System.Drawing.Point(137, 56);
             this.pbxProd.Name = "pbxProd";
-            this.pbxProd.Size = new System.Drawing.Size(141, 87);
+            this.pbxProd.Size = new System.Drawing.Size(141, 93);
             this.pbxProd.TabIndex = 81;
             this.pbxProd.TabStop = false;
+            // 
+            // btnConfirmar
+            // 
+            this.btnConfirmar.BackColor = System.Drawing.Color.White;
+            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmar.Location = new System.Drawing.Point(157, 332);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
+            this.btnConfirmar.TabIndex = 82;
+            this.btnConfirmar.Text = "Confirmar";
+            this.btnConfirmar.UseVisualStyleBackColor = false;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackColor = System.Drawing.Color.White;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(284, 65);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(66, 21);
+            this.btnCancelar.TabIndex = 84;
+            this.btnCancelar.Text = "Buscar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
             // 
             // AddProducto
             // 
@@ -208,11 +189,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.ClientSize = new System.Drawing.Size(409, 375);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.pbxProd);
             this.Controls.Add(this.cbCateogria);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txbPrecio);
             this.Controls.Add(this.txbNombre);
             this.Controls.Add(this.txbCod);
@@ -231,8 +212,6 @@
 
         #endregion
         private System.Windows.Forms.Label label6;
-        private FontAwesome.Sharp.IconButton btnCancelar;
-        private FontAwesome.Sharp.IconButton btnAceptar;
         private System.Windows.Forms.TextBox txbPrecio;
         private System.Windows.Forms.TextBox txbNombre;
         private System.Windows.Forms.TextBox txbCod;
@@ -242,5 +221,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbCateogria;
         private System.Windows.Forms.PictureBox pbxProd;
+        private System.Windows.Forms.Button btnConfirmar;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }

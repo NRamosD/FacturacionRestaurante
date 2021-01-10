@@ -162,6 +162,7 @@
             this.btnCerrar.Size = new System.Drawing.Size(31, 31);
             this.btnCerrar.TabIndex = 9;
             this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // pForms
             // 
@@ -193,6 +194,7 @@
             this.Controls.Add(this.pbotones);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Producto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Producto";
             this.pbotones.ResumeLayout(false);
             this.pCerrar.ResumeLayout(false);

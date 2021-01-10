@@ -47,11 +47,11 @@ namespace BD
 
         public void InsertarCliente(int _id, char _ci, string _fn, string _ln, char _cp, string _ed, string _dir, char _sexo)
         {
-            try
-            {
+            //try
+            //{
                 objConnection.abrir();
                 SqlCommand command = new SqlCommand(
-                    "INSERT INTO [dbo].[Customers] (intId_Customer, txtId_Card, txtFirst_Name, txtLast_Name, txtCell_Phone, txtDirection, txtSex)" +
+                    "INSERT INTO [dbo].[Customers] (intId_Customer, txtId_Card, txtFirst_Name, txtLast_Name, txtCell_Phone, txtEmail_Direction, txtDirection, txtSex)" +
                     "VALUES(@id, @ci, @fn, @ln, @cp, @ed, @dir, @sexo) GO", objConnection.conectar);
                 command.Parameters.Add("@id", SqlDbType.Int).Value = _id;
                 command.Parameters.Add("@ci", SqlDbType.Char, 10).Value = _ci;
@@ -63,11 +63,11 @@ namespace BD
                 command.Parameters.Add("@sexo", SqlDbType.Char, 1).Value = _sexo;
                 command.ExecuteNonQuery();
                 objConnection.cerrar();
-            }
-            catch (Exception)
-            {
-                return;
-            }
+            //}
+            //catch (Exception)
+            //{
+            //    return;
+            //}
         }
 
         public void EditarCliente(int _id, char _cp, string _ed, string _dir)
@@ -262,5 +262,6 @@ namespace BD
                 return;
             }
         }
+
     }
 }

@@ -42,10 +42,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnCancelar = new FontAwesome.Sharp.IconButton();
-            this.btnAceptar = new FontAwesome.Sharp.IconButton();
             this.label7 = new System.Windows.Forms.Label();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.btnConfirmar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txbTelef
@@ -215,50 +213,6 @@
             this.label1.TabIndex = 70;
             this.label1.Text = "Código ";
             // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(172)))), ((int)(((byte)(100)))));
-            this.btnCancelar.FlatAppearance.BorderSize = 0;
-            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(214)))), ((int)(((byte)(177)))));
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancelar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.IconChar = FontAwesome.Sharp.IconChar.UserTimes;
-            this.btnCancelar.IconColor = System.Drawing.Color.Black;
-            this.btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCancelar.IconSize = 30;
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(285, 340);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(113, 24);
-            this.btnCancelar.TabIndex = 64;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Visible = false;
-            // 
-            // btnAceptar
-            // 
-            this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(172)))), ((int)(((byte)(100)))));
-            this.btnAceptar.FlatAppearance.BorderSize = 0;
-            this.btnAceptar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(214)))), ((int)(((byte)(177)))));
-            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.IconChar = FontAwesome.Sharp.IconChar.UserMinus;
-            this.btnAceptar.IconColor = System.Drawing.Color.Black;
-            this.btnAceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAceptar.IconSize = 30;
-            this.btnAceptar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAceptar.Location = new System.Drawing.Point(151, 340);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(123, 24);
-            this.btnAceptar.TabIndex = 65;
-            this.btnAceptar.Text = "Eliminar";
-            this.btnAceptar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAceptar.UseVisualStyleBackColor = false;
-            this.btnAceptar.Visible = false;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -272,25 +226,17 @@
             this.label7.TabIndex = 63;
             this.label7.Text = "ELIMINAR CLIENTE";
             // 
-            // iconButton1
+            // btnConfirmar
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton1.Enabled = false;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton1.IconSize = 350;
-            this.iconButton1.Location = new System.Drawing.Point(33, 37);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(2);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(351, 360);
-            this.iconButton1.TabIndex = 76;
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton1.UseVisualStyleBackColor = false;
-            this.iconButton1.Visible = false;
+            this.btnConfirmar.BackColor = System.Drawing.Color.White;
+            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmar.Location = new System.Drawing.Point(148, 332);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
+            this.btnConfirmar.TabIndex = 81;
+            this.btnConfirmar.Text = "Eliminar";
+            this.btnConfirmar.UseVisualStyleBackColor = false;
             // 
             // DeleteCliente
             // 
@@ -298,6 +244,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(136)))));
             this.ClientSize = new System.Drawing.Size(409, 375);
+            this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.txbTelef);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txbID);
@@ -312,11 +259,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.iconButton1);
-            this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DeleteCliente";
             this.Text = "DeleteCliente";
@@ -341,9 +284,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private FontAwesome.Sharp.IconButton btnCancelar;
-        private FontAwesome.Sharp.IconButton btnAceptar;
         private System.Windows.Forms.Label label7;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private System.Windows.Forms.Button btnConfirmar;
     }
 }

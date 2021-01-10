@@ -40,7 +40,9 @@ namespace WFInicioFacturación
             {
                 if (TxtUsuario.Text == "admin" && TxtPass.Text == "adminPALE")
                 {
-                    //Mostrar FORM Principal
+                    this.Close();
+                    Form1 obj = new Form1();
+                    obj.Show();
                 }
                 else
                 {

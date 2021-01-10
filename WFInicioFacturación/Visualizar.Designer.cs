@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnAceptar = new FontAwesome.Sharp.IconButton();
+            this.txbID = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tbCorreo = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.txbTelef = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txbID = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.txbSexo = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txbDireecion = new System.Windows.Forms.TextBox();
             this.txbApellido = new System.Windows.Forms.TextBox();
@@ -42,176 +45,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAceptar = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
-            // 
-            // txbTelef
-            // 
-            this.txbTelef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txbTelef.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbTelef.Enabled = false;
-            this.txbTelef.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbTelef.Location = new System.Drawing.Point(222, 197);
-            this.txbTelef.Margin = new System.Windows.Forms.Padding(2);
-            this.txbTelef.Name = "txbTelef";
-            this.txbTelef.Size = new System.Drawing.Size(135, 19);
-            this.txbTelef.TabIndex = 76;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(50, 198);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 19);
-            this.label6.TabIndex = 75;
-            this.label6.Text = "Teléfono";
-            // 
-            // txbID
-            // 
-            this.txbID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txbID.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbID.Enabled = false;
-            this.txbID.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbID.Location = new System.Drawing.Point(222, 66);
-            this.txbID.Margin = new System.Windows.Forms.Padding(2);
-            this.txbID.Name = "txbID";
-            this.txbID.Size = new System.Drawing.Size(135, 19);
-            this.txbID.TabIndex = 74;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(50, 66);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 19);
-            this.label4.TabIndex = 73;
-            this.label4.Text = "ID";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(50, 282);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 19);
-            this.label8.TabIndex = 63;
-            this.label8.Text = "Sexo";
-            // 
-            // txbSexo
-            // 
-            this.txbSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txbSexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSexo.Enabled = false;
-            this.txbSexo.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbSexo.Location = new System.Drawing.Point(222, 281);
-            this.txbSexo.Margin = new System.Windows.Forms.Padding(2);
-            this.txbSexo.Name = "txbSexo";
-            this.txbSexo.Size = new System.Drawing.Size(135, 19);
-            this.txbSexo.TabIndex = 68;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(50, 240);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 19);
-            this.label5.TabIndex = 64;
-            this.label5.Text = "Dirección";
-            // 
-            // txbDireecion
-            // 
-            this.txbDireecion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txbDireecion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbDireecion.Enabled = false;
-            this.txbDireecion.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbDireecion.Location = new System.Drawing.Point(222, 239);
-            this.txbDireecion.Margin = new System.Windows.Forms.Padding(2);
-            this.txbDireecion.Name = "txbDireecion";
-            this.txbDireecion.Size = new System.Drawing.Size(135, 19);
-            this.txbDireecion.TabIndex = 69;
-            // 
-            // txbApellido
-            // 
-            this.txbApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txbApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbApellido.Enabled = false;
-            this.txbApellido.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbApellido.Location = new System.Drawing.Point(222, 155);
-            this.txbApellido.Margin = new System.Windows.Forms.Padding(2);
-            this.txbApellido.Name = "txbApellido";
-            this.txbApellido.Size = new System.Drawing.Size(135, 19);
-            this.txbApellido.TabIndex = 70;
-            // 
-            // txbNombre
-            // 
-            this.txbNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txbNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbNombre.Enabled = false;
-            this.txbNombre.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbNombre.Location = new System.Drawing.Point(222, 110);
-            this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
-            this.txbNombre.Name = "txbNombre";
-            this.txbNombre.Size = new System.Drawing.Size(135, 19);
-            this.txbNombre.TabIndex = 71;
-            // 
-            // txbCod
-            // 
-            this.txbCod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txbCod.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbCod.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCod.Location = new System.Drawing.Point(222, 24);
-            this.txbCod.Margin = new System.Windows.Forms.Padding(2);
-            this.txbCod.Name = "txbCod";
-            this.txbCod.Size = new System.Drawing.Size(135, 19);
-            this.txbCod.TabIndex = 72;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(50, 155);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 19);
-            this.label3.TabIndex = 65;
-            this.label3.Text = "Apellido";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(50, 111);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 19);
-            this.label2.TabIndex = 66;
-            this.label2.Text = "Nombre";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(50, 26);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 19);
-            this.label1.TabIndex = 67;
-            this.label1.Text = "Código ";
             // 
             // btnAceptar
             // 
@@ -235,25 +69,190 @@
             this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // iconButton1
+            // txbID
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton1.Enabled = false;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.AddressBook;
-            this.iconButton1.IconColor = System.Drawing.Color.DimGray;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton1.IconSize = 350;
-            this.iconButton1.Location = new System.Drawing.Point(-39, -8);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(2);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(503, 413);
-            this.iconButton1.TabIndex = 46;
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton1.UseVisualStyleBackColor = false;
-            this.iconButton1.Visible = false;
+            this.txbID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txbID.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbID.Enabled = false;
+            this.txbID.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.txbID.Location = new System.Drawing.Point(233, 82);
+            this.txbID.Margin = new System.Windows.Forms.Padding(2);
+            this.txbID.Name = "txbID";
+            this.txbID.Size = new System.Drawing.Size(135, 19);
+            this.txbID.TabIndex = 112;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label9.Location = new System.Drawing.Point(61, 82);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(28, 19);
+            this.label9.TabIndex = 111;
+            this.label9.Text = "ID";
+            // 
+            // tbCorreo
+            // 
+            this.tbCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.tbCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbCorreo.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.tbCorreo.Location = new System.Drawing.Point(233, 215);
+            this.tbCorreo.Margin = new System.Windows.Forms.Padding(2);
+            this.tbCorreo.Name = "tbCorreo";
+            this.tbCorreo.Size = new System.Drawing.Size(135, 19);
+            this.tbCorreo.TabIndex = 106;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(59, 217);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(63, 19);
+            this.label4.TabIndex = 110;
+            this.label4.Text = "Correo";
+            // 
+            // txbTelef
+            // 
+            this.txbTelef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txbTelef.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbTelef.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.txbTelef.Location = new System.Drawing.Point(233, 182);
+            this.txbTelef.Margin = new System.Windows.Forms.Padding(2);
+            this.txbTelef.Name = "txbTelef";
+            this.txbTelef.Size = new System.Drawing.Size(135, 19);
+            this.txbTelef.TabIndex = 105;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(61, 183);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 19);
+            this.label6.TabIndex = 107;
+            this.label6.Text = "Teléfono";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(61, 282);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(45, 19);
+            this.label8.TabIndex = 97;
+            this.label8.Text = "Sexo";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.textBox1.Location = new System.Drawing.Point(233, 282);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(135, 19);
+            this.textBox1.TabIndex = 109;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(61, 248);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 19);
+            this.label5.TabIndex = 98;
+            this.label5.Text = "Dirección";
+            // 
+            // txbDireecion
+            // 
+            this.txbDireecion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txbDireecion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbDireecion.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.txbDireecion.Location = new System.Drawing.Point(233, 247);
+            this.txbDireecion.Margin = new System.Windows.Forms.Padding(2);
+            this.txbDireecion.Name = "txbDireecion";
+            this.txbDireecion.Size = new System.Drawing.Size(135, 19);
+            this.txbDireecion.TabIndex = 108;
+            // 
+            // txbApellido
+            // 
+            this.txbApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txbApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbApellido.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.txbApellido.Location = new System.Drawing.Point(233, 148);
+            this.txbApellido.Margin = new System.Windows.Forms.Padding(2);
+            this.txbApellido.Name = "txbApellido";
+            this.txbApellido.Size = new System.Drawing.Size(135, 19);
+            this.txbApellido.TabIndex = 104;
+            // 
+            // txbNombre
+            // 
+            this.txbNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txbNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbNombre.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbNombre.Location = new System.Drawing.Point(233, 115);
+            this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txbNombre.Name = "txbNombre";
+            this.txbNombre.Size = new System.Drawing.Size(135, 19);
+            this.txbNombre.TabIndex = 103;
+            // 
+            // txbCod
+            // 
+            this.txbCod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txbCod.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbCod.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbCod.Location = new System.Drawing.Point(233, 50);
+            this.txbCod.Margin = new System.Windows.Forms.Padding(2);
+            this.txbCod.Name = "txbCod";
+            this.txbCod.Size = new System.Drawing.Size(135, 19);
+            this.txbCod.TabIndex = 102;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(61, 148);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 19);
+            this.label3.TabIndex = 99;
+            this.label3.Text = "Apellido";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(61, 116);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 19);
+            this.label2.TabIndex = 100;
+            this.label2.Text = "Nombre";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(61, 52);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 19);
+            this.label1.TabIndex = 101;
+            this.label1.Text = "Código ";
             // 
             // Visualizar
             // 
@@ -261,12 +260,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(409, 375);
+            this.Controls.Add(this.txbID);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.tbCorreo);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.txbTelef);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txbID);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.txbSexo);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txbDireecion);
             this.Controls.Add(this.txbApellido);
@@ -276,11 +277,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.iconButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Visualizar";
             this.Text = "Visualizar";
+            this.Load += new System.EventHandler(this.Visualizar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,13 +289,14 @@
 
         #endregion
         private FontAwesome.Sharp.IconButton btnAceptar;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private System.Windows.Forms.TextBox txbID;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox tbCorreo;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txbTelef;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txbID;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txbSexo;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txbDireecion;
         private System.Windows.Forms.TextBox txbApellido;

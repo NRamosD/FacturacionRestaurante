@@ -21,5 +21,10 @@ namespace WFInicioFacturación
         {
             this.Close();
         }
+
+        private void Visualizar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

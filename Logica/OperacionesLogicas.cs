@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using BD;
 using System.Data;
 
+
 namespace Logica
 {
     public class OperacionesLogicas
@@ -22,9 +23,10 @@ namespace Logica
             tabla = objOpe.MostrarCliente( Convert.ToChar(_ci));
             return tabla;
         }
-        public void InsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
+        public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, char _sexo)
         {
-            objOpe.InsertarCliente(Convert.ToInt16(_id), Convert.ToChar(_ci), _fn, _ln, Convert.ToChar(_cp), _ed, _dir,Convert.ToChar(_sexo);
+            char sex = 'M';
+            objOpe.InsertarCliente(Convert.ToInt16(_id), Convert.ToChar(_ci), _fn, _ln, Convert.ToChar(_cp), _ed, _dir, sex);
         }
        
         public void EditarCliente(string _id, string _cp, string _ed, string _dir)

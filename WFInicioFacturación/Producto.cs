@@ -64,5 +64,12 @@ namespace WFInicioFacturación
             this.pForms.Controls.Add(frAbrir);
             frAbrir.Show();
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form1 o = new Form1();
+            o.Show();
+        }
     }
 }

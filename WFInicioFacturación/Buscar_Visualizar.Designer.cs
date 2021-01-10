@@ -31,7 +31,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txbCod = new System.Windows.Forms.TextBox();
-            this.btnAceptar = new FontAwesome.Sharp.IconButton();
+            this.btnConfirmar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -67,27 +67,17 @@
             this.txbCod.Size = new System.Drawing.Size(135, 19);
             this.txbCod.TabIndex = 30;
             // 
-            // btnAceptar
+            // btnConfirmar
             // 
-            this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(89)))), ((int)(((byte)(18)))));
-            this.btnAceptar.FlatAppearance.BorderSize = 0;
-            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.btnAceptar.IconChar = FontAwesome.Sharp.IconChar.ClipboardCheck;
-            this.btnAceptar.IconColor = System.Drawing.Color.Black;
-            this.btnAceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAceptar.IconSize = 26;
-            this.btnAceptar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAceptar.Location = new System.Drawing.Point(160, 260);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(104, 29);
-            this.btnAceptar.TabIndex = 31;
-            this.btnAceptar.Text = "Buscar";
-            this.btnAceptar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAceptar.UseVisualStyleBackColor = false;
-            this.btnAceptar.Visible = false;
-            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            this.btnConfirmar.BackColor = System.Drawing.Color.White;
+            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmar.Location = new System.Drawing.Point(168, 248);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
+            this.btnConfirmar.TabIndex = 65;
+            this.btnConfirmar.Text = "Buscar";
+            this.btnConfirmar.UseVisualStyleBackColor = false;
             // 
             // Buscar_Visualizar
             // 
@@ -95,7 +85,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(193)))), ((int)(((byte)(139)))));
             this.ClientSize = new System.Drawing.Size(409, 375);
-            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.txbCod);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -114,6 +104,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txbCod;
-        private FontAwesome.Sharp.IconButton btnAceptar;
+        private System.Windows.Forms.Button btnConfirmar;
     }
 }

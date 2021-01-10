@@ -1,111 +1,3 @@
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll.config
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dylib
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\x86\libSkiaSharp.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\x64\libSkiaSharp.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe.config
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.pdb
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.Views.Forms.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Stormlion.ShapeControl.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.xml
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.pdb
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csprojAssemblyReference.cache
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.factura.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.AddCliente.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Buscar_Visualizar.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Cliente.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Form1.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmSelec.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.ModifyCliente.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLoading.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLogin.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Properties.Resources.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Visualizar.resources
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.GenerateResource.cache
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CoreCompileInputs.cache
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
-<<<<<<< HEAD
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll.config
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dylib
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\x86\libSkiaSharp.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\x64\libSkiaSharp.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe.config
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.pdb
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.Views.Forms.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Stormlion.ShapeControl.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.xml
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.pdb
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csprojAssemblyReference.cache
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.factura.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.AddCliente.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Buscar_Visualizar.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Cliente.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Form1.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmSelec.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.ModifyCliente.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLoading.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLogin.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Properties.Resources.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Visualizar.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.GenerateResource.cache
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CoreCompileInputs.cache
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
-=======
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.dll
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
->>>>>>> 7b649966c3a2ad3d92bbda02f1c12b8c74756c2e
-<<<<<<< HEAD
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.dll
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.AddProducto.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Buscar_Prod.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Modify_Producto.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Producto.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Visualizar_Prod.resources
-C:\Users\Jhony\source\repos\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmRecuContra.resources
-=======
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll.config
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dylib
@@ -122,8 +14,10 @@ D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\BD.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\MySql.Data.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.xml
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.pdb
@@ -131,6 +25,7 @@ D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.pdb
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\BD.pdb
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
@@ -151,6 +46,7 @@ D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Buscar_Visualizar.resources
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Cliente.resources
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Form1.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmRecuContra.resources
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmSelec.resources
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.ModifyCliente.resources
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLoading.resources
@@ -165,4 +61,3 @@ D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
 D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
->>>>>>> bebd3dce6ce8d432be72a46128a987a337668eb0
