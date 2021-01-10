@@ -39,7 +39,7 @@ namespace WFInicioFacturación
             arr = (byte[])ic.ConvertTo(img, typeof(byte[]));
 
             objA.InsertarProducto(txbCod.Text, txbNombre.Text, txbPrecio.Text, cbCateogria.SelectedItem.ToString(), arr);
-            MessageBox.Show(cbCateogria.SelectedItem.ToString());
+
         }
 
         private void cbCateogria_SelectedIndexChanged(object sender, EventArgs e)

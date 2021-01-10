@@ -48,7 +48,7 @@ namespace WFInicioFacturación
             }
             catch 
             {
-                MessageBox.Show("No se han ingresado valores");
+                MessageBox.Show("Datos mal ingresados");
             }
         }
     }

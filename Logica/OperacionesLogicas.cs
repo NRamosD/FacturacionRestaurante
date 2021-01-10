@@ -94,7 +94,7 @@ namespace Logica
             objOpe.InsertarProducto(Convert.ToInt16 (_id), _nom, Convert.ToDouble(_prec), _cat,_img);
         }
 
-        public void EditarProducto(int _id, string _nom, double _prec, byte[] _img)
+        public void EditarProducto(string _id, string _nom, string _prec, byte[] _img)
         {
             objOpe.EditarProducto(Convert.ToInt16(_id), _nom, Convert.ToDouble(_prec), _img);
         }
