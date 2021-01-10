@@ -89,9 +89,9 @@ namespace Logica
         {
             return objOpe.CrearNuevoIdProducto();
         }
-        public void InsertarProducto(int _id, string _nom, string _prec, string _cat, byte[] _img)
+        public void InsertarProducto(string _id, string _nom, string _prec, string _cat, byte[] _img)
         {
-            objOpe.InsertarProducto(_id, _nom, Convert.ToDouble(_prec), _cat,_img);
+            objOpe.InsertarProducto(Convert.ToInt16 (_id), _nom, Convert.ToDouble(_prec), _cat,_img);
         }
 
         public void EditarProducto(int _id, string _nom, double _prec, byte[] _img)

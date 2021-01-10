@@ -70,14 +70,16 @@
             // btnConfirmar
             // 
             this.btnConfirmar.BackColor = System.Drawing.Color.White;
+            this.btnConfirmar.FlatAppearance.BorderSize = 0;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmar.Location = new System.Drawing.Point(170, 238);
+            this.btnConfirmar.Location = new System.Drawing.Point(159, 250);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
             this.btnConfirmar.TabIndex = 65;
             this.btnConfirmar.Text = "Buscar";
             this.btnConfirmar.UseVisualStyleBackColor = false;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // Buscar_Prod
             // 

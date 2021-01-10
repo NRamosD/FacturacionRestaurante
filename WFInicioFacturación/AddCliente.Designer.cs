@@ -82,7 +82,7 @@
             this.txbDireecion.Margin = new System.Windows.Forms.Padding(2);
             this.txbDireecion.Name = "txbDireecion";
             this.txbDireecion.Size = new System.Drawing.Size(135, 19);
-            this.txbDireecion.TabIndex = 46;
+            this.txbDireecion.TabIndex = 47;
             // 
             // txbApellido
             // 
@@ -93,7 +93,7 @@
             this.txbApellido.Margin = new System.Windows.Forms.Padding(2);
             this.txbApellido.Name = "txbApellido";
             this.txbApellido.Size = new System.Drawing.Size(135, 19);
-            this.txbApellido.TabIndex = 43;
+            this.txbApellido.TabIndex = 44;
             // 
             // txbNombre
             // 
@@ -104,7 +104,7 @@
             this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(135, 19);
-            this.txbNombre.TabIndex = 42;
+            this.txbNombre.TabIndex = 43;
             // 
             // txbCod
             // 
@@ -163,7 +163,7 @@
             this.txbTelef.Margin = new System.Windows.Forms.Padding(2);
             this.txbTelef.Name = "txbTelef";
             this.txbTelef.Size = new System.Drawing.Size(135, 19);
-            this.txbTelef.TabIndex = 44;
+            this.txbTelef.TabIndex = 45;
             // 
             // label6
             // 
@@ -174,7 +174,7 @@
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 19);
-            this.label6.TabIndex = 46;
+            this.label6.TabIndex = 80;
             this.label6.Text = "Teléfono";
             // 
             // label8
@@ -212,7 +212,7 @@
             this.tbCorreo.Margin = new System.Windows.Forms.Padding(2);
             this.tbCorreo.Name = "tbCorreo";
             this.tbCorreo.Size = new System.Drawing.Size(135, 19);
-            this.tbCorreo.TabIndex = 45;
+            this.tbCorreo.TabIndex = 46;
             // 
             // label4
             // 
@@ -235,7 +235,7 @@
             this.txbID.Margin = new System.Windows.Forms.Padding(2);
             this.txbID.Name = "txbID";
             this.txbID.Size = new System.Drawing.Size(135, 19);
-            this.txbID.TabIndex = 80;
+            this.txbID.TabIndex = 42;
             // 
             // label9
             // 
@@ -259,7 +259,7 @@
             this.cbSexo.Location = new System.Drawing.Point(228, 305);
             this.cbSexo.Name = "cbSexo";
             this.cbSexo.Size = new System.Drawing.Size(51, 21);
-            this.cbSexo.TabIndex = 81;
+            this.cbSexo.TabIndex = 48;
             // 
             // AddCliente
             // 

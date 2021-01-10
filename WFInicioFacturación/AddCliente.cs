@@ -37,8 +37,7 @@ namespace WFInicioFacturación
 
             try
             {
-                objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, cbSexo.SelectedItem.ToString());
-                MessageBox.Show(cbSexo.Text);
+                objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, cbSexo.Text);
                 MessageBox.Show("Datos ingresados con éxito");
             
             }

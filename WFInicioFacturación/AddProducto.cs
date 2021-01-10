@@ -38,13 +38,18 @@ namespace WFInicioFacturación
             ImageConverter ic = new ImageConverter();
             arr = (byte[])ic.ConvertTo(img, typeof(byte[]));
 
-            objA.InsertarProducto(int.Parse(txbCod.Text), txbNombre.Text, txbPrecio.Text, cbCateogria.SelectedItem.ToString(), arr);
+            objA.InsertarProducto(txbCod.Text, txbNombre.Text, txbPrecio.Text, cbCateogria.SelectedItem.ToString(), arr);
             MessageBox.Show(cbCateogria.SelectedItem.ToString());
         }
 
         private void cbCateogria_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void AddProducto_Load(object sender, EventArgs e)
+        {
+            txbCod.Text= objA.ObtenerCodCliente().ToString();
         }
     }
 }

@@ -40,7 +40,8 @@ namespace WFInicioFacturación
                 objA.txbDireecion.Text = tabla.Rows[0][6].ToString();
                 objA.txbSexo.Text = tabla.Rows[0][7].ToString();
                 objA.txbFecha.Text = tabla.Rows[0][8].ToString();
-                objA.Show();
+                objA.ShowDialog();
+                this.Close();
             }
             else
             {
