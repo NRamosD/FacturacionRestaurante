@@ -140,22 +140,23 @@
             // cbCateogria
             // 
             this.cbCateogria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.cbCateogria.Enabled = false;
             this.cbCateogria.FormattingEnabled = true;
             this.cbCateogria.ItemHeight = 13;
             this.cbCateogria.Items.AddRange(new object[] {
-            "Platillo",
-            "Bebida"});
+            "P",
+            "B"});
             this.cbCateogria.Location = new System.Drawing.Point(226, 291);
             this.cbCateogria.Name = "cbCateogria";
             this.cbCateogria.Size = new System.Drawing.Size(135, 21);
             this.cbCateogria.TabIndex = 78;
+            this.cbCateogria.SelectedIndexChanged += new System.EventHandler(this.cbCateogria_SelectedIndexChanged);
             // 
             // pbxProd
             // 
-            this.pbxProd.Location = new System.Drawing.Point(137, 56);
+            this.pbxProd.BackColor = System.Drawing.Color.White;
+            this.pbxProd.Location = new System.Drawing.Point(137, 42);
             this.pbxProd.Name = "pbxProd";
-            this.pbxProd.Size = new System.Drawing.Size(141, 93);
+            this.pbxProd.Size = new System.Drawing.Size(141, 107);
             this.pbxProd.TabIndex = 81;
             this.pbxProd.TabStop = false;
             // 
@@ -170,6 +171,7 @@
             this.btnConfirmar.TabIndex = 82;
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = false;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // btnCancelar
             // 
@@ -182,6 +184,7 @@
             this.btnCancelar.TabIndex = 84;
             this.btnCancelar.Text = "Buscar";
             this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // AddProducto
             // 

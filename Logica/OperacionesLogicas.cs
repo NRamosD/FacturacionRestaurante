@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using BD;
 using System.Data;
 
+
 namespace Logica
 {
     public class OperacionesLogicas
@@ -22,9 +23,16 @@ namespace Logica
             tabla = objOpe.MostrarCliente( Convert.ToChar(_ci));
             return tabla;
         }
-        public void InsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
+        public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, char _sexo)
         {
-            objOpe.InsertarCliente(Convert.ToInt16(_id), Convert.ToChar(_ci), _fn, _ln, Convert.ToChar(_cp), _ed, _dir,Convert.ToChar(_sexo);
+            try
+            {
+                objOpe.InsertarCliente(Convert.ToInt16(_id), Convert.ToChar(_ci), _fn, _ln, _cp.ToCharArray(), _ed, _dir, _sexo);
+            }catch(Exception exc)
+            {
+                Console.WriteLine("Error al ingresar: " + exc);
+            }
+            
         }
        
         public void EditarCliente(string _id, string _cp, string _ed, string _dir)
@@ -58,9 +66,9 @@ namespace Logica
         {
             return objOpe.CrearNuevoIdProducto();
         }
-        public void InsertarProducto(string _id, string _nom, string _prec, string _cat, byte[] _img)
+        public void InsertarProducto(int _id, string _nom, string _prec, string _cat, byte[] _img)
         {
-            objOpe.InsertarProducto(Convert.ToInt16(_id), _nom, Convert.ToDouble(_prec), Convert.ToChar(_cat),_img);
+            objOpe.InsertarProducto(_id, _nom, Convert.ToDouble(_prec), _cat,_img);
         }
 
         public void EditarProducto(int _id, string _nom, double _prec, byte[] _img)

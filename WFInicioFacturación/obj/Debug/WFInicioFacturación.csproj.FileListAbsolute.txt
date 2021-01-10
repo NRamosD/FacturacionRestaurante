@@ -1,3 +1,66 @@
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll.config
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dylib
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\x86\libSkiaSharp.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\x64\libSkiaSharp.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe.config
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.exe
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\WFInicioFacturación.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\FontAwesome.Sharp.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.Views.Forms.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Stormlion.ShapeControl.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\BD.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\MySql.Data.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.xml
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.xml
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\BD.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csprojAssemblyReference.cache
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.AddProducto.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Buscar_Prod.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.DeleteCliente.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.DeleteProducto.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.factura.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.AddCliente.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Buscar_Visualizar.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Cliente.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Form1.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmRecuContra.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmSelec.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.ModifyCliente.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLoading.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.FrmLogin.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Modify_Producto.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Producto.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Properties.Resources.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Visualizar.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.Visualizar_Prod.resources
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.GenerateResource.cache
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CoreCompileInputs.cache
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.csproj.CopyComplete
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.exe
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\mymusic2\FacturacionRestaurante\WFInicioFacturación\obj\Debug\WFInicioFacturación.pdb
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.dll.config
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\libSkiaSharp.dylib
@@ -16,8 +79,10 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFact
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\BD.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\MySql.Data.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Logica.pdb
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\SkiaSharp.xml
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Core.pdb
@@ -25,6 +90,7 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFact
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\BD.pdb
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\WFInicioFacturación\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll

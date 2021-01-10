@@ -45,13 +45,13 @@ namespace BD
             return Convert.ToInt16(id.Rows[0][0]);
         }
 
-        public void InsertarCliente(int _id, char _ci, string _fn, string _ln, char _cp, string _ed, string _dir, char _sexo)
+        public void InsertarCliente(int _id, char _ci, string _fn, string _ln, char [] _cp, string _ed, string _dir, char _sexo)
         {
-            try
-            {
+            //try
+            //{
                 objConnection.abrir();
                 SqlCommand command = new SqlCommand(
-                    "INSERT INTO [dbo].[Customers] (intId_Customer, txtId_Card, txtFirst_Name, txtLast_Name, txtCell_Phone, txtDirection, txtSex)" +
+                    "INSERT INTO [dbo].[Customers] (intId_Customer, txtId_Card, txtFirst_Name, txtLast_Name, txtCell_Phone, txtEmail_Direction, txtDirection, txtSex)" +
                     "VALUES(@id, @ci, @fn, @ln, @cp, @ed, @dir, @sexo) GO", objConnection.conectar);
                 command.Parameters.Add("@id", SqlDbType.Int).Value = _id;
                 command.Parameters.Add("@ci", SqlDbType.Char, 10).Value = _ci;
@@ -63,11 +63,11 @@ namespace BD
                 command.Parameters.Add("@sexo", SqlDbType.Char, 1).Value = _sexo;
                 command.ExecuteNonQuery();
                 objConnection.cerrar();
-            }
-            catch (Exception)
-            {
-                return;
-            }
+            //}
+            //catch (Exception)
+            //{
+            //    return;
+            //}
         }
 
         public void EditarCliente(int _id, char _cp, string _ed, string _dir)
@@ -171,7 +171,7 @@ namespace BD
             return Convert.ToInt16(id.Rows[0][0]);
         }
 
-        public void InsertarProducto(int _id,string _nom, double _prec, char _cat, byte[] _img)
+        public void InsertarProducto(int _id,string _nom, double _prec, string _cat, byte[] _img)
         {
             objConnection.abrir();
             SqlCommand command = new SqlCommand(
@@ -184,10 +184,9 @@ namespace BD
             command.Parameters.Add("@img", SqlDbType.VarBinary, _img.Length).Value = _img;
             command.ExecuteNonQuery();
             objConnection.cerrar();
+            Console.WriteLine("Ingresado correctamente :)");
         }
 
-<<<<<<< HEAD
-=======
         public void EditarProducto(int _id, string _nom, double _prec, byte[] _img)
         {
             try
@@ -264,6 +263,6 @@ namespace BD
                 return;
             }
         }
->>>>>>> c885fabec76812ddc3f73c108c475e1084c1d55a
+
     }
 }

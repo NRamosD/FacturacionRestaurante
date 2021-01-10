@@ -26,5 +26,10 @@ namespace WFInicioFacturación
         {
 
         }
+
+        private void ModifyCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
