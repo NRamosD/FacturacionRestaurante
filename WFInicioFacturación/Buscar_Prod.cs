@@ -23,9 +23,9 @@ namespace WFInicioFacturación
             try
             {
                 Visualizar_Prod frmAbrir = new Visualizar_Prod();
-                objP.MostrarDatosProducto(txbCod.Text); Visualizar objA = new Visualizar();
+                objP.MostrarDatosProducto(int.Parse(txbCod.Text)); Visualizar objA = new Visualizar();
                 DataTable tabla = new DataTable();
-                tabla = objP.MostrarDatosProducto(txbCod.Text);
+                tabla = objP.MostrarDatosProducto(int.Parse(txbCod.Text));
                 if (tabla.Rows.Count > 0)
                 {
 

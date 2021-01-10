@@ -48,6 +48,9 @@ namespace WFInicioFacturación
             this.rbTarjeta = new System.Windows.Forms.RadioButton();
             this.tbNumTarjeta = new System.Windows.Forms.TextBox();
             this.btnTerminar = new System.Windows.Forms.Button();
+            this.colProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbFactura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFactura)).BeginInit();
             this.gbDatosCliente.SuspendLayout();
@@ -70,8 +73,13 @@ namespace WFInicioFacturación
             // 
             // dgvFactura
             // 
+            this.dgvFactura.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvFactura.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(215)))));
             this.dgvFactura.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFactura.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colProducto,
+            this.colCantidad,
+            this.colPrecio});
             this.dgvFactura.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvFactura.Location = new System.Drawing.Point(3, 26);
             this.dgvFactura.Name = "dgvFactura";
@@ -275,6 +283,24 @@ namespace WFInicioFacturación
             this.btnTerminar.UseVisualStyleBackColor = false;
             this.btnTerminar.Click += new System.EventHandler(this.btnTerminar_Click);
             // 
+            // colProducto
+            // 
+            this.colProducto.HeaderText = "Producto";
+            this.colProducto.Name = "colProducto";
+            this.colProducto.ReadOnly = true;
+            // 
+            // colCantidad
+            // 
+            this.colCantidad.HeaderText = "Cantidad";
+            this.colCantidad.Name = "colCantidad";
+            this.colCantidad.ReadOnly = true;
+            // 
+            // colPrecio
+            // 
+            this.colPrecio.HeaderText = "Precio";
+            this.colPrecio.Name = "colPrecio";
+            this.colPrecio.ReadOnly = true;
+            // 
             // factura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -326,5 +352,8 @@ namespace WFInicioFacturación
         private System.Windows.Forms.RadioButton rbTarjeta;
         private System.Windows.Forms.TextBox tbcvv;
         private System.Windows.Forms.Button btnTerminar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCantidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPrecio;
     }
 }

@@ -67,10 +67,10 @@ namespace Logica
         }
 
         //-------------------------------------------------------------------------------------------
-        public DataTable MostrarDatosProducto(string _id)
+        public DataTable MostrarDatosProducto(int _id)
         {
             DataTable tabla = new DataTable();
-            tabla = objOpe.MostrarProducto(Convert.ToInt16(_id));
+            tabla = objOpe.MostrarProducto(_id);
             return tabla;
         }
 

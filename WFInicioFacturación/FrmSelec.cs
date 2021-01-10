@@ -7,15 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logica;
+using System.IO;
 
 namespace WFInicioFacturación
 {
     public partial class FrmSelec : Form
     {
-
+        string[,] orden = new string[20,3];
+        int iorden = 0;
         double precioAlimento, cantidad, totalPorAlimento,acumuladorSubTotal=0;
-
-
+        GroupBox AGB;
+        //-------------------------------------------------
+        OperacionesLogicas objA = new OperacionesLogicas();
         public FrmSelec()
         {
             InitializeComponent();
@@ -28,8 +32,8 @@ namespace WFInicioFacturación
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            this.Close();
-            factura o = new factura();
+            this.Hide();
+            factura o = new factura(orden);
             o.Show();
         }
 
@@ -44,34 +48,46 @@ namespace WFInicioFacturación
         private void FrmSelec_Load(object sender, EventArgs e)
         {
             cBoxCantidad.SelectedIndex = 0;
-            //el i debe ser el número de elementos en productos
-            for (int i = 0; i < 10; i++)
+
+            //dynamic controllers creator
+            int totalProductos = objA.ObterTotalProd()+1;
+            
+            for (int i = 0; i < totalProductos; i++)
             {
+                DataTable dt = new DataTable();
+                dt = objA.MostrarDatosProducto(i);
+                string nombre = dt.Rows[i][1].ToString();
+                double m = Math.Round(double.Parse(dt.Rows[i][2].ToString()),2);
+                string preciolb = m.ToString();
+                Byte[] data = new Byte[0];
+                data = (Byte[])(dt.Rows[i][5]);
+                MemoryStream mem = new MemoryStream(data);
                 if (i % 2 == 0)
                 {
                     GroupBox gb = new GroupBox();
                     //gb.Name = "gb" + i;
-                    gb.Text = i.ToString();
+                    //gb.Text = i.ToString();
+                    gb.Text = nombre;
                     gb.Size = new Size(200, 200);
                     
                     gb.Location = new Point(20, (PanelAlimentos.Controls.Count * 230) / 2);
                     PanelAlimentos.Controls.Add(gb);
                     
                     PictureBox img = new PictureBox();
-                    img.Image = Properties.Resources.platodeprueba;
+                    img.Image = Image.FromStream(mem);
                     img.Size = new Size(110,90);
                     img.SizeMode = PictureBoxSizeMode.StretchImage;
                     img.Location = new Point(45,20);
 
                     Label lbNombre = new Label();
                     Label lbPrecio = new Label();
-                    lbNombre.Text = "Picadita "+i;
+                    lbNombre.Text = "Precio";
                     lbNombre.Font = new Font("Rockwell", 12, FontStyle.Bold);
-                    lbPrecio.Text = i.ToString();
+                    lbPrecio.Text = preciolb;
                     lbPrecio.Font = new Font("Rockwell", 12, FontStyle.Bold);
 
                     img.Location = new Point(45, 20);
-                    lbNombre.Location = new Point(50,120);
+                    lbNombre.Location = new Point(15,120);
                     lbPrecio.Location = new Point(80,145);
 
                     gb.Controls.Add(img);
@@ -80,11 +96,14 @@ namespace WFInicioFacturación
 
                     gb.Click += delegate
                     {
+                        RestaurarColor();
+                        this.AGB = gb;
+                        gb.BackColor = Color.FromArgb(255, 192, 100);
                         //this.Refresh();
                         //MessageBox.Show("Este es mi nombre " + gb.Name);
                         //FrmCantidad selection = new FrmCantidad(lbNombre.Text, double.Parse(lbPrecio.Text));
                         gb.BackColor = Color.FromArgb(255, 192, 139);
-                        lbNombreAlimento.Text = lbNombre.Text;
+                        lbNombreAlimento.Text = gb.Text;
                         precioAlimento = double.Parse(lbPrecio.Text);
                         cantidad = double.Parse(cBoxCantidad.SelectedItem.ToString());
                         totalPorAlimento = Math.Round(precioAlimento * cantidad, 2);
@@ -95,7 +114,7 @@ namespace WFInicioFacturación
                 else
                 {
                     GroupBox gb = new GroupBox();
-                    gb.Text = i.ToString();
+                    gb.Text = nombre;
                     gb.Size = new Size(200, 200);
                     /*gb.Click += delegate
                     {
@@ -107,20 +126,20 @@ namespace WFInicioFacturación
                     PanelAlimentos.Controls.Add(gb);
 
                     PictureBox img = new PictureBox();
-                    img.Image = Properties.Resources.platodeprueba;
+                    img.Image = Image.FromStream(mem);
                     img.Size = new Size(110, 90);
                     img.SizeMode = PictureBoxSizeMode.StretchImage;
                     img.Location = new Point(45, 20);
 
                     Label lbNombre = new Label();
                     Label lbPrecio = new Label();
-                    lbNombre.Text = "Picadita " + i;
+                    lbNombre.Text = "Precio";
                     lbNombre.Font = new Font("Rockwell", 12, FontStyle.Bold);
-                    lbPrecio.Text = i.ToString();
+                    lbPrecio.Text = preciolb;
                     lbPrecio.Font = new Font("Rockwell", 12, FontStyle.Bold);
 
                     img.Location = new Point(45, 20);
-                    lbNombre.Location = new Point(50, 120);
+                    lbNombre.Location = new Point(15, 120);
                     lbPrecio.Location = new Point(80, 145);
 
                     gb.Controls.Add(img);
@@ -129,11 +148,14 @@ namespace WFInicioFacturación
 
                     gb.Click += delegate
                     {
+                        RestaurarColor();
+                        this.AGB = gb;
+                        gb.BackColor = Color.FromArgb(255, 192, 100);
                         //this.Refresh();
                         //MessageBox.Show("Este es mi nombre " + gb.Name);
                         //FrmCantidad selection = new FrmCantidad(lbNombre.Text, double.Parse(lbPrecio.Text));
                         gb.BackColor = Color.FromArgb(255,192,139);
-                        lbNombreAlimento.Text = lbNombre.Text;
+                        lbNombreAlimento.Text = gb.Text;
                         precioAlimento = double.Parse(lbPrecio.Text);
                         cantidad = double.Parse(cBoxCantidad.SelectedItem.ToString());
                         totalPorAlimento = Math.Round(precioAlimento*cantidad,2);
@@ -155,10 +177,25 @@ namespace WFInicioFacturación
 
         private void button1_Click(object sender, EventArgs e)
         {
+            orden[iorden, 0]= lbNombreAlimento.Text;
+            orden[iorden, 1] = cantidad.ToString();
+            orden[iorden, 2] = (totalPorAlimento).ToString();
             string compra = lbNombreAlimento.Text+" ____ $"+(totalPorAlimento).ToString();
             acumuladorSubTotal += totalPorAlimento;
             lbSubtotal.Text = (acumuladorSubTotal).ToString();
             listAlimentos.Items.Add(compra);
+            iorden++;
         }
+
+
+        private void RestaurarColor()
+        {
+            if (this.AGB != null)
+            {
+                this.AGB.BackColor = Color.FromArgb(255, 171, 101);
+            }
+
+        }
+
     }
 }

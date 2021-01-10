@@ -64,7 +64,7 @@ namespace WFInicioFacturación
 
         private void AddProducto_Load(object sender, EventArgs e)
         {
-            txbCod.Text= objA.NuevoProd().ToString();
+            txbCod.Text= objA.ObtenerCodCliente().ToString();
         }
     }
 }

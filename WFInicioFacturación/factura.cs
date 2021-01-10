@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logica;
 
 namespace WFInicioFacturación
 {
     public partial class factura : Form
     {
-        public factura()
+        string[,] ordenfact;
+        OperacionesLogicas Log = new OperacionesLogicas();
+        public factura(string [,] orden)
         {
             InitializeComponent();
+            ordenfact = orden;
         }
 
         private void gbTipoCliente_Enter(object sender, EventArgs e)
@@ -39,6 +43,12 @@ namespace WFInicioFacturación
             txtCi.Enabled = false;
             tbcvv.Enabled = false;
             tbNumTarjeta.Enabled = false;
+            int i = 0;
+            while (ordenfact[i,0]!=null)
+            {
+                dgvFactura.Rows.Add(ordenfact[i,0], ordenfact[i, 1], ordenfact[i, 2]);
+                i++;
+            }
         }
 
         private void gbDatosCliente_Enter(object sender, EventArgs e)
@@ -68,6 +78,7 @@ namespace WFInicioFacturación
 
         private void btnTerminar_Click(object sender, EventArgs e)
         {
+            //Log.InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago);
             this.Close();
             Form1 o = new Form1();
             o.Show();

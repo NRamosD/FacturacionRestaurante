@@ -53,8 +53,8 @@ namespace BD
                 return 0;
             }
         }
-        public void InsertarCliente(int _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
 
+        public void InsertarCliente(int _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
         {
             try
             {

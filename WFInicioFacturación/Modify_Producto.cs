@@ -39,7 +39,7 @@ namespace WFInicioFacturación
         private void txbCod_TextChanged(object sender, EventArgs e)
         {
             DataTable tabla = new DataTable();
-            tabla = objP.MostrarDatosProducto(txbCod.Text);
+            tabla = objP.MostrarDatosProducto(int.Parse(txbCod.Text));
             if (tabla.Rows.Count > 0)
             {
                 byte[] arr;
