@@ -17,7 +17,7 @@ namespace WFInicioFacturación
         string[,] orden = new string[20,3];
         int iorden = 0;
         double precioAlimento, cantidad, totalPorAlimento,acumuladorSubTotal=0;
-        
+        GroupBox AGB;
         //-------------------------------------------------
         OperacionesLogicas objA = new OperacionesLogicas();
         public FrmSelec()
@@ -96,6 +96,9 @@ namespace WFInicioFacturación
 
                     gb.Click += delegate
                     {
+                        RestaurarColor();
+                        this.AGB = gb;
+                        gb.BackColor = Color.FromArgb(255, 192, 100);
                         //this.Refresh();
                         //MessageBox.Show("Este es mi nombre " + gb.Name);
                         //FrmCantidad selection = new FrmCantidad(lbNombre.Text, double.Parse(lbPrecio.Text));
@@ -145,6 +148,9 @@ namespace WFInicioFacturación
 
                     gb.Click += delegate
                     {
+                        RestaurarColor();
+                        this.AGB = gb;
+                        gb.BackColor = Color.FromArgb(255, 192, 100);
                         //this.Refresh();
                         //MessageBox.Show("Este es mi nombre " + gb.Name);
                         //FrmCantidad selection = new FrmCantidad(lbNombre.Text, double.Parse(lbPrecio.Text));
@@ -180,5 +186,16 @@ namespace WFInicioFacturación
             listAlimentos.Items.Add(compra);
             iorden++;
         }
+
+
+        private void RestaurarColor()
+        {
+            if (this.AGB != null)
+            {
+                this.AGB.BackColor = Color.FromArgb(255, 171, 101);
+            }
+
+        }
+
     }
 }
