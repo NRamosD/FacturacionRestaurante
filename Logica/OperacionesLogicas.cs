@@ -20,18 +20,17 @@ namespace Logica
         public DataTable MostrarDatosCliente(string _ci)
         {
             DataTable tabla = new DataTable();
-            tabla = objOpe.MostrarCliente( Convert.ToChar(_ci));
+            tabla = objOpe.MostrarCliente( _ci);
             return tabla;
         }
-        public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, char _sexo)
+        public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
         {
-            char sex = 'M';
-            objOpe.InsertarCliente(Convert.ToInt16(_id), Convert.ToChar(_ci), _fn, _ln, Convert.ToChar(_cp), _ed, _dir, sex);
+            objOpe.InsertarCliente(Convert.ToInt16(_id), _ci, _fn, _ln, _cp, _ed, _dir, _sexo);
         }
        
         public void EditarCliente(string _id, string _cp, string _ed, string _dir)
         {
-            objOpe.EditarCliente(Convert.ToInt16(_id), Convert.ToChar(_cp), _ed, _dir);
+            objOpe.EditarCliente(Convert.ToInt16(_id), _cp, _ed, _dir);
         }
         public void EliminarCliente(string _id)
         {

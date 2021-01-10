@@ -23,7 +23,7 @@ namespace WFInicioFacturación
         OperacionesLogicas objA = new OperacionesLogicas();
         private void AddCliente_Load(object sender, EventArgs e)
         {
-            
+            txbCod.Text = objA.ObtenerCodCliente().ToString();
             txbID.Focus();
         }
 
@@ -34,9 +34,8 @@ namespace WFInicioFacturación
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            char sex = 'M';
-            //MessageBox.Show(txbCod.Text + txbID.Text + txbNombre.Text + txbApellido.Text  + txbTelef.Text + tbCorreo.Text + txbDireecion.Text + txbSexo.Text);
-            objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, sex);
+            MessageBox.Show(txbCod.Text + " " + txbID.Text + " " + txbNombre.Text + " " +  txbApellido.Text + " " + txbTelef.Text + " " + tbCorreo.Text + " " + txbDireecion.Text + " " + txbSexo.Text);
+            objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, txbSexo.Text);
             
             //try
             //{

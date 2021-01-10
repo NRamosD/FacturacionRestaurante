@@ -79,13 +79,13 @@
             // 
             this.txbID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbID.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbID.Enabled = false;
             this.txbID.Font = new System.Drawing.Font("Rockwell", 12F);
             this.txbID.Location = new System.Drawing.Point(220, 90);
             this.txbID.Margin = new System.Windows.Forms.Padding(2);
             this.txbID.Name = "txbID";
             this.txbID.Size = new System.Drawing.Size(135, 19);
             this.txbID.TabIndex = 96;
+            this.txbID.TextChanged += new System.EventHandler(this.txbID_TextChanged);
             // 
             // label9
             // 
@@ -95,9 +95,9 @@
             this.label9.Location = new System.Drawing.Point(48, 90);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(28, 19);
+            this.label9.Size = new System.Drawing.Size(66, 19);
             this.label9.TabIndex = 95;
-            this.label9.Text = "ID";
+            this.label9.Text = "Cédula";
             // 
             // tbCorreo
             // 
