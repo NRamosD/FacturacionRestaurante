@@ -156,7 +156,7 @@
             this.btnConfirmar.BackColor = System.Drawing.Color.White;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmar.Location = new System.Drawing.Point(155, 332);
+            this.btnConfirmar.Location = new System.Drawing.Point(151, 332);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
             this.btnConfirmar.TabIndex = 88;
@@ -171,6 +171,7 @@
             this.pbxProd.Location = new System.Drawing.Point(132, 43);
             this.pbxProd.Name = "pbxProd";
             this.pbxProd.Size = new System.Drawing.Size(157, 122);
+            this.pbxProd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxProd.TabIndex = 91;
             this.pbxProd.TabStop = false;
             // 

@@ -33,12 +33,27 @@ namespace WFInicioFacturación
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            Image img = pbxProd.Image;
-            byte [] arr;
-            ImageConverter ic = new ImageConverter();
-            arr = (byte[])ic.ConvertTo(img, typeof(byte[]));
-            string categoria = cbCateogria.SelectedItem.ToString();
-            objA.InsertarProducto(txbCod.Text, txbNombre.Text, txbPrecio.Text, cbCateogria.SelectedItem.ToString(), arr);
+            try
+            {
+                if (pbxProd.Image!=null)
+                {
+                    Image img = pbxProd.Image;
+                    byte[] arr;
+                    ImageConverter ic = new ImageConverter();
+                    arr = (byte[])ic.ConvertTo(img, typeof(byte[]));
+                    objA.InsertarProducto(txbCod.Text, txbNombre.Text, txbPrecio.Text, cbCateogria.SelectedItem.ToString(), arr);
+                    MessageBox.Show("Datos ingresados con éxito");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Ingrese una imagen");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("No se puede almacenar los datos ingresados");
+            }
 
         }
 
@@ -49,7 +64,6 @@ namespace WFInicioFacturación
 
         private void AddProducto_Load(object sender, EventArgs e)
         {
-            cbCateogria.SelectedItem = "Comida";
             txbCod.Text= objA.ObtenerCodCliente().ToString();
         }
     }

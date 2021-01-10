@@ -35,9 +35,8 @@ namespace WFInicioFacturación
             }
             catch
             {
-
+                MessageBox.Show("No se puede realizar esta acción");
             }
-            
         }
 
         private void ModifyCliente_Load(object sender, EventArgs e)

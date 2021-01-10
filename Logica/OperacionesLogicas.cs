@@ -93,9 +93,9 @@ namespace Logica
             objOpe.InsertarProducto(Convert.ToInt16 (_id), _nom, Convert.ToDouble(_prec), _cat,_img);
         }
 
-        public void EditarProducto(string _id, string _nom, string _prec, byte[] _img)
+        public void EditarProducto(string _id, string _nom, string _prec, string _cat, byte[] _img)
         {
-            objOpe.EditarProducto(Convert.ToInt16(_id), _nom, Convert.ToDouble(_prec), _img);
+            objOpe.EditarProducto(Convert.ToInt16(_id), _nom, Convert.ToDouble(_prec), _cat, _img);
         }
         public void EliminarProducto(string _id)
         {
@@ -112,6 +112,11 @@ namespace Logica
         public void InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago)
         {
             objOpe.InsertarNuevaOrden(Convert.ToInt16(_id), Convert.ToInt16(_idP), Convert.ToInt16(_idC), Convert.ToInt16(_cant), Convert.ToDouble(_sub), Convert.ToChar(_pago));
+        }
+
+        public DataTable OrdenesRecientes()
+        {
+            return objOpe.OrdenesRecientes();
         }
     }
 }

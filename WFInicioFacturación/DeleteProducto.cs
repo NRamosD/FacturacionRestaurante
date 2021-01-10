@@ -32,7 +32,7 @@ namespace WFInicioFacturación
                 arr = (byte[])tabla.Rows[0][5];
                 System.IO.MemoryStream ms = new System.IO.MemoryStream(arr);
                 pbxProd.Image = Image.FromStream(ms);
-
+                btnConfirmar.Visible = true;
             }
             else
             {
@@ -43,17 +43,24 @@ namespace WFInicioFacturación
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            if(MessageBox.Show("¿Desea eliminar el producto?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.OK)
+            try
             {
-                objP.EliminarProducto(txbCod.Text);
-                MessageBox.Show("Producto eliminado exitosamente");
-                this.Close();
+                if (MessageBox.Show("¿Desea eliminar el producto?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    objP.EliminarProducto(txbCod.Text);
+                    MessageBox.Show("Producto eliminado exitosamente");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("No se ha eliminado el producto");
+                    this.Close();
+                }
             }
-            else
+            catch
             {
-                MessageBox.Show("No se ha eliminado el producto");
-                this.Close();
-            }  
+                MessageBox.Show("No se puede realizar esta acción");
+            }
         }
     }
 }

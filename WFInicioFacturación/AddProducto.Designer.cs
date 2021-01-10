@@ -144,8 +144,8 @@
             this.cbCateogria.FormattingEnabled = true;
             this.cbCateogria.ItemHeight = 13;
             this.cbCateogria.Items.AddRange(new object[] {
-            "Bebida",
-            "Comida"});
+            "C",
+            "B"});
             this.cbCateogria.Location = new System.Drawing.Point(226, 291);
             this.cbCateogria.Name = "cbCateogria";
             this.cbCateogria.Size = new System.Drawing.Size(69, 21);

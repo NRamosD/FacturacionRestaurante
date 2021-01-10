@@ -14,6 +14,7 @@ namespace WFInicioFacturación
     public partial class factura : Form
     {
         string[,] ordenfact;
+        string compra = "";
         OperacionesLogicas Log = new OperacionesLogicas();
         public factura(string [,] orden)
         {
@@ -46,6 +47,7 @@ namespace WFInicioFacturación
             int i = 0;
             while (ordenfact[i,0]!=null)
             {
+                //compra += ordenfact[i, 0]+" "+ ordenfact[i, 1] + " " + ordenfact[i, 2] + " " ;
                 dgvFactura.Rows.Add(ordenfact[i,0], ordenfact[i, 1], ordenfact[i, 2]);
                 i++;
             }
@@ -78,6 +80,18 @@ namespace WFInicioFacturación
 
         private void btnTerminar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                
+                int id = Log.NuevaOrden();
+                //Log.InsertarOrden(id, compra, txtCi.Text, ordenfact[i, 1], string _sub, string _pago);
+
+                MessageBox.Show("Orden registrada exitosamente.", "Listo");
+            }
+            catch(Exception exc)
+            {
+                MessageBox.Show("Ha ocurrido un error :(.", "Lo sentimos");
+            }
             //Log.InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago);
             this.Close();
             Form1 o = new Form1();

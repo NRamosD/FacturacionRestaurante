@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logica;
 
 namespace WFInicioFacturación
 {
     public partial class Form1 : Form
     {
-
+        OperacionesLogicas objOp = new OperacionesLogicas();
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +22,7 @@ namespace WFInicioFacturación
         private void Form1_Load(object sender, EventArgs e)
         {
             PanelOptions.Visible = false;
+            dataGridView1.DataSource = objOp.OrdenesRecientes();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -75,7 +77,7 @@ namespace WFInicioFacturación
 
         private void btnAct_Click(object sender, EventArgs e)
         {
-            //Actulizar el dgv con los datos de la tabla ordenes
+            //falta actualziar el dgv
         }
     }
 }
