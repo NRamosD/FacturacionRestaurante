@@ -25,18 +25,15 @@ namespace Logica
         }
         public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
         {
-<<<<<<< HEAD
             try
             {
-                objOpe.InsertarCliente(Convert.ToInt16(_id), Convert.ToChar(_ci), _fn, _ln, _cp.ToCharArray(), _ed, _dir, _sexo);
-            }catch(Exception exc)
+                objOpe.InsertarCliente(Convert.ToInt16(_id), _ci, _fn, _ln, _cp, _ed, _dir, _sexo);
+            }
+            catch(Exception exc)
             {
                 Console.WriteLine("Error al ingresar: " + exc);
             }
             
-=======
-            objOpe.InsertarCliente(Convert.ToInt16(_id), _ci, _fn, _ln, _cp, _ed, _dir, _sexo);
->>>>>>> 83b2f563d682904e8e9a7e2d9004453f7874e505
         }
        
         public void EditarCliente(string _id, string _cp, string _ed, string _dir)
@@ -49,10 +46,10 @@ namespace Logica
         }
 
         //-------------------------------------------------------------------------------------------
-        public DataTable MostrarDatosProducto(string _id)
+        public DataTable MostrarDatosProducto(int _id)
         {
             DataTable tabla = new DataTable();
-            tabla = objOpe.MostrarProducto(Convert.ToInt16(_id));
+            tabla = objOpe.MostrarProducto(_id);
             return tabla;
         }
 

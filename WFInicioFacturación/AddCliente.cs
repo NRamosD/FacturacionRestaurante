@@ -34,14 +34,10 @@ namespace WFInicioFacturación
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             //MessageBox.Show(txbCod.Text + txbID.Text + txbNombre.Text + txbApellido.Text  + txbTelef.Text + tbCorreo.Text + txbDireecion.Text + txbSexo.Text);
             
-            objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, char.Parse(txbSexo.Text));
-=======
-            MessageBox.Show(txbCod.Text + " " + txbID.Text + " " + txbNombre.Text + " " +  txbApellido.Text + " " + txbTelef.Text + " " + tbCorreo.Text + " " + txbDireecion.Text + " " + txbSexo.Text);
             objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, txbSexo.Text);
->>>>>>> 83b2f563d682904e8e9a7e2d9004453f7874e505
+
             
             //try
             //{

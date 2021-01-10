@@ -12,9 +12,11 @@ namespace WFInicioFacturación
 {
     public partial class factura : Form
     {
-        public factura()
+        string[,] ordenfact;
+        public factura(string [,] orden)
         {
             InitializeComponent();
+            ordenfact = orden;
         }
 
         private void gbTipoCliente_Enter(object sender, EventArgs e)
@@ -39,6 +41,12 @@ namespace WFInicioFacturación
             txtCi.Enabled = false;
             tbcvv.Enabled = false;
             tbNumTarjeta.Enabled = false;
+            int i = 0;
+            while (ordenfact[i,0]!=null)
+            {
+                dgvFactura.Rows.Add(ordenfact[i,0], ordenfact[i, 1], ordenfact[i, 2]);
+                i++;
+            }
         }
 
         private void gbDatosCliente_Enter(object sender, EventArgs e)

@@ -45,11 +45,7 @@ namespace BD
             return Convert.ToInt16(id.Rows[0][0]);
         }
 
-<<<<<<< HEAD
-        public void InsertarCliente(int _id, char _ci, string _fn, string _ln, char [] _cp, string _ed, string _dir, char _sexo)
-=======
         public void InsertarCliente(int _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
->>>>>>> 83b2f563d682904e8e9a7e2d9004453f7874e505
         {
             try
             {
@@ -72,7 +68,7 @@ namespace BD
             {
                 return;
             }
-}
+        }
 
         public void EditarCliente(int _id, string _cp, string _ed, string _dir)
         {

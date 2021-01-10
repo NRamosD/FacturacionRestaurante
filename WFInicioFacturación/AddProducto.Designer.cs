@@ -143,8 +143,8 @@
             this.cbCateogria.FormattingEnabled = true;
             this.cbCateogria.ItemHeight = 13;
             this.cbCateogria.Items.AddRange(new object[] {
-            "P",
-            "B"});
+            "Bebida",
+            "Comida"});
             this.cbCateogria.Location = new System.Drawing.Point(226, 291);
             this.cbCateogria.Name = "cbCateogria";
             this.cbCateogria.Size = new System.Drawing.Size(135, 21);
@@ -207,6 +207,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddProducto";
             this.Text = "AddProducto";
+            this.Load += new System.EventHandler(this.AddProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxProd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
