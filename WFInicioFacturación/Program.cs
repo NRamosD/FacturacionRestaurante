@@ -17,7 +17,7 @@ namespace WFInicioFacturación
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new Buscar_Prod());
+            Application.Run(new FrmLogin());
 
         }
     }
