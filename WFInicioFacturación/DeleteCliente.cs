@@ -55,11 +55,18 @@ namespace WFInicioFacturación
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            if(MessageBox.Show("¿Está seguro que desea eliminar los datos del cliente?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            try
             {
-                objOp.EliminarCliente(txbCod.Text);
-                MessageBox.Show("Cliente eliminado con éxito");
-                this.Close();
+                if(MessageBox.Show("¿Está seguro que desea eliminar los datos del cliente?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    objOp.EliminarCliente(txbCod.Text);
+                    MessageBox.Show("Cliente eliminado con éxito");
+                    this.Close();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("No se puede realizar esta acción");
             }
         }
     }

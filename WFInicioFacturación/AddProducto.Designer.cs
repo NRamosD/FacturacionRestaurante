@@ -144,7 +144,7 @@
             this.cbCateogria.FormattingEnabled = true;
             this.cbCateogria.ItemHeight = 13;
             this.cbCateogria.Items.AddRange(new object[] {
-            "P",
+            "C",
             "B"});
             this.cbCateogria.Location = new System.Drawing.Point(226, 291);
             this.cbCateogria.Name = "cbCateogria";

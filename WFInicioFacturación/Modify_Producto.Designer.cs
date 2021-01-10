@@ -62,6 +62,7 @@
             this.pbxProd.Location = new System.Drawing.Point(134, 59);
             this.pbxProd.Name = "pbxProd";
             this.pbxProd.Size = new System.Drawing.Size(141, 87);
+            this.pbxProd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxProd.TabIndex = 90;
             this.pbxProd.TabStop = false;
             // 
@@ -188,7 +189,7 @@
             this.cbCategoria.FormattingEnabled = true;
             this.cbCategoria.ItemHeight = 13;
             this.cbCategoria.Items.AddRange(new object[] {
-            "P",
+            "C",
             "B"});
             this.cbCategoria.Location = new System.Drawing.Point(223, 294);
             this.cbCategoria.Name = "cbCategoria";

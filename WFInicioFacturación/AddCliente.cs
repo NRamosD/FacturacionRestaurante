@@ -34,12 +34,11 @@ namespace WFInicioFacturación
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-
             try
             {
                 objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, cbSexo.Text);
                 MessageBox.Show("Datos ingresados con éxito");
-            
+           
             }
             catch
             {

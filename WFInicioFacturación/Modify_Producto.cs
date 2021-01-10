@@ -26,7 +26,14 @@ namespace WFInicioFacturación
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-
+            using (OpenFileDialog ofd = new OpenFileDialog())
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    pbxProd.Image = Image.FromFile(ofd.FileName);
+                    pbxProd.SizeMode = PictureBoxSizeMode.StretchImage;
+                }
+            }
         }
 
         private void txbCod_TextChanged(object sender, EventArgs e)
@@ -61,12 +68,13 @@ namespace WFInicioFacturación
         {
             try
             {
-                if(MessageBox.Show("¿Desea confirmar los cambios?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK){
+                if (MessageBox.Show("¿Desea confirmar los cambios?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
                     Image img = pbxProd.Image;
                     byte[] arr;
                     ImageConverter ic = new ImageConverter();
                     arr = (byte[])ic.ConvertTo(img, typeof(byte[]));
-                    objP.EditarProducto(txbCod.Text, txbNombre.Text, txbPrecio.Text, arr);
+                    objP.EditarProducto(txbCod.Text, txbNombre.Text, txbPrecio.Text, cbCategoria.Text, arr);
                     MessageBox.Show("Cambios efectuados exitosamente");
                     this.Close();
                 }
@@ -74,11 +82,11 @@ namespace WFInicioFacturación
                 {
                     MessageBox.Show("No se han realizado los cambios");
                     this.Close();
-                }  
+                }
             }
             catch
             {
-                MessageBox.Show("Error");
+                MessageBox.Show("No se puede realizar esta acción");
             }
         }
     }
