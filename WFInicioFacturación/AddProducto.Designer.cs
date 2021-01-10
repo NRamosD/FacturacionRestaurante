@@ -81,6 +81,7 @@
             // 
             this.txbCod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbCod.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbCod.Enabled = false;
             this.txbCod.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCod.Location = new System.Drawing.Point(226, 163);
             this.txbCod.Margin = new System.Windows.Forms.Padding(2);
@@ -147,8 +148,8 @@
             "Comida"});
             this.cbCateogria.Location = new System.Drawing.Point(226, 291);
             this.cbCateogria.Name = "cbCateogria";
-            this.cbCateogria.Size = new System.Drawing.Size(135, 21);
-            this.cbCateogria.TabIndex = 78;
+            this.cbCateogria.Size = new System.Drawing.Size(69, 21);
+            this.cbCateogria.TabIndex = 4;
             this.cbCateogria.SelectedIndexChanged += new System.EventHandler(this.cbCateogria_SelectedIndexChanged);
             // 
             // pbxProd
@@ -181,7 +182,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(284, 65);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(66, 21);
-            this.btnCancelar.TabIndex = 84;
+            this.btnCancelar.TabIndex = 5;
             this.btnCancelar.Text = "Buscar";
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);

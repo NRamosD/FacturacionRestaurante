@@ -34,19 +34,15 @@ namespace WFInicioFacturación
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show(txbCod.Text + txbID.Text + txbNombre.Text + txbApellido.Text  + txbTelef.Text + tbCorreo.Text + txbDireecion.Text + txbSexo.Text);
-            
-            objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, txbSexo.Text);
-
-            
-            //try
-            //{
-            //    objA.InsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, txbSexo.Text);
-            //}
-            //catch
-            //{
-            //    MessageBox.Show("No se puede almacenar los datos ingresados");
-            //}
+            try
+            {
+                objA.OpInsertarCliente(txbCod.Text, txbID.Text, txbNombre.Text, txbApellido.Text, txbTelef.Text, tbCorreo.Text, txbDireecion.Text, cbSexo.Text);
+                MessageBox.Show("Datos ingresados con éxito");
+            }
+            catch
+            {
+                MessageBox.Show("No se puede almacenar los datos ingresados");
+            }
         }
     }
 }

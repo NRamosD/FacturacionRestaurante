@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logica;
 
 namespace WFInicioFacturación
 {
     public partial class factura : Form
     {
         string[,] ordenfact;
+        OperacionesLogicas Log = new OperacionesLogicas();
         public factura(string [,] orden)
         {
             InitializeComponent();
@@ -76,6 +78,7 @@ namespace WFInicioFacturación
 
         private void btnTerminar_Click(object sender, EventArgs e)
         {
+            //Log.InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago);
             this.Close();
             Form1 o = new Form1();
             o.Show();

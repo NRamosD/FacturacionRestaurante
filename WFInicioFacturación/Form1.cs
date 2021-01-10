@@ -72,5 +72,10 @@ namespace WFInicioFacturación
         {
             Application.Exit();
         }
+
+        private void btnAct_Click(object sender, EventArgs e)
+        {
+            //Actulizar el dgv con los datos de la tabla ordenes
+        }
     }
 }

@@ -30,7 +30,6 @@
         {
             this.label7 = new System.Windows.Forms.Label();
             this.pbxProd = new System.Windows.Forms.PictureBox();
-            this.cbCateogria = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txbPrecio = new System.Windows.Forms.TextBox();
             this.txbNombre = new System.Windows.Forms.TextBox();
@@ -40,6 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.cbCategoria = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxProd)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,19 +64,6 @@
             this.pbxProd.Size = new System.Drawing.Size(141, 87);
             this.pbxProd.TabIndex = 90;
             this.pbxProd.TabStop = false;
-            // 
-            // cbCateogria
-            // 
-            this.cbCateogria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.cbCateogria.Enabled = false;
-            this.cbCateogria.FormattingEnabled = true;
-            this.cbCateogria.Items.AddRange(new object[] {
-            "Platillo",
-            "Bebida"});
-            this.cbCateogria.Location = new System.Drawing.Point(223, 294);
-            this.cbCateogria.Name = "cbCateogria";
-            this.cbCateogria.Size = new System.Drawing.Size(135, 21);
-            this.cbCateogria.TabIndex = 89;
             // 
             // label6
             // 
@@ -124,6 +111,7 @@
             this.txbCod.Name = "txbCod";
             this.txbCod.Size = new System.Drawing.Size(135, 19);
             this.txbCod.TabIndex = 87;
+            this.txbCod.TextChanged += new System.EventHandler(this.txbCod_TextChanged);
             // 
             // label3
             // 
@@ -172,6 +160,8 @@
             this.btnConfirmar.TabIndex = 91;
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = false;
+            this.btnConfirmar.Visible = false;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // btnCancelar
             // 
@@ -192,16 +182,29 @@
             this.btnCancelar.Visible = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // cbCategoria
+            // 
+            this.cbCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.cbCategoria.FormattingEnabled = true;
+            this.cbCategoria.ItemHeight = 13;
+            this.cbCategoria.Items.AddRange(new object[] {
+            "P",
+            "B"});
+            this.cbCategoria.Location = new System.Drawing.Point(223, 294);
+            this.cbCategoria.Name = "cbCategoria";
+            this.cbCategoria.Size = new System.Drawing.Size(69, 21);
+            this.cbCategoria.TabIndex = 93;
+            // 
             // Modify_Producto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(136)))));
             this.ClientSize = new System.Drawing.Size(409, 375);
+            this.Controls.Add(this.cbCategoria);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.pbxProd);
-            this.Controls.Add(this.cbCateogria);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txbPrecio);
             this.Controls.Add(this.txbNombre);
@@ -223,7 +226,6 @@
         #endregion
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pbxProd;
-        private System.Windows.Forms.ComboBox cbCateogria;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txbPrecio;
         private System.Windows.Forms.TextBox txbNombre;
@@ -233,5 +235,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.ComboBox cbCategoria;
     }
 }

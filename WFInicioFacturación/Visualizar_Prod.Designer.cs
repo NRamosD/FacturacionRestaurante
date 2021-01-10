@@ -46,7 +46,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(60, 282);
+            this.label6.Location = new System.Drawing.Point(47, 282);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 19);
@@ -59,10 +59,10 @@
             this.txbPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbPrecio.Enabled = false;
             this.txbPrecio.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbPrecio.Location = new System.Drawing.Point(232, 240);
+            this.txbPrecio.Location = new System.Drawing.Point(156, 242);
             this.txbPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.txbPrecio.Name = "txbPrecio";
-            this.txbPrecio.Size = new System.Drawing.Size(135, 19);
+            this.txbPrecio.Size = new System.Drawing.Size(210, 19);
             this.txbPrecio.TabIndex = 82;
             this.txbPrecio.TextChanged += new System.EventHandler(this.txbPrecio_TextChanged);
             // 
@@ -72,10 +72,10 @@
             this.txbNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNombre.Enabled = false;
             this.txbNombre.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbNombre.Location = new System.Drawing.Point(232, 201);
+            this.txbNombre.Location = new System.Drawing.Point(156, 203);
             this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txbNombre.Name = "txbNombre";
-            this.txbNombre.Size = new System.Drawing.Size(135, 19);
+            this.txbNombre.Size = new System.Drawing.Size(210, 19);
             this.txbNombre.TabIndex = 83;
             // 
             // txbCod
@@ -84,10 +84,10 @@
             this.txbCod.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbCod.Enabled = false;
             this.txbCod.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCod.Location = new System.Drawing.Point(232, 159);
+            this.txbCod.Location = new System.Drawing.Point(156, 161);
             this.txbCod.Margin = new System.Windows.Forms.Padding(2);
             this.txbCod.Name = "txbCod";
-            this.txbCod.Size = new System.Drawing.Size(135, 19);
+            this.txbCod.Size = new System.Drawing.Size(210, 19);
             this.txbCod.TabIndex = 84;
             // 
             // label3
@@ -95,7 +95,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(60, 240);
+            this.label3.Location = new System.Drawing.Point(47, 240);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 19);
@@ -107,7 +107,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(60, 202);
+            this.label2.Location = new System.Drawing.Point(47, 202);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 19);
@@ -119,7 +119,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(60, 161);
+            this.label1.Location = new System.Drawing.Point(47, 161);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 19);
@@ -132,10 +132,10 @@
             this.txbCategoria.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbCategoria.Enabled = false;
             this.txbCategoria.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbCategoria.Location = new System.Drawing.Point(232, 282);
+            this.txbCategoria.Location = new System.Drawing.Point(156, 284);
             this.txbCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.txbCategoria.Name = "txbCategoria";
-            this.txbCategoria.Size = new System.Drawing.Size(135, 19);
+            this.txbCategoria.Size = new System.Drawing.Size(210, 19);
             this.txbCategoria.TabIndex = 82;
             this.txbCategoria.TextChanged += new System.EventHandler(this.txbPrecio_TextChanged);
             // 
@@ -166,6 +166,7 @@
             this.pbxProd.Location = new System.Drawing.Point(115, 12);
             this.pbxProd.Name = "pbxProd";
             this.pbxProd.Size = new System.Drawing.Size(180, 125);
+            this.pbxProd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxProd.TabIndex = 88;
             this.pbxProd.TabStop = false;
             // 
@@ -187,6 +188,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Visualizar_Prod";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Visualizar_Prod";
             this.Load += new System.EventHandler(this.Visualizar_Prod_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxProd)).EndInit();
@@ -197,14 +199,14 @@
 
         #endregion
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txbPrecio;
-        private System.Windows.Forms.TextBox txbNombre;
-        private System.Windows.Forms.TextBox txbCod;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private FontAwesome.Sharp.IconButton btnAceptar;
-        private System.Windows.Forms.TextBox txbCategoria;
-        private System.Windows.Forms.PictureBox pbxProd;
+        public System.Windows.Forms.TextBox txbPrecio;
+        public System.Windows.Forms.TextBox txbNombre;
+        public System.Windows.Forms.TextBox txbCod;
+        public System.Windows.Forms.TextBox txbCategoria;
+        public System.Windows.Forms.PictureBox pbxProd;
     }
 }

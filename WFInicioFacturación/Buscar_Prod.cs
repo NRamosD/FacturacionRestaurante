@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logica;
 
 namespace WFInicioFacturación
 {
@@ -16,11 +17,39 @@ namespace WFInicioFacturación
         {
             InitializeComponent();
         }
-
-        private void btnAceptar_Click(object sender, EventArgs e)
+        OperacionesLogicas objP = new OperacionesLogicas();
+        private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            Visualizar_Prod frmAbrir = new Visualizar_Prod();
-            frmAbrir.Show();
+            try
+            {
+                Visualizar_Prod frmAbrir = new Visualizar_Prod();
+                objP.MostrarDatosProducto(int.Parse(txbCod.Text)); Visualizar objA = new Visualizar();
+                DataTable tabla = new DataTable();
+                tabla = objP.MostrarDatosProducto(int.Parse(txbCod.Text));
+                if (tabla.Rows.Count > 0)
+                {
+
+                    byte[] arr;
+                    frmAbrir.txbCod.Text = tabla.Rows[0][0].ToString();
+                    frmAbrir.txbNombre.Text = tabla.Rows[0][1].ToString();
+                    frmAbrir.txbPrecio.Text = tabla.Rows[0][2].ToString();
+                    frmAbrir.txbCategoria.Text = tabla.Rows[0][3].ToString();
+                    arr = (byte[])tabla.Rows[0][5];
+                    System.IO.MemoryStream ms = new System.IO.MemoryStream(arr);
+                    frmAbrir.pbxProd.Image = Image.FromStream(ms);
+                    frmAbrir.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Producto no encontrado");
+                    txbCod.Clear();
+                }
+            }
+            catch 
+            {
+                MessageBox.Show("Datos mal ingresados");
+            }
         }
     }
 }

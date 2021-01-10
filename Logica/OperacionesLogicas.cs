@@ -13,23 +13,29 @@ namespace Logica
     {
         
         private operaciones objOpe = new operaciones();
+        DataTable tabla = new DataTable();
         public int ObtenerCodCliente()
         {
             return objOpe.CrearNuevoIdCliente();
         }
         public DataTable MostrarDatosCliente(string _ci)
         {
-            DataTable tabla = new DataTable();
-            tabla = objOpe.MostrarCliente( _ci);
-            return tabla;
+            try
+            {
+                tabla = objOpe.MostrarCliente(_ci);
+                return tabla;
+            }
+            catch(Exception)
+            {
+                return tabla;
+            }
         }
         public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
         {
             try
             {
-                objOpe.InsertarCliente(Convert.ToInt16(_id), _ci, _fn, _ln, _cp, _ed, _dir, _sexo);
-            }
-            catch(Exception exc)
+                objOpe.InsertarCliente(Convert.ToInt16 (_id), _ci, _fn, _ln, _cp, _ed, _dir, _sexo);
+            }catch(Exception exc)
             {
                 Console.WriteLine("Error al ingresar: " + exc);
             }
@@ -38,11 +44,26 @@ namespace Logica
        
         public void EditarCliente(string _id, string _cp, string _ed, string _dir)
         {
-            objOpe.EditarCliente(Convert.ToInt16(_id), _cp, _ed, _dir);
+            try
+            {
+                objOpe.EditarCliente(Convert.ToInt16(_id), _cp, _ed, _dir);
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine("Error al editar: " + exc);
+            }
         }
         public void EliminarCliente(string _id)
         {
-            objOpe.EliminarCliente(Convert.ToInt16(_id));
+            try
+            {
+                objOpe.EliminarCliente(Convert.ToInt16(_id));
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine("Error al eliminar: " + exc);
+            }
+
         }
 
         //-------------------------------------------------------------------------------------------
@@ -67,12 +88,12 @@ namespace Logica
         {
             return objOpe.CrearNuevoIdProducto();
         }
-        public void InsertarProducto(int _id, string _nom, string _prec, string _cat, byte[] _img)
+        public void InsertarProducto(string _id, string _nom, string _prec, string _cat, byte[] _img)
         {
-            objOpe.InsertarProducto(_id, _nom, Convert.ToDouble(_prec), _cat,_img);
+            objOpe.InsertarProducto(Convert.ToInt16 (_id), _nom, Convert.ToDouble(_prec), _cat,_img);
         }
 
-        public void EditarProducto(int _id, string _nom, double _prec, byte[] _img)
+        public void EditarProducto(string _id, string _nom, string _prec, byte[] _img)
         {
             objOpe.EditarProducto(Convert.ToInt16(_id), _nom, Convert.ToDouble(_prec), _img);
         }

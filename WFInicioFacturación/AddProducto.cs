@@ -37,10 +37,9 @@ namespace WFInicioFacturación
             byte [] arr;
             ImageConverter ic = new ImageConverter();
             arr = (byte[])ic.ConvertTo(img, typeof(byte[]));
-
             string categoria = cbCateogria.SelectedItem.ToString();
-            objA.InsertarProducto(int.Parse(txbCod.Text), txbNombre.Text, txbPrecio.Text, categoria[0].ToString(), arr);
-            MessageBox.Show(cbCateogria.SelectedItem.ToString());
+            objA.InsertarProducto(txbCod.Text, txbNombre.Text, txbPrecio.Text, cbCateogria.SelectedItem.ToString(), arr);
+
         }
 
         private void cbCateogria_SelectedIndexChanged(object sender, EventArgs e)
@@ -51,6 +50,7 @@ namespace WFInicioFacturación
         private void AddProducto_Load(object sender, EventArgs e)
         {
             cbCateogria.SelectedItem = "Comida";
+            txbCod.Text= objA.ObtenerCodCliente().ToString();
         }
     }
 }

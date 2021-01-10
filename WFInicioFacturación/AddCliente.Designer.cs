@@ -39,13 +39,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txbTelef = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txbSexo = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.tbCorreo = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txbID = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.cbSexo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label7
@@ -82,8 +82,7 @@
             this.txbDireecion.Margin = new System.Windows.Forms.Padding(2);
             this.txbDireecion.Name = "txbDireecion";
             this.txbDireecion.Size = new System.Drawing.Size(135, 19);
-            this.txbDireecion.TabIndex = 46;
-            this.txbDireecion.Text = "asdfasd";
+            this.txbDireecion.TabIndex = 47;
             // 
             // txbApellido
             // 
@@ -94,8 +93,7 @@
             this.txbApellido.Margin = new System.Windows.Forms.Padding(2);
             this.txbApellido.Name = "txbApellido";
             this.txbApellido.Size = new System.Drawing.Size(135, 19);
-            this.txbApellido.TabIndex = 43;
-            this.txbApellido.Text = "asdfasdf";
+            this.txbApellido.TabIndex = 44;
             // 
             // txbNombre
             // 
@@ -106,8 +104,7 @@
             this.txbNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txbNombre.Name = "txbNombre";
             this.txbNombre.Size = new System.Drawing.Size(135, 19);
-            this.txbNombre.TabIndex = 42;
-            this.txbNombre.Text = "asdfasdf";
+            this.txbNombre.TabIndex = 43;
             // 
             // txbCod
             // 
@@ -120,7 +117,6 @@
             this.txbCod.Name = "txbCod";
             this.txbCod.Size = new System.Drawing.Size(135, 19);
             this.txbCod.TabIndex = 41;
-            this.txbCod.Text = "1";
             // 
             // label3
             // 
@@ -167,8 +163,7 @@
             this.txbTelef.Margin = new System.Windows.Forms.Padding(2);
             this.txbTelef.Name = "txbTelef";
             this.txbTelef.Size = new System.Drawing.Size(135, 19);
-            this.txbTelef.TabIndex = 44;
-            this.txbTelef.Text = "1234567890";
+            this.txbTelef.TabIndex = 45;
             // 
             // label6
             // 
@@ -179,21 +174,8 @@
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 19);
-            this.label6.TabIndex = 46;
+            this.label6.TabIndex = 80;
             this.label6.Text = "Teléfono";
-            // 
-            // txbSexo
-            // 
-            this.txbSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.txbSexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSexo.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbSexo.Location = new System.Drawing.Point(228, 305);
-            this.txbSexo.Margin = new System.Windows.Forms.Padding(2);
-            this.txbSexo.MaxLength = 1;
-            this.txbSexo.Name = "txbSexo";
-            this.txbSexo.Size = new System.Drawing.Size(135, 19);
-            this.txbSexo.TabIndex = 47;
-            this.txbSexo.Text = "M";
             // 
             // label8
             // 
@@ -213,7 +195,7 @@
             this.btnConfirmar.FlatAppearance.BorderSize = 0;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmar.Location = new System.Drawing.Point(162, 332);
+            this.btnConfirmar.Location = new System.Drawing.Point(146, 332);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
             this.btnConfirmar.TabIndex = 65;
@@ -230,8 +212,7 @@
             this.tbCorreo.Margin = new System.Windows.Forms.Padding(2);
             this.tbCorreo.Name = "tbCorreo";
             this.tbCorreo.Size = new System.Drawing.Size(135, 19);
-            this.tbCorreo.TabIndex = 45;
-            this.tbCorreo.Text = "cm1105@yahoo.com";
+            this.tbCorreo.TabIndex = 46;
             // 
             // label4
             // 
@@ -254,8 +235,7 @@
             this.txbID.Margin = new System.Windows.Forms.Padding(2);
             this.txbID.Name = "txbID";
             this.txbID.Size = new System.Drawing.Size(135, 19);
-            this.txbID.TabIndex = 80;
-            this.txbID.Text = "0601615354";
+            this.txbID.TabIndex = 42;
             // 
             // label9
             // 
@@ -269,12 +249,25 @@
             this.label9.TabIndex = 79;
             this.label9.Text = "Cédula";
             // 
+            // cbSexo
+            // 
+            this.cbSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.cbSexo.FormattingEnabled = true;
+            this.cbSexo.Items.AddRange(new object[] {
+            "F",
+            "M"});
+            this.cbSexo.Location = new System.Drawing.Point(228, 305);
+            this.cbSexo.Name = "cbSexo";
+            this.cbSexo.Size = new System.Drawing.Size(51, 21);
+            this.cbSexo.TabIndex = 48;
+            // 
             // AddCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(409, 375);
+            this.Controls.Add(this.cbSexo);
             this.Controls.Add(this.txbID);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.tbCorreo);
@@ -283,7 +276,6 @@
             this.Controls.Add(this.txbTelef);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.txbSexo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txbDireecion);
             this.Controls.Add(this.txbApellido);
@@ -315,7 +307,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txbTelef;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txbSexo;
         private System.Windows.Forms.Label label8;
 
         private System.Windows.Forms.Button btnConfirmar;
@@ -323,5 +314,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txbID;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox cbSexo;
     }
 }
