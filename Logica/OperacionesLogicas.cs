@@ -20,11 +20,12 @@ namespace Logica
         public DataTable MostrarDatosCliente(string _ci)
         {
             DataTable tabla = new DataTable();
-            tabla = objOpe.MostrarCliente( Convert.ToChar(_ci));
+            tabla = objOpe.MostrarCliente( _ci);
             return tabla;
         }
-        public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, char _sexo)
+        public void OpInsertarCliente(string _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
         {
+<<<<<<< HEAD
             try
             {
                 objOpe.InsertarCliente(Convert.ToInt16(_id), Convert.ToChar(_ci), _fn, _ln, _cp.ToCharArray(), _ed, _dir, _sexo);
@@ -33,11 +34,14 @@ namespace Logica
                 Console.WriteLine("Error al ingresar: " + exc);
             }
             
+=======
+            objOpe.InsertarCliente(Convert.ToInt16(_id), _ci, _fn, _ln, _cp, _ed, _dir, _sexo);
+>>>>>>> 83b2f563d682904e8e9a7e2d9004453f7874e505
         }
        
         public void EditarCliente(string _id, string _cp, string _ed, string _dir)
         {
-            objOpe.EditarCliente(Convert.ToInt16(_id), Convert.ToChar(_cp), _ed, _dir);
+            objOpe.EditarCliente(Convert.ToInt16(_id), _cp, _ed, _dir);
         }
         public void EliminarCliente(string _id)
         {

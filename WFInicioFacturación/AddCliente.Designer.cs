@@ -187,7 +187,7 @@
             this.txbSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txbSexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSexo.Font = new System.Drawing.Font("Rockwell", 12F);
-            this.txbSexo.Location = new System.Drawing.Point(228, 304);
+            this.txbSexo.Location = new System.Drawing.Point(228, 305);
             this.txbSexo.Margin = new System.Windows.Forms.Padding(2);
             this.txbSexo.MaxLength = 1;
             this.txbSexo.Name = "txbSexo";

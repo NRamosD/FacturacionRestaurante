@@ -9,7 +9,11 @@ namespace BD
 {
     class conexion
     {
+<<<<<<< HEAD
         public string cadena = "Data Source =NR; Initial Catalog = Invoice; Integrated Security = true";
+=======
+        public string cadena = "Data Source = DESKTOP-8BF136O; Initial Catalog = Invoice; Integrated Security = true";
+>>>>>>> 83b2f563d682904e8e9a7e2d9004453f7874e505
         public SqlConnection conectar = new SqlConnection();
 
         public conexion()

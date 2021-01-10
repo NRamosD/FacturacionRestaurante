@@ -16,7 +16,7 @@ namespace BD
         DataTable tabla = new DataTable();
         MySqlCommand comando = new MySqlCommand();
 
-        public DataTable MostrarCliente(char _ci)
+        public DataTable MostrarCliente(string _ci)
         {
             try
             {
@@ -41,15 +41,19 @@ namespace BD
             DataTable id = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(command);
             da.Fill(id);
-
+            objConnection.cerrar();
             return Convert.ToInt16(id.Rows[0][0]);
         }
 
+<<<<<<< HEAD
         public void InsertarCliente(int _id, char _ci, string _fn, string _ln, char [] _cp, string _ed, string _dir, char _sexo)
+=======
+        public void InsertarCliente(int _id, string _ci, string _fn, string _ln, string _cp, string _ed, string _dir, string _sexo)
+>>>>>>> 83b2f563d682904e8e9a7e2d9004453f7874e505
         {
-            //try
-            //{
-                objConnection.abrir();
+            try
+            {
+                    objConnection.abrir();
                 SqlCommand command = new SqlCommand(
                     "INSERT INTO [dbo].[Customers] (intId_Customer, txtId_Card, txtFirst_Name, txtLast_Name, txtCell_Phone, txtEmail_Direction, txtDirection, txtSex)" +
                     "VALUES(@id, @ci, @fn, @ln, @cp, @ed, @dir, @sexo) GO", objConnection.conectar);
@@ -63,32 +67,32 @@ namespace BD
                 command.Parameters.Add("@sexo", SqlDbType.Char, 1).Value = _sexo;
                 command.ExecuteNonQuery();
                 objConnection.cerrar();
-            //}
-            //catch (Exception)
-            //{
-            //    return;
-            //}
-        }
+            }
+            catch (Exception)
+            {
+                return;
+            }
+}
 
-        public void EditarCliente(int _id, char _cp, string _ed, string _dir)
+        public void EditarCliente(int _id, string _cp, string _ed, string _dir)
         {
             try
             {
                 objConnection.abrir();
                 SqlCommand command = new SqlCommand(
                     "UPDATE Customers SET " +
-                    "', txtCell_Phone = '" + _cp +
+                    "txtCell_Phone = '" + _cp +
                     "', txtEmail_Direction = '" + _ed +
                     "', txtDirection = '" + _dir +
-                    "' WHERE intId_Customer = " + _id + "GO", objConnection.conectar);
+                    "' WHERE intId_Customer = " + _id, objConnection.conectar);                
                 command.ExecuteNonQuery();
                 objConnection.cerrar();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return;
+                Console.WriteLine("-> Error" + ex);
             }
-        }
+}
 
         public void EliminarCliente(int _id)
         {
