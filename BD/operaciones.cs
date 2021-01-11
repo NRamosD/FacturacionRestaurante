@@ -287,7 +287,7 @@ namespace BD
 
         }
 
-        public void InsertarNuevaOrden(int _id, int _idP, int _idC, int _cant, double _sub, char _pago)
+        public void InsertarNuevaOrden(int _id, string _idP, string _idC, string _cant, string _sub, string _pago)
         {
             try
             {

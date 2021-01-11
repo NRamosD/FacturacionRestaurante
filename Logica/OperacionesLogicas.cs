@@ -109,9 +109,9 @@ namespace Logica
             return objOpe.CrearNuevoIdOrdem();
         }
 
-        public void InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago)
+        public void InsertarOrden(int _id, string _idP, string _idC, string _cant, string _sub, string _pago)
         {
-            objOpe.InsertarNuevaOrden(Convert.ToInt16(_id), Convert.ToInt16(_idP), Convert.ToInt16(_idC), Convert.ToInt16(_cant), Convert.ToDouble(_sub), Convert.ToChar(_pago));
+            objOpe.InsertarNuevaOrden(_id, _idP, _idC, _cant, _sub, _pago);
         }
 
         public DataTable OrdenesRecientes()

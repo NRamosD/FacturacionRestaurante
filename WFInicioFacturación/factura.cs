@@ -15,6 +15,7 @@ namespace WFInicioFacturación
     {
         string[,] ordenfact;
         string compra = "";
+        double total=0;
         OperacionesLogicas Log = new OperacionesLogicas();
         public factura(string [,] orden)
         {
@@ -32,16 +33,19 @@ namespace WFInicioFacturación
             if (rbCliente.Checked == true)
             {
                 txtCi.Enabled=true;
+                txtCi.Text = "";
             }
             else
             {
                 txtCi.Enabled = false;
+                txtCi.Text = "0000000000";
             }
         }
 
         private void factura_Load(object sender, EventArgs e)
         {
             txtCi.Enabled = false;
+            txtCi.Text = "0000000000";
             tbcvv.Enabled = false;
             tbNumTarjeta.Enabled = false;
             int i = 0;
@@ -49,8 +53,10 @@ namespace WFInicioFacturación
             {
                 //compra += ordenfact[i, 0]+" "+ ordenfact[i, 1] + " " + ordenfact[i, 2] + " " ;
                 dgvFactura.Rows.Add(ordenfact[i,0], ordenfact[i, 1], ordenfact[i, 2]);
+                total += double.Parse(ordenfact[i, 2]);
                 i++;
             }
+            lbtotal.Text = total.ToString();
         }
 
         private void gbDatosCliente_Enter(object sender, EventArgs e)
@@ -64,11 +70,15 @@ namespace WFInicioFacturación
             {
                 tbcvv.Enabled = true;
                 tbNumTarjeta.Enabled = true;
+                tbcvv.Text = "CVV";
+                tbNumTarjeta.Text = "Número de Tarjeta";
             }
             else
             {
                 tbcvv.Enabled = false;
                 tbNumTarjeta.Enabled = false;
+                tbcvv.Text = "";
+                tbNumTarjeta.Text = "";
             }
         }
 
@@ -82,20 +92,75 @@ namespace WFInicioFacturación
         {
             try
             {
-                
+                int i = 0;
                 int id = Log.NuevaOrden();
-                //Log.InsertarOrden(id, compra, txtCi.Text, ordenfact[i, 1], string _sub, string _pago);
-
+                string tipoPago;
+                if (rbEfectivo.Checked == true)
+                {
+                    tipoPago = "E";
+                }
+                else
+                {
+                    tipoPago = "T";
+                }
+                //MessageBox.Show("el id "+id+"\ndatos del producto "+ordenfact[0,0]+" "+ordenfact[0, 1] + " "+ ordenfact[0, 2] + " "+ ordenfact[0, 3]);
+                //InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago)
+                while (ordenfact[i, 3] != null)
+                {
+                    Log.InsertarOrden(id, ordenfact[i,3], txtCi.Text, ordenfact[i, 1], ordenfact[i, 2], tipoPago);
+                    i++;
+                }
                 MessageBox.Show("Orden registrada exitosamente.", "Listo");
+                this.Close();
+                Form1 o = new Form1();
+                o.Show();
+
             }
             catch(Exception exc)
             {
                 MessageBox.Show("Ha ocurrido un error :(.", "Lo sentimos");
             }
             //Log.InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago);
-            this.Close();
-            Form1 o = new Form1();
-            o.Show();
+            
+        }
+
+        private void rbConsumidorFinal_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCi_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void tbNumTarjeta_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void tbcvv_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtCi_TextChanged(object sender, EventArgs e)
+        {
+            if(txtCi.TextLength == 10)
+            {
+                DataTable tabla = new DataTable();
+                tabla = Log.MostrarDatosCliente(txtCi.Text);
+                lbNombre.Text = tabla.Rows[0][2].ToString() + " " + tabla.Rows[0][3].ToString();
+            }
         }
     }
 }

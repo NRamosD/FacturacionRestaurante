@@ -31,6 +31,9 @@ namespace WFInicioFacturación
         {
             this.gbFactura = new System.Windows.Forms.GroupBox();
             this.dgvFactura = new System.Windows.Forms.DataGridView();
+            this.colProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbDatosCliente = new System.Windows.Forms.GroupBox();
             this.lbNombre = new System.Windows.Forms.Label();
             this.txtCi = new System.Windows.Forms.TextBox();
@@ -39,7 +42,7 @@ namespace WFInicioFacturación
             this.rbConsumidorFinal = new System.Windows.Forms.RadioButton();
             this.rbCliente = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbtotal = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tbcvv = new System.Windows.Forms.TextBox();
@@ -48,9 +51,6 @@ namespace WFInicioFacturación
             this.rbTarjeta = new System.Windows.Forms.RadioButton();
             this.tbNumTarjeta = new System.Windows.Forms.TextBox();
             this.btnTerminar = new System.Windows.Forms.Button();
-            this.colProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbFactura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFactura)).BeginInit();
             this.gbDatosCliente.SuspendLayout();
@@ -86,6 +86,24 @@ namespace WFInicioFacturación
             this.dgvFactura.Size = new System.Drawing.Size(762, 174);
             this.dgvFactura.TabIndex = 0;
             // 
+            // colProducto
+            // 
+            this.colProducto.HeaderText = "Producto";
+            this.colProducto.Name = "colProducto";
+            this.colProducto.ReadOnly = true;
+            // 
+            // colCantidad
+            // 
+            this.colCantidad.HeaderText = "Cantidad";
+            this.colCantidad.Name = "colCantidad";
+            this.colCantidad.ReadOnly = true;
+            // 
+            // colPrecio
+            // 
+            this.colPrecio.HeaderText = "Precio";
+            this.colPrecio.Name = "colPrecio";
+            this.colPrecio.ReadOnly = true;
+            // 
             // gbDatosCliente
             // 
             this.gbDatosCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(139)))));
@@ -118,6 +136,8 @@ namespace WFInicioFacturación
             this.txtCi.Name = "txtCi";
             this.txtCi.Size = new System.Drawing.Size(156, 30);
             this.txtCi.TabIndex = 0;
+            this.txtCi.TextChanged += new System.EventHandler(this.txtCi_TextChanged);
+            this.txtCi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCi_KeyPress);
             // 
             // lblCi
             // 
@@ -155,6 +175,7 @@ namespace WFInicioFacturación
             this.rbConsumidorFinal.TabStop = true;
             this.rbConsumidorFinal.Text = "Consumidor final";
             this.rbConsumidorFinal.UseVisualStyleBackColor = true;
+            this.rbConsumidorFinal.CheckedChanged += new System.EventHandler(this.rbConsumidorFinal_CheckedChanged);
             // 
             // rbCliente
             // 
@@ -177,15 +198,15 @@ namespace WFInicioFacturación
             this.label1.TabIndex = 3;
             this.label1.Text = "Total a Pagar:";
             // 
-            // label2
+            // lbtotal
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(306, 156);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 27);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "...";
+            this.lbtotal.AutoSize = true;
+            this.lbtotal.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbtotal.Location = new System.Drawing.Point(306, 156);
+            this.lbtotal.Name = "lbtotal";
+            this.lbtotal.Size = new System.Drawing.Size(33, 27);
+            this.lbtotal.TabIndex = 4;
+            this.lbtotal.Text = "...";
             // 
             // label3
             // 
@@ -204,7 +225,7 @@ namespace WFInicioFacturación
             this.groupBox1.Controls.Add(this.tbNumTarjeta);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.lbtotal);
             this.groupBox1.Cursor = System.Windows.Forms.Cursors.No;
             this.groupBox1.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(373, 12);
@@ -221,7 +242,7 @@ namespace WFInicioFacturación
             this.tbcvv.Name = "tbcvv";
             this.tbcvv.Size = new System.Drawing.Size(138, 25);
             this.tbcvv.TabIndex = 8;
-            this.tbcvv.Text = "CVV";
+            this.tbcvv.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbcvv_KeyPress);
             // 
             // groupBox2
             // 
@@ -269,7 +290,7 @@ namespace WFInicioFacturación
             this.tbNumTarjeta.Name = "tbNumTarjeta";
             this.tbNumTarjeta.Size = new System.Drawing.Size(138, 25);
             this.tbNumTarjeta.TabIndex = 4;
-            this.tbNumTarjeta.Text = "Número de tarjeta";
+            this.tbNumTarjeta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbNumTarjeta_KeyPress);
             // 
             // btnTerminar
             // 
@@ -282,24 +303,6 @@ namespace WFInicioFacturación
             this.btnTerminar.Text = "Terminar";
             this.btnTerminar.UseVisualStyleBackColor = false;
             this.btnTerminar.Click += new System.EventHandler(this.btnTerminar_Click);
-            // 
-            // colProducto
-            // 
-            this.colProducto.HeaderText = "Producto";
-            this.colProducto.Name = "colProducto";
-            this.colProducto.ReadOnly = true;
-            // 
-            // colCantidad
-            // 
-            this.colCantidad.HeaderText = "Cantidad";
-            this.colCantidad.Name = "colCantidad";
-            this.colCantidad.ReadOnly = true;
-            // 
-            // colPrecio
-            // 
-            this.colPrecio.HeaderText = "Precio";
-            this.colPrecio.Name = "colPrecio";
-            this.colPrecio.ReadOnly = true;
             // 
             // factura
             // 
@@ -343,7 +346,7 @@ namespace WFInicioFacturación
         private System.Windows.Forms.RadioButton rbCliente;
         private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbtotal;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;

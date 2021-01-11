@@ -14,7 +14,9 @@ namespace WFInicioFacturación
 {
     public partial class FrmSelec : Form
     {
-        string[,] orden = new string[20,3];
+        string[,] orden = new string[20,4];
+        string clickid;
+
         int iorden = 0;
         double precioAlimento, cantidad, totalPorAlimento,acumuladorSubTotal=0;
         GroupBox AGB;
@@ -27,7 +29,9 @@ namespace WFInicioFacturación
 
         private void cBoxCantidad_SelectedIndexChanged(object sender, EventArgs e)
         {
+            cantidad = double.Parse(cBoxCantidad.SelectedItem.ToString());
             totalPorAlimento = precioAlimento * double.Parse(cBoxCantidad.SelectedItem.ToString());
+            
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
@@ -51,11 +55,12 @@ namespace WFInicioFacturación
 
             //dynamic controllers creator
             int totalProductos = objA.ObterTotalProd()+1;
-            
             for (int i = 0; i < totalProductos; i++)
             {
                 DataTable dt = new DataTable();
                 dt = objA.MostrarDatosProducto(i);
+                //id de producto
+                //nombre de producto
                 string nombre = dt.Rows[i][1].ToString();
                 double m = Math.Round(double.Parse(dt.Rows[i][2].ToString()),2);
                 string preciolb = m.ToString();
@@ -97,11 +102,9 @@ namespace WFInicioFacturación
                     gb.Click += delegate
                     {
                         RestaurarColor();
+                        clickid = dt.Rows[i - 1][0].ToString();
                         this.AGB = gb;
                         gb.BackColor = Color.FromArgb(255, 192, 100);
-                        //this.Refresh();
-                        //MessageBox.Show("Este es mi nombre " + gb.Name);
-                        //FrmCantidad selection = new FrmCantidad(lbNombre.Text, double.Parse(lbPrecio.Text));
                         gb.BackColor = Color.FromArgb(255, 192, 139);
                         lbNombreAlimento.Text = gb.Text;
                         precioAlimento = double.Parse(lbPrecio.Text);
@@ -116,12 +119,6 @@ namespace WFInicioFacturación
                     GroupBox gb = new GroupBox();
                     gb.Text = nombre;
                     gb.Size = new Size(200, 200);
-                    /*gb.Click += delegate
-                    {
-                        //MessageBox.Show("Este es mi nombre " + gb.Name);
-                        FrmCantidad selection = new FrmCantidad(lbNombre.Text, double.Parse(lbPrecio.Text));
-                        selection.Show();
-                    };*/
                     gb.Location = new Point(240, ((PanelAlimentos.Controls.Count * 230) - 230) / 2);
                     PanelAlimentos.Controls.Add(gb);
 
@@ -150,10 +147,8 @@ namespace WFInicioFacturación
                     {
                         RestaurarColor();
                         this.AGB = gb;
+                        clickid = dt.Rows[i - 1][0].ToString();
                         gb.BackColor = Color.FromArgb(255, 192, 100);
-                        //this.Refresh();
-                        //MessageBox.Show("Este es mi nombre " + gb.Name);
-                        //FrmCantidad selection = new FrmCantidad(lbNombre.Text, double.Parse(lbPrecio.Text));
                         gb.BackColor = Color.FromArgb(255,192,139);
                         lbNombreAlimento.Text = gb.Text;
                         precioAlimento = double.Parse(lbPrecio.Text);
@@ -177,14 +172,16 @@ namespace WFInicioFacturación
 
         private void button1_Click(object sender, EventArgs e)
         {
-            orden[iorden, 0]= lbNombreAlimento.Text;
+            orden[iorden, 0] = lbNombreAlimento.Text;
             orden[iorden, 1] = cantidad.ToString();
             orden[iorden, 2] = (totalPorAlimento).ToString();
-            string compra = lbNombreAlimento.Text+" ____ $"+(totalPorAlimento).ToString();
+            orden[iorden, 3] = clickid;
+            string compra = lbNombreAlimento.Text + " ____ $" + (totalPorAlimento).ToString();
             acumuladorSubTotal += totalPorAlimento;
             lbSubtotal.Text = (acumuladorSubTotal).ToString();
             listAlimentos.Items.Add(compra);
             iorden++;
+            
         }
 
 
@@ -196,6 +193,22 @@ namespace WFInicioFacturación
             }
 
         }
+        /*
+        public bool comprobadorDeCompra(string id)
+        {
+            int i = 0,serepite=1;
+            while(id != orden[i, 3] && orden[i, 3]!=null)
+            {
+                serepite = 0;
+                i++;
+            }
+            if (serepite == 0)
+            {
+                return true;
+            }
+            
+            return false;
+        }*/
 
     }
 }
