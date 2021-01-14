@@ -27,7 +27,6 @@ C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\bin\D
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\bin\Debug\MySql.Data.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\bin\Debug\BD.pdb
-C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\bin\Debug\MySql.Data.xml
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
 C:\Users\nixon\Desktop\Proyecto Facturación\FacturacionRestaurante\Logica\obj\Debug\Logica.csproj.CopyComplete

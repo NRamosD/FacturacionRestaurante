@@ -77,9 +77,16 @@ namespace WFInicioFacturación
 
         private void btnAct_Click(object sender, EventArgs e)
         {
-            dataGridView1.Rows.Clear();
-            //falta actualziar el dgv
-            dataGridView1.DataSource = objOp.OrdenesRecientes();
+            try
+            {
+                ((DataTable)dataGridView1.DataSource).Rows.Clear();
+                dataGridView1.Refresh();
+                dataGridView1.DataSource = objOp.OrdenesRecientes();
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine("Error-> " + exc);
+            }
         }
     }
 }

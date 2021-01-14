@@ -15,6 +15,7 @@ namespace WFInicioFacturación
     public partial class FrmSelec : Form
     {
         string[,] orden = new string[20,4];
+        string[] numId = new string[20];
         string clickid;
 
         int iorden = 0;
@@ -60,6 +61,8 @@ namespace WFInicioFacturación
                 DataTable dt = new DataTable();
                 dt = objA.MostrarDatosProducto(i);
                 //id de producto
+                numId[i] = i.ToString();
+                int ind = int.Parse(i.ToString());
                 //nombre de producto
                 string nombre = dt.Rows[i][1].ToString();
                 double m = Math.Round(double.Parse(dt.Rows[i][2].ToString()),2);
@@ -102,7 +105,7 @@ namespace WFInicioFacturación
                     gb.Click += delegate
                     {
                         RestaurarColor();
-                        clickid = dt.Rows[i - 1][0].ToString();
+                        clickid = numId[ind];
                         this.AGB = gb;
                         gb.BackColor = Color.FromArgb(255, 192, 100);
                         gb.BackColor = Color.FromArgb(255, 192, 139);
@@ -147,7 +150,7 @@ namespace WFInicioFacturación
                     {
                         RestaurarColor();
                         this.AGB = gb;
-                        clickid = dt.Rows[i - 1][0].ToString();
+                        clickid = numId[ind];
                         gb.BackColor = Color.FromArgb(255, 192, 100);
                         gb.BackColor = Color.FromArgb(255,192,139);
                         lbNombreAlimento.Text = gb.Text;

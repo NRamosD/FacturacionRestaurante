@@ -92,7 +92,7 @@ namespace WFInicioFacturación
         {
             try
             {
-                int i = 0;
+                
                 int id = Log.NuevaOrden();
                 string tipoPago;
                 if (rbEfectivo.Checked == true)
@@ -105,9 +105,24 @@ namespace WFInicioFacturación
                 }
                 //MessageBox.Show("el id "+id+"\ndatos del producto "+ordenfact[0,0]+" "+ordenfact[0, 1] + " "+ ordenfact[0, 2] + " "+ ordenfact[0, 3]);
                 //InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago)
+                /*for(int i=0; ordenfact[i, 3] != null; i++)
+                {
+                    Log.InsertarOrden(id, ordenfact[i, 3], txtCi.Text, ordenfact[i, 1], ordenfact[i, 2], tipoPago);
+                    //MessageBox.Show("Prodcuto "+i+" registrado.", "Listo");
+                    i++;
+                    //Task.Delay(500).Wait();
+                }*/
+                int i = 0;
+                int ind = 0;
                 while (ordenfact[i, 3] != null)
                 {
-                    Log.InsertarOrden(id, ordenfact[i,3], txtCi.Text, ordenfact[i, 1], ordenfact[i, 2], tipoPago);
+                    //int id = Log.NuevaOrden();
+                    //Task.Delay(1000).Wait();
+                    MessageBox.Show("Prodcuto " + i + " registrado. id " + id+" idp "+ ordenfact[ind, 3] + " " + txtCi.Text + " " + ordenfact[i, 1] + " " + ordenfact[i, 2] + " " + tipoPago, "Listo");
+                    Log.InsertarOrden(id, ordenfact[ind, 3], txtCi.Text, ordenfact[i, 1], ordenfact[i, 2], tipoPago);
+                    //Task.Delay(1000).Wait();
+                    //MessageBox.Show("Prodcuto "+i+" registrado.", "Listo");
+                    ind++;
                     i++;
                 }
                 MessageBox.Show("Orden registrada exitosamente.", "Listo");
@@ -119,6 +134,7 @@ namespace WFInicioFacturación
             catch(Exception exc)
             {
                 MessageBox.Show("Ha ocurrido un error :(.", "Lo sentimos");
+                Console.WriteLine("Error-> "+exc); 
             }
             //Log.InsertarOrden(string _id, string _idP, string _idC, string _cant, string _sub, string _pago);
             
