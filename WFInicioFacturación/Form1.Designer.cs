@@ -132,9 +132,8 @@
             // pbOptions
             // 
             this.pbOptions.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(61)))));
-            this.pbOptions.ForeColor = System.Drawing.SystemColors.ControlText;
             this.pbOptions.IconChar = FontAwesome.Sharp.IconChar.Bars;
-            this.pbOptions.IconColor = System.Drawing.SystemColors.ControlText;
+            this.pbOptions.IconColor = System.Drawing.Color.White;
             this.pbOptions.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.pbOptions.Location = new System.Drawing.Point(2, 1);
             this.pbOptions.Name = "pbOptions";

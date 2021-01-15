@@ -89,5 +89,10 @@ namespace WFInicioFacturación
         {
             btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
         }
+
+        private void pForms_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

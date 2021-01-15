@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reporte1));
             this.ReporteConsumoClienteViewBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.DataSetBD = new WFInicioFacturación.DataSetBD();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
@@ -72,6 +73,7 @@
             this.ClientSize = new System.Drawing.Size(409, 375);
             this.Controls.Add(this.reportViewer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reporte1";
             this.Text = "Reporte1";
             this.Load += new System.EventHandler(this.Reporte1_Load);

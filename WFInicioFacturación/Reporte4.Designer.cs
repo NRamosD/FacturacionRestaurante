@@ -30,7 +30,8 @@ namespace WFInicioFacturación
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource6 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reporte4));
             this.AlimentosFechaDeterminadaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.DataSetBD = new WFInicioFacturación.DataSetBD();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -98,9 +99,9 @@ namespace WFInicioFacturación
             // 
             // reportViewer1
             // 
-            reportDataSource6.Name = "DataSet1";
-            reportDataSource6.Value = this.AlimentosFechaDeterminadaBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource6);
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.AlimentosFechaDeterminadaBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "WFInicioFacturación.Report4.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(-1, 37);
             this.reportViewer1.Name = "reportViewer1";
@@ -119,6 +120,7 @@ namespace WFInicioFacturación
             this.Controls.Add(this.txbCedula);
             this.Controls.Add(this.dateTimePicker1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reporte4";
             this.Text = "Reporte4";
             this.Load += new System.EventHandler(this.Reporte4_Load);

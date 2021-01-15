@@ -29,6 +29,7 @@ namespace WFInicioFacturación
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(factura));
             this.gbFactura = new System.Windows.Forms.GroupBox();
             this.dgvFactura = new System.Windows.Forms.DataGridView();
             this.colProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -315,6 +316,7 @@ namespace WFInicioFacturación
             this.Controls.Add(this.gbFactura);
             this.Controls.Add(this.gbDatosCliente);
             this.Controls.Add(this.gbTipoCliente);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "factura";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "factura";

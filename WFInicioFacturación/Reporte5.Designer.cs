@@ -31,6 +31,7 @@ namespace WFInicioFacturación
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reporte5));
             this.ClientesMayoresComprasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.DataSetBD = new WFInicioFacturación.DataSetBD();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
@@ -73,6 +74,7 @@ namespace WFInicioFacturación
             this.ClientSize = new System.Drawing.Size(575, 416);
             this.Controls.Add(this.reportViewer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reporte5";
             this.Text = "Reporte5";
             this.Load += new System.EventHandler(this.Reporte5_Load);
