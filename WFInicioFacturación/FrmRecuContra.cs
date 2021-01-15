@@ -45,7 +45,6 @@ namespace WFInicioFacturación
             mmsg.To.Add(TxtCorreo.Text);
             mmsg.Subject = "Recuperación de Conraseña By APP-El Palé";
             mmsg.SubjectEncoding = System.Text.Encoding.UTF8;
-            mmsg.Bcc.Add("No reply");
 
             mmsg.Body = "La contraseña de la App es adminPALE";
             mmsg.BodyEncoding= System.Text.Encoding.UTF8;

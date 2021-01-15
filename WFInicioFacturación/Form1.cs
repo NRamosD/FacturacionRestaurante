@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -94,6 +95,18 @@ namespace WFInicioFacturación
             this.Hide();
             Reporte O = new Reporte();
             O.Show();
+        }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Process.Start(Application.StartupPath + "//HELP.htm");
+        }
+
+        private void btnAcercaDe_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            acerca o = new acerca();
+            o.Show();
         }
     }
 }

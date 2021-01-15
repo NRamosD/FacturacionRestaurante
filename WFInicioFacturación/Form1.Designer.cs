@@ -40,10 +40,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnAyuda = new FontAwesome.Sharp.IconButton();
+            this.btnAcercaDe = new FontAwesome.Sharp.IconButton();
             this.PanelOptions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbNuevaOrden)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbOptions)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelOptions
@@ -160,6 +163,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(149)))), ((int)(((byte)(61)))));
+            this.panel1.Controls.Add(this.btnAcercaDe);
+            this.panel1.Controls.Add(this.btnAyuda);
             this.panel1.Location = new System.Drawing.Point(33, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(703, 32);
@@ -195,6 +200,40 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "Ordenes recientes";
             // 
+            // btnAyuda
+            // 
+            this.btnAyuda.BackColor = System.Drawing.Color.White;
+            this.btnAyuda.IconChar = FontAwesome.Sharp.IconChar.QuestionCircle;
+            this.btnAyuda.IconColor = System.Drawing.Color.Black;
+            this.btnAyuda.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAyuda.IconSize = 20;
+            this.btnAyuda.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnAyuda.Location = new System.Drawing.Point(541, 3);
+            this.btnAyuda.Name = "btnAyuda";
+            this.btnAyuda.Size = new System.Drawing.Size(69, 26);
+            this.btnAyuda.TabIndex = 3;
+            this.btnAyuda.Text = "Ayuda";
+            this.btnAyuda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAyuda.UseVisualStyleBackColor = false;
+            this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
+            // 
+            // btnAcercaDe
+            // 
+            this.btnAcercaDe.BackColor = System.Drawing.Color.White;
+            this.btnAcercaDe.IconChar = FontAwesome.Sharp.IconChar.InfoCircle;
+            this.btnAcercaDe.IconColor = System.Drawing.Color.Black;
+            this.btnAcercaDe.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAcercaDe.IconSize = 20;
+            this.btnAcercaDe.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnAcercaDe.Location = new System.Drawing.Point(610, 3);
+            this.btnAcercaDe.Name = "btnAcercaDe";
+            this.btnAcercaDe.Size = new System.Drawing.Size(90, 26);
+            this.btnAcercaDe.TabIndex = 4;
+            this.btnAcercaDe.Text = "Acerca de";
+            this.btnAcercaDe.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAcercaDe.UseVisualStyleBackColor = false;
+            this.btnAcercaDe.Click += new System.EventHandler(this.btnAcercaDe_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -214,14 +253,16 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Inicio";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.PanelOptions.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbNuevaOrden)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbOptions)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,6 +281,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private FontAwesome.Sharp.IconButton btnAcercaDe;
+        private FontAwesome.Sharp.IconButton btnAyuda;
     }
 }
 

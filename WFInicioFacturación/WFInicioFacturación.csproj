@@ -90,6 +90,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="acerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="acerca.Designer.cs">
+      <DependentUpon>acerca.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataSetBD.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -239,6 +245,9 @@
     <Compile Include="Visualizar_Prod.Designer.cs">
       <DependentUpon>Visualizar_Prod.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="acerca.resx">
+      <DependentUpon>acerca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddProducto.resx">
       <DependentUpon>AddProducto.cs</DependentUpon>
     </EmbeddedResource>
