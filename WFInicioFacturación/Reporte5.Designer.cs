@@ -31,13 +31,24 @@ namespace WFInicioFacturación
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.DataSetBD = new WFInicioFacturación.DataSetBD();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reporte5));
             this.ClientesMayoresComprasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.DataSetBD = new WFInicioFacturación.DataSetBD();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.ClientesMayoresComprasTableAdapter = new WFInicioFacturación.DataSetBDTableAdapters.ClientesMayoresComprasTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.DataSetBD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ClientesMayoresComprasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataSetBD)).BeginInit();
             this.SuspendLayout();
+            // 
+            // ClientesMayoresComprasBindingSource
+            // 
+            this.ClientesMayoresComprasBindingSource.DataMember = "ClientesMayoresCompras";
+            this.ClientesMayoresComprasBindingSource.DataSource = this.DataSetBD;
+            // 
+            // DataSetBD
+            // 
+            this.DataSetBD.DataSetName = "DataSetBD";
+            this.DataSetBD.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // reportViewer1
             // 
@@ -51,16 +62,6 @@ namespace WFInicioFacturación
             this.reportViewer1.Size = new System.Drawing.Size(396, 246);
             this.reportViewer1.TabIndex = 0;
             // 
-            // DataSetBD
-            // 
-            this.DataSetBD.DataSetName = "DataSetBD";
-            this.DataSetBD.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // ClientesMayoresComprasBindingSource
-            // 
-            this.ClientesMayoresComprasBindingSource.DataMember = "ClientesMayoresCompras";
-            this.ClientesMayoresComprasBindingSource.DataSource = this.DataSetBD;
-            // 
             // ClientesMayoresComprasTableAdapter
             // 
             this.ClientesMayoresComprasTableAdapter.ClearBeforeFill = true;
@@ -71,11 +72,12 @@ namespace WFInicioFacturación
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.reportViewer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reporte5";
             this.Text = "Reporte5";
             this.Load += new System.EventHandler(this.Reporte5_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.DataSetBD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ClientesMayoresComprasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataSetBD)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -67,8 +67,9 @@
             this.btnReporte5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnReporte5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte5.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte5.ForeColor = System.Drawing.Color.White;
             this.btnReporte5.IconChar = FontAwesome.Sharp.IconChar.Wallet;
-            this.btnReporte5.IconColor = System.Drawing.Color.Black;
+            this.btnReporte5.IconColor = System.Drawing.Color.White;
             this.btnReporte5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReporte5.IconSize = 40;
             this.btnReporte5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -91,8 +92,9 @@
             this.btnReporte4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnReporte4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte4.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte4.ForeColor = System.Drawing.Color.White;
             this.btnReporte4.IconChar = FontAwesome.Sharp.IconChar.ConciergeBell;
-            this.btnReporte4.IconColor = System.Drawing.Color.Black;
+            this.btnReporte4.IconColor = System.Drawing.Color.White;
             this.btnReporte4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReporte4.IconSize = 40;
             this.btnReporte4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -115,8 +117,9 @@
             this.btnReporte3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnReporte3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte3.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte3.ForeColor = System.Drawing.Color.White;
             this.btnReporte3.IconChar = FontAwesome.Sharp.IconChar.Utensils;
-            this.btnReporte3.IconColor = System.Drawing.Color.Black;
+            this.btnReporte3.IconColor = System.Drawing.Color.White;
             this.btnReporte3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReporte3.IconSize = 40;
             this.btnReporte3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -139,8 +142,9 @@
             this.btnReporte2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnReporte2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte2.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte2.ForeColor = System.Drawing.Color.White;
             this.btnReporte2.IconChar = FontAwesome.Sharp.IconChar.MoneyCheckAlt;
-            this.btnReporte2.IconColor = System.Drawing.Color.Black;
+            this.btnReporte2.IconColor = System.Drawing.Color.White;
             this.btnReporte2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReporte2.IconSize = 40;
             this.btnReporte2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -163,8 +167,9 @@
             this.btnReporte1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnReporte1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte1.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte1.ForeColor = System.Drawing.Color.White;
             this.btnReporte1.IconChar = FontAwesome.Sharp.IconChar.UserClock;
-            this.btnReporte1.IconColor = System.Drawing.Color.Black;
+            this.btnReporte1.IconColor = System.Drawing.Color.White;
             this.btnReporte1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReporte1.IconSize = 40;
             this.btnReporte1.Location = new System.Drawing.Point(0, 0);
@@ -180,7 +185,7 @@
             // 
             // pCerrar
             // 
-            this.pCerrar.BackColor = System.Drawing.Color.Transparent;
+            this.pCerrar.BackColor = System.Drawing.Color.White;
             this.pCerrar.Controls.Add(this.label1);
             this.pCerrar.Controls.Add(this.btnCerrar);
             this.pCerrar.Dock = System.Windows.Forms.DockStyle.Top;

@@ -29,15 +29,16 @@ namespace WFInicioFacturación
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRecuContra));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnEnviar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.TxtCorreo = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TxtCorreo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -111,13 +112,13 @@ namespace WFInicioFacturación
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             // 
-            // TxtCorreo
+            // textBox2
             // 
-            this.TxtCorreo.Enabled = false;
-            this.TxtCorreo.Location = new System.Drawing.Point(89, 224);
-            this.TxtCorreo.Name = "TxtCorreo";
-            this.TxtCorreo.Size = new System.Drawing.Size(196, 20);
-            this.TxtCorreo.TabIndex = 6;
+            this.textBox2.Location = new System.Drawing.Point(21, 60);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(297, 20);
+            this.textBox2.TabIndex = 8;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // label3
             // 
@@ -129,13 +130,13 @@ namespace WFInicioFacturación
             this.label3.TabIndex = 7;
             this.label3.Text = "Nombre de la primera mascota:";
             // 
-            // textBox2
+            // TxtCorreo
             // 
-            this.textBox2.Location = new System.Drawing.Point(21, 60);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(297, 20);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.TxtCorreo.Enabled = false;
+            this.TxtCorreo.Location = new System.Drawing.Point(89, 224);
+            this.TxtCorreo.Name = "TxtCorreo";
+            this.TxtCorreo.Size = new System.Drawing.Size(196, 20);
+            this.TxtCorreo.TabIndex = 6;
             // 
             // FrmRecuContra
             // 
@@ -149,6 +150,7 @@ namespace WFInicioFacturación
             this.Controls.Add(this.BtnEnviar);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmRecuContra";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmRecuContra";

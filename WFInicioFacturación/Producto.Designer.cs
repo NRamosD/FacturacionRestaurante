@@ -62,8 +62,9 @@
             this.btnBorrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBorrar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrar.ForeColor = System.Drawing.Color.White;
             this.btnBorrar.IconChar = FontAwesome.Sharp.IconChar.Eraser;
-            this.btnBorrar.IconColor = System.Drawing.Color.Black;
+            this.btnBorrar.IconColor = System.Drawing.Color.White;
             this.btnBorrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBorrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnBorrar.Location = new System.Drawing.Point(2, 309);
@@ -82,8 +83,9 @@
             this.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.ForeColor = System.Drawing.Color.White;
             this.btnModificar.IconChar = FontAwesome.Sharp.IconChar.Edit;
-            this.btnModificar.IconColor = System.Drawing.Color.Black;
+            this.btnModificar.IconColor = System.Drawing.Color.White;
             this.btnModificar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnModificar.Location = new System.Drawing.Point(2, 218);
@@ -102,8 +104,9 @@
             this.btnLeer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnLeer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLeer.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeer.ForeColor = System.Drawing.Color.White;
             this.btnLeer.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
-            this.btnLeer.IconColor = System.Drawing.Color.Black;
+            this.btnLeer.IconColor = System.Drawing.Color.White;
             this.btnLeer.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLeer.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnLeer.Location = new System.Drawing.Point(2, 132);
@@ -122,8 +125,9 @@
             this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
             this.btnAgregar.IconChar = FontAwesome.Sharp.IconChar.DigitalTachograph;
-            this.btnAgregar.IconColor = System.Drawing.Color.Black;
+            this.btnAgregar.IconColor = System.Drawing.Color.White;
             this.btnAgregar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnAgregar.Location = new System.Drawing.Point(2, 47);
@@ -138,7 +142,7 @@
             // 
             // pCerrar
             // 
-            this.pCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
+            this.pCerrar.BackColor = System.Drawing.Color.White;
             this.pCerrar.Controls.Add(this.btnCerrar);
             this.pCerrar.Dock = System.Windows.Forms.DockStyle.Top;
             this.pCerrar.Location = new System.Drawing.Point(153, 0);

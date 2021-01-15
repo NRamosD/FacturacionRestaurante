@@ -63,8 +63,9 @@
             this.btnBorrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBorrar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrar.ForeColor = System.Drawing.Color.White;
             this.btnBorrar.IconChar = FontAwesome.Sharp.IconChar.UserMinus;
-            this.btnBorrar.IconColor = System.Drawing.Color.Black;
+            this.btnBorrar.IconColor = System.Drawing.Color.White;
             this.btnBorrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBorrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnBorrar.Location = new System.Drawing.Point(10, 332);
@@ -83,8 +84,9 @@
             this.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.ForeColor = System.Drawing.Color.White;
             this.btnModificar.IconChar = FontAwesome.Sharp.IconChar.UserEdit;
-            this.btnModificar.IconColor = System.Drawing.Color.Black;
+            this.btnModificar.IconColor = System.Drawing.Color.White;
             this.btnModificar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnModificar.Location = new System.Drawing.Point(9, 241);
@@ -103,8 +105,9 @@
             this.btnLeer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnLeer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLeer.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeer.ForeColor = System.Drawing.Color.White;
             this.btnLeer.IconChar = FontAwesome.Sharp.IconChar.IdBadge;
-            this.btnLeer.IconColor = System.Drawing.Color.Black;
+            this.btnLeer.IconColor = System.Drawing.Color.White;
             this.btnLeer.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLeer.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnLeer.Location = new System.Drawing.Point(6, 155);
@@ -123,8 +126,9 @@
             this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
             this.btnAgregar.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.btnAgregar.IconColor = System.Drawing.Color.Black;
+            this.btnAgregar.IconColor = System.Drawing.Color.White;
             this.btnAgregar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnAgregar.Location = new System.Drawing.Point(12, 70);
@@ -139,6 +143,7 @@
             // 
             // pClose
             // 
+            this.pClose.BackColor = System.Drawing.Color.White;
             this.pClose.Controls.Add(this.iconButton1);
             this.pClose.Dock = System.Windows.Forms.DockStyle.Top;
             this.pClose.Location = new System.Drawing.Point(178, 0);
@@ -149,7 +154,7 @@
             // 
             // iconButton1
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(171)))), ((int)(((byte)(101)))));
+            this.iconButton1.BackColor = System.Drawing.Color.White;
             this.iconButton1.FlatAppearance.BorderSize = 0;
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
@@ -204,6 +209,7 @@
             this.pForms.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

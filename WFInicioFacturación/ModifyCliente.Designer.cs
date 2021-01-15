@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModifyCliente));
             this.label7 = new System.Windows.Forms.Label();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.txbID = new System.Windows.Forms.TextBox();
@@ -46,28 +47,33 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(93, 18);
+            this.label7.Location = new System.Drawing.Point(98, 9);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(247, 25);
+            this.label7.Size = new System.Drawing.Size(222, 23);
             this.label7.TabIndex = 8;
             this.label7.Text = "MODIFICAR CLIENTE";
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.BackColor = System.Drawing.Color.White;
+            this.btnConfirmar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(131)))), ((int)(((byte)(0)))));
             this.btnConfirmar.FlatAppearance.BorderSize = 0;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmar.Location = new System.Drawing.Point(142, 323);
+            this.btnConfirmar.ForeColor = System.Drawing.Color.White;
+            this.btnConfirmar.Location = new System.Drawing.Point(149, 323);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
             this.btnConfirmar.TabIndex = 63;
@@ -268,11 +274,31 @@
             this.label1.TabIndex = 85;
             this.label1.Text = "Código ";
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(131)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(409, 42);
+            this.panel1.TabIndex = 97;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WFInicioFacturación.Properties.Resources.Recurso_2_4x;
+            this.pictureBox1.Location = new System.Drawing.Point(76, 112);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(218, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 98;
+            this.pictureBox1.TabStop = false;
+            // 
             // ModifyCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(136)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(409, 375);
             this.Controls.Add(this.txbID);
             this.Controls.Add(this.label9);
@@ -291,12 +317,17 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnConfirmar);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ModifyCliente";
             this.Text = "ModifyCliente";
             this.Load += new System.EventHandler(this.ModifyCliente_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,5 +352,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

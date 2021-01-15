@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddCliente));
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txbDireecion = new System.Windows.Forms.TextBox();
@@ -46,6 +47,10 @@
             this.txbID = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.cbSexo = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label7
@@ -54,7 +59,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(131, 37);
+            this.label7.Location = new System.Drawing.Point(131, 22);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(148, 19);
@@ -191,11 +196,12 @@
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.BackColor = System.Drawing.Color.White;
+            this.btnConfirmar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(131)))), ((int)(((byte)(0)))));
             this.btnConfirmar.FlatAppearance.BorderSize = 0;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmar.Location = new System.Drawing.Point(146, 332);
+            this.btnConfirmar.ForeColor = System.Drawing.Color.White;
+            this.btnConfirmar.Location = new System.Drawing.Point(135, 332);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(108, 31);
             this.btnConfirmar.TabIndex = 65;
@@ -261,11 +267,31 @@
             this.cbSexo.Size = new System.Drawing.Size(51, 21);
             this.cbSexo.TabIndex = 48;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(131)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(409, 58);
+            this.panel1.TabIndex = 81;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WFInicioFacturación.Properties.Resources.Recurso_2_4x;
+            this.pictureBox1.Location = new System.Drawing.Point(83, 127);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(218, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 82;
+            this.pictureBox1.TabStop = false;
+            // 
             // AddCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(409, 375);
             this.Controls.Add(this.cbSexo);
             this.Controls.Add(this.txbID);
@@ -284,12 +310,17 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddCliente";
             this.Text = "AddCliente";
             this.Load += new System.EventHandler(this.AddCliente_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -315,5 +346,7 @@
         private System.Windows.Forms.TextBox txbID;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox cbSexo;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

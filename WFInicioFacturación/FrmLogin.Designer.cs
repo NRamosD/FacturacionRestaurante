@@ -29,6 +29,7 @@ namespace WFInicioFacturación
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.TxtPass = new System.Windows.Forms.TextBox();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
@@ -159,6 +160,7 @@ namespace WFInicioFacturación
             this.Controls.Add(this.TxtPass);
             this.Controls.Add(this.TxtUsuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLogin";
