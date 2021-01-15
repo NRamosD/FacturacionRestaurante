@@ -19,6 +19,7 @@ namespace WFInicioFacturación
         public AddCliente()
         {
             InitializeComponent();
+            cbSexo.DropDownStyle = ComboBoxStyle.DropDownList;
         }
         OperacionesLogicas objA = new OperacionesLogicas();
         private void AddCliente_Load(object sender, EventArgs e)
@@ -27,10 +28,6 @@ namespace WFInicioFacturación
             txbID.Focus();
         }
 
-        private void txbID_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
@@ -43,6 +40,56 @@ namespace WFInicioFacturación
             catch
             {
                 MessageBox.Show("No se puede almacenar los datos ingresados");
+            }
+        }
+
+        private void txbID_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+
+        }
+
+        private void txbNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txbApellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txbTelef_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+            
+        }
+
+        private void txbID_TextChanged(object sender, EventArgs e)
+        {
+            if (txbID.TextLength == 10)
+            {
+                string Cedula = txbID.Text;
+                char[] vect = Cedula.ToArray();
+                int res =objA.Verificar(vect);
+                if (res < 0)
+                {
+                    //Si la Cédula Ingresada Es Incorrecta
+                    MessageBox.Show("Cédula Incorrecta");
+                    txbID.Text = "";
+                }
             }
         }
     }
