@@ -17,6 +17,7 @@ namespace WFInicioFacturación
         public AddProducto()
         {
             InitializeComponent();
+            cbCateogria.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -66,6 +67,22 @@ namespace WFInicioFacturación
         private void AddProducto_Load(object sender, EventArgs e)
         {
             txbCod.Text = objA.NuevoProd().ToString();
+        }
+
+        private void txbNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txbPrecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) || e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+            }
         }
     }
 }
