@@ -89,5 +89,15 @@ namespace WFInicioFacturación
                 MessageBox.Show("No se puede realizar esta acción");
             }
         }
+
+        private void btnCancelar_MouseEnter(object sender, EventArgs e)
+        {
+            btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+        }
+
+        private void btnConfirmar_MouseEnter(object sender, EventArgs e)
+        {
+            btnConfirmar.Cursor = System.Windows.Forms.Cursors.Hand;
+        }
     }
 }

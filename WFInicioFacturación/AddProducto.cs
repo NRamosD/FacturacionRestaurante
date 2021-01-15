@@ -23,6 +23,7 @@ namespace WFInicioFacturación
         {
             using(OpenFileDialog ofd =new OpenFileDialog())
             {
+                //ofd.Filter = "Imágenes|*.txt|*.jpg|*.jpeg|*.png|All files (.)|*.*";
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
                     pbxProd.Image = Image.FromFile(ofd.FileName);

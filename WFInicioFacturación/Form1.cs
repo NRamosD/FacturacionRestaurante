@@ -88,5 +88,12 @@ namespace WFInicioFacturación
                 Console.WriteLine("Error-> " + exc);
             }
         }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Reporte O = new Reporte();
+            O.Show();
+        }
     }
 }

@@ -118,7 +118,7 @@ namespace WFInicioFacturación
                 {
                     //int id = Log.NuevaOrden();
                     //Task.Delay(1000).Wait();
-                    MessageBox.Show("Prodcuto " + i + " registrado. id " + id+" idp "+ ordenfact[ind, 3] + " " + txtCi.Text + " " + ordenfact[i, 1] + " " + ordenfact[i, 2] + " " + tipoPago, "Listo");
+                    //MessageBox.Show("Prodcuto " + i + " registrado. id " + id+" idp "+ ordenfact[ind, 3] + " " + txtCi.Text + " " + ordenfact[i, 1] + " " + ordenfact[i, 2] + " " + tipoPago, "Listo");
                     Log.InsertarOrden(id, ordenfact[ind, 3], txtCi.Text, ordenfact[i, 1], ordenfact[i, 2], tipoPago);
                     //Task.Delay(1000).Wait();
                     //MessageBox.Show("Prodcuto "+i+" registrado.", "Listo");
