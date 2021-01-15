@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetBD" targetNamespace="http://tempuri.org/DataSetBD.xsd" xmlns:mstns="http://tempuri.org/DataSetBD.xsd" xmlns="http://tempuri.org/DataSetBD.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="InvoiceConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="InvoiceConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WFInicioFacturación.Properties.Settings.GlobalReference.Default.InvoiceConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GananciasPorFechasViewTableAdapter" GeneratorDataComponentClassName="GananciasPorFechasViewTableAdapter" Name="GananciasPorFechasView" UserDataComponentName="GananciasPorFechasViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InvoiceConnectionString (Settings)" DbObjectName="Invoice.dbo.GananciasPorFechasView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT GananciaTotal, Fecha FROM dbo.GananciasPorFechasView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="GananciaTotal" DataSetColumn="GananciaTotal" />
+              <Mapping SourceColumn="Fecha" DataSetColumn="Fecha" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AlimentosMasVendidosViewTableAdapter" GeneratorDataComponentClassName="AlimentosMasVendidosViewTableAdapter" Name="AlimentosMasVendidosView" UserDataComponentName="AlimentosMasVendidosViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InvoiceConnectionString (Settings)" DbObjectName="Invoice.dbo.AlimentosMasVendidosView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IdComida, Nombre, Cantidad, Ganancias FROM dbo.AlimentosMasVendidosView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdComida" DataSetColumn="IdComida" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="Ganancias" DataSetColumn="Ganancias" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ClientesMayoresComprasTableAdapter" GeneratorDataComponentClassName="ClientesMayoresComprasTableAdapter" Name="ClientesMayoresCompras" UserDataComponentName="ClientesMayoresComprasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InvoiceConnectionString (Settings)" DbObjectName="Invoice.dbo.ClientesMayoresCompras" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IdCliente, Cedula, Nombre, Apellido, Cantidad, Total FROM dbo.ClientesMayoresCompras</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdCliente" DataSetColumn="IdCliente" />
+              <Mapping SourceColumn="Cedula" DataSetColumn="Cedula" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Apellido" DataSetColumn="Apellido" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ReporteConsumoClienteViewTableAdapter" GeneratorDataComponentClassName="ReporteConsumoClienteViewTableAdapter" Name="ReporteConsumoClienteView" UserDataComponentName="ReporteConsumoClienteViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InvoiceConnectionString (Settings)" DbObjectName="Invoice.dbo.ReporteConsumoClienteView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT txtId_Card, txtFirst_Name, txtLast_Name, dtOrder_Date, Total FROM dbo.ReporteConsumoClienteView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="txtId_Card" DataSetColumn="txtId_Card" />
+              <Mapping SourceColumn="txtFirst_Name" DataSetColumn="txtFirst_Name" />
+              <Mapping SourceColumn="txtLast_Name" DataSetColumn="txtLast_Name" />
+              <Mapping SourceColumn="dtOrder_Date" DataSetColumn="dtOrder_Date" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AlimentosFechaDeterminadaTableAdapter" GeneratorDataComponentClassName="AlimentosFechaDeterminadaTableAdapter" Name="AlimentosFechaDeterminada" UserDataComponentName="AlimentosFechaDeterminadaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="InvoiceConnectionString (Settings)" DbObjectName="Invoice.dbo.AlimentosFechaDeterminada" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.AlimentosFechaDeterminada</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="char" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@CustomerID" Precision="0" ProviderType="Char" Scale="0" Size="10" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@CustomerDATE" Precision="10" ProviderType="Date" Scale="0" Size="3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="txtId_Card" DataSetColumn="txtId_Card" />
+              <Mapping SourceColumn="txtFirst_Name" DataSetColumn="txtFirst_Name" />
+              <Mapping SourceColumn="txtLast_Name" DataSetColumn="txtLast_Name" />
+              <Mapping SourceColumn="txtName" DataSetColumn="txtName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetBD" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetBD" msprop:Generator_UserDSName="DataSetBD">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GananciasPorFechasView" msprop:Generator_TableClassName="GananciasPorFechasViewDataTable" msprop:Generator_TableVarName="tableGananciasPorFechasView" msprop:Generator_TablePropName="GananciasPorFechasView" msprop:Generator_RowDeletingName="GananciasPorFechasViewRowDeleting" msprop:Generator_RowChangingName="GananciasPorFechasViewRowChanging" msprop:Generator_RowEvHandlerName="GananciasPorFechasViewRowChangeEventHandler" msprop:Generator_RowDeletedName="GananciasPorFechasViewRowDeleted" msprop:Generator_UserTableName="GananciasPorFechasView" msprop:Generator_RowChangedName="GananciasPorFechasViewRowChanged" msprop:Generator_RowEvArgName="GananciasPorFechasViewRowChangeEvent" msprop:Generator_RowClassName="GananciasPorFechasViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GananciaTotal" msprop:Generator_ColumnVarNameInTable="columnGananciaTotal" msprop:Generator_ColumnPropNameInRow="GananciaTotal" msprop:Generator_ColumnPropNameInTable="GananciaTotalColumn" msprop:Generator_UserColumnName="GananciaTotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AlimentosMasVendidosView" msprop:Generator_TableClassName="AlimentosMasVendidosViewDataTable" msprop:Generator_TableVarName="tableAlimentosMasVendidosView" msprop:Generator_TablePropName="AlimentosMasVendidosView" msprop:Generator_RowDeletingName="AlimentosMasVendidosViewRowDeleting" msprop:Generator_RowChangingName="AlimentosMasVendidosViewRowChanging" msprop:Generator_RowEvHandlerName="AlimentosMasVendidosViewRowChangeEventHandler" msprop:Generator_RowDeletedName="AlimentosMasVendidosViewRowDeleted" msprop:Generator_UserTableName="AlimentosMasVendidosView" msprop:Generator_RowChangedName="AlimentosMasVendidosViewRowChanged" msprop:Generator_RowEvArgName="AlimentosMasVendidosViewRowChangeEvent" msprop:Generator_RowClassName="AlimentosMasVendidosViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdComida" msprop:Generator_ColumnVarNameInTable="columnIdComida" msprop:Generator_ColumnPropNameInRow="IdComida" msprop:Generator_ColumnPropNameInTable="IdComidaColumn" msprop:Generator_UserColumnName="IdComida" type="xs:int" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="Ganancias" msprop:Generator_ColumnVarNameInTable="columnGanancias" msprop:Generator_ColumnPropNameInRow="Ganancias" msprop:Generator_ColumnPropNameInTable="GananciasColumn" msprop:Generator_UserColumnName="Ganancias" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClientesMayoresCompras" msprop:Generator_TableClassName="ClientesMayoresComprasDataTable" msprop:Generator_TableVarName="tableClientesMayoresCompras" msprop:Generator_TablePropName="ClientesMayoresCompras" msprop:Generator_RowDeletingName="ClientesMayoresComprasRowDeleting" msprop:Generator_RowChangingName="ClientesMayoresComprasRowChanging" msprop:Generator_RowEvHandlerName="ClientesMayoresComprasRowChangeEventHandler" msprop:Generator_RowDeletedName="ClientesMayoresComprasRowDeleted" msprop:Generator_UserTableName="ClientesMayoresCompras" msprop:Generator_RowChangedName="ClientesMayoresComprasRowChanged" msprop:Generator_RowEvArgName="ClientesMayoresComprasRowChangeEvent" msprop:Generator_RowClassName="ClientesMayoresComprasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCliente" msprop:Generator_ColumnVarNameInTable="columnIdCliente" msprop:Generator_ColumnPropNameInRow="IdCliente" msprop:Generator_ColumnPropNameInTable="IdClienteColumn" msprop:Generator_UserColumnName="IdCliente" type="xs:int" />
+              <xs:element name="Cedula" msprop:Generator_ColumnVarNameInTable="columnCedula" msprop:Generator_ColumnPropNameInRow="Cedula" msprop:Generator_ColumnPropNameInTable="CedulaColumn" msprop:Generator_UserColumnName="Cedula">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Apellido" msprop:Generator_ColumnVarNameInTable="columnApellido" msprop:Generator_ColumnPropNameInRow="Apellido" msprop:Generator_ColumnPropNameInTable="ApellidoColumn" msprop:Generator_UserColumnName="Apellido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReporteConsumoClienteView" msprop:Generator_TableClassName="ReporteConsumoClienteViewDataTable" msprop:Generator_TableVarName="tableReporteConsumoClienteView" msprop:Generator_TablePropName="ReporteConsumoClienteView" msprop:Generator_RowDeletingName="ReporteConsumoClienteViewRowDeleting" msprop:Generator_RowChangingName="ReporteConsumoClienteViewRowChanging" msprop:Generator_RowEvHandlerName="ReporteConsumoClienteViewRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteConsumoClienteViewRowDeleted" msprop:Generator_UserTableName="ReporteConsumoClienteView" msprop:Generator_RowChangedName="ReporteConsumoClienteViewRowChanged" msprop:Generator_RowEvArgName="ReporteConsumoClienteViewRowChangeEvent" msprop:Generator_RowClassName="ReporteConsumoClienteViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="txtId_Card" msprop:Generator_ColumnVarNameInTable="columntxtId_Card" msprop:Generator_ColumnPropNameInRow="txtId_Card" msprop:Generator_ColumnPropNameInTable="txtId_CardColumn" msprop:Generator_UserColumnName="txtId_Card">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="txtFirst_Name" msprop:Generator_ColumnVarNameInTable="columntxtFirst_Name" msprop:Generator_ColumnPropNameInRow="txtFirst_Name" msprop:Generator_ColumnPropNameInTable="txtFirst_NameColumn" msprop:Generator_UserColumnName="txtFirst_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="txtLast_Name" msprop:Generator_ColumnVarNameInTable="columntxtLast_Name" msprop:Generator_ColumnPropNameInRow="txtLast_Name" msprop:Generator_ColumnPropNameInTable="txtLast_NameColumn" msprop:Generator_UserColumnName="txtLast_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dtOrder_Date" msprop:Generator_ColumnVarNameInTable="columndtOrder_Date" msprop:Generator_ColumnPropNameInRow="dtOrder_Date" msprop:Generator_ColumnPropNameInTable="dtOrder_DateColumn" msprop:Generator_UserColumnName="dtOrder_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AlimentosFechaDeterminada" msprop:Generator_TableClassName="AlimentosFechaDeterminadaDataTable" msprop:Generator_TableVarName="tableAlimentosFechaDeterminada" msprop:Generator_TablePropName="AlimentosFechaDeterminada" msprop:Generator_RowDeletingName="AlimentosFechaDeterminadaRowDeleting" msprop:Generator_RowChangingName="AlimentosFechaDeterminadaRowChanging" msprop:Generator_RowEvHandlerName="AlimentosFechaDeterminadaRowChangeEventHandler" msprop:Generator_RowDeletedName="AlimentosFechaDeterminadaRowDeleted" msprop:Generator_UserTableName="AlimentosFechaDeterminada" msprop:Generator_RowChangedName="AlimentosFechaDeterminadaRowChanged" msprop:Generator_RowEvArgName="AlimentosFechaDeterminadaRowChangeEvent" msprop:Generator_RowClassName="AlimentosFechaDeterminadaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="txtId_Card" msprop:Generator_ColumnVarNameInTable="columntxtId_Card" msprop:Generator_ColumnPropNameInRow="txtId_Card" msprop:Generator_ColumnPropNameInTable="txtId_CardColumn" msprop:Generator_UserColumnName="txtId_Card">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="txtFirst_Name" msprop:Generator_ColumnVarNameInTable="columntxtFirst_Name" msprop:Generator_ColumnPropNameInRow="txtFirst_Name" msprop:Generator_ColumnPropNameInTable="txtFirst_NameColumn" msprop:Generator_UserColumnName="txtFirst_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="txtLast_Name" msprop:Generator_ColumnVarNameInTable="columntxtLast_Name" msprop:Generator_ColumnPropNameInRow="txtLast_Name" msprop:Generator_ColumnPropNameInTable="txtLast_NameColumn" msprop:Generator_UserColumnName="txtLast_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="txtName" msprop:Generator_ColumnVarNameInTable="columntxtName" msprop:Generator_ColumnPropNameInRow="txtName" msprop:Generator_ColumnPropNameInTable="txtNameColumn" msprop:Generator_UserColumnName="txtName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AlimentosMasVendidosView" />
+      <xs:field xpath="mstns:IdComida" />
+    </xs:unique>
+    <xs:unique name="ClientesMayoresCompras_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ClientesMayoresCompras" />
+      <xs:field xpath="mstns:IdCliente" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

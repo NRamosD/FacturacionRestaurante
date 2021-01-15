@@ -90,6 +90,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSetBD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBD.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DeleteCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +202,30 @@
     <Compile Include="Reporte1.Designer.cs">
       <DependentUpon>Reporte1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reporte2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte2.Designer.cs">
+      <DependentUpon>Reporte2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte3.Designer.cs">
+      <DependentUpon>Reporte3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte4.Designer.cs">
+      <DependentUpon>Reporte4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte5.Designer.cs">
+      <DependentUpon>Reporte5.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="Visualizar_Prod.cs">
       <SubType>Form</SubType>
@@ -268,8 +297,25 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="Report5.rdlc" />
     <EmbeddedResource Include="Reporte1.resx">
       <DependentUpon>Reporte1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte2.resx">
+      <DependentUpon>Reporte2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte3.resx">
+      <DependentUpon>Reporte3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte4.resx">
+      <DependentUpon>Reporte4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte5.resx">
+      <DependentUpon>Reporte5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Visualizar.resx">
       <DependentUpon>Visualizar.cs</DependentUpon>
@@ -277,6 +323,17 @@
     <EmbeddedResource Include="Visualizar_Prod.resx">
       <DependentUpon>Visualizar_Prod.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSetBD.xsc">
+      <DependentUpon>DataSetBD.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetBD.xss">
+      <DependentUpon>DataSetBD.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
