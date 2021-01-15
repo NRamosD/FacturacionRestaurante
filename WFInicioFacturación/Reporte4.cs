@@ -19,14 +19,38 @@ namespace WFInicioFacturación
 
         private void Reporte4_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'DataSetBD.AlimentosFechaDeterminada' Puede moverla o quitarla según sea necesario.
+            this.reportViewer1.Clear();
         }
 
         private void btnCargar_Click(object sender, EventArgs e)
         {
-            this.AlimentosFechaDeterminadaTableAdapter.Fill(this.DataSetBD.AlimentosFechaDeterminada, textBox1.Text, dateTimePicker1.Value);
-            // TODO: esta línea de código carga datos en la tabla 'DataSetBD.AlimentosFechaDeterminada' Puede moverla o quitarla según sea necesario.
-            this.reportViewer1.RefreshReport();
+            try
+            {
+                this.AlimentosFechaDeterminadaTableAdapter.Fill(this.DataSetBD.AlimentosFechaDeterminada, txbCedula.Text, dateTimePicker1.Value);
+                // TODO: esta línea de código carga datos en la tabla 'DataSetBD.AlimentosFechaDeterminada' Puede moverla o quitarla según sea necesario.
+                this.reportViewer1.RefreshReport();
+            }
+            catch
+            {
+                MessageBox.Show("Faltan campos por rellenar");
+            }
+            
+        }
+
+        private void txbCedula_Click(object sender, EventArgs e)
+        {
+            txbCedula.Text = "";
+            txbCedula.ForeColor = Color.Black;
+        }
+
+        private void txbCedula_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCargar_MouseEnter(object sender, EventArgs e)
+        {
+            btnCargar.Cursor= System.Windows.Forms.Cursors.Hand;
         }
     }
 }

@@ -163,6 +163,7 @@
             this.btnConfirmar.UseVisualStyleBackColor = false;
             this.btnConfirmar.Visible = false;
             this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
+            this.btnConfirmar.MouseEnter += new System.EventHandler(this.btnConfirmar_MouseEnter);
             // 
             // btnCancelar
             // 
@@ -182,10 +183,12 @@
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Visible = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            this.btnCancelar.MouseEnter += new System.EventHandler(this.btnCancelar_MouseEnter);
             // 
             // cbCategoria
             // 
             this.cbCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.cbCategoria.Enabled = false;
             this.cbCategoria.FormattingEnabled = true;
             this.cbCategoria.ItemHeight = 13;
             this.cbCategoria.Items.AddRange(new object[] {

@@ -19,3 +19,23 @@ C:\Users\Usuario\source\repos\FacturacionRestaurante\BD\obj\Debug\BD.csproj.Core
 C:\Users\Usuario\source\repos\FacturacionRestaurante\BD\obj\Debug\BD.csproj.CopyComplete
 C:\Users\Usuario\source\repos\FacturacionRestaurante\BD\obj\Debug\BD.dll
 C:\Users\Usuario\source\repos\FacturacionRestaurante\BD\obj\Debug\BD.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\BD.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\BD.pdb
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\Google.Protobuf.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\Zstandard.Net.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\BouncyCastle.Crypto.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\Ubiety.Dns.Core.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\Renci.SshNet.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\System.Memory.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\System.Buffers.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\K4os.Compression.LZ4.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\K4os.Hash.xxHash.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\System.Numerics.Vectors.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\bin\Debug\MySql.Data.xml
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\obj\Debug\BD.csprojAssemblyReference.cache
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\obj\Debug\BD.csproj.CoreCompileInputs.cache
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\obj\Debug\BD.csproj.CopyComplete
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\obj\Debug\BD.dll
+D:\SOFTWARE\QUINTO\APLICACIONES INFORMATICAS 1\Tareas\Grupales\Parcial 2\facturacion final\BD\obj\Debug\BD.pdb
